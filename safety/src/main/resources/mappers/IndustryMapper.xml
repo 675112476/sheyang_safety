@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="edu.just.sheyang.safety.dao.IndustryMapper" >
+  <resultMap id="BaseResultMap" type="edu.just.sheyang.safety.model.Industry" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="create_name" property="createName" jdbcType="VARCHAR" />
+    <result column="create_by" property="createBy" jdbcType="VARCHAR" />
+    <result column="create_date" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="update_name" property="updateName" jdbcType="VARCHAR" />
+    <result column="update_by" property="updateBy" jdbcType="VARCHAR" />
+    <result column="update_date" property="updateDate" jdbcType="TIMESTAMP" />
+    <result column="sys_org_code" property="sysOrgCode" jdbcType="VARCHAR" />
+    <result column="sys_company_code" property="sysCompanyCode" jdbcType="VARCHAR" />
+    <result column="bpm_status" property="bpmStatus" jdbcType="VARCHAR" />
+    <result column="industry_name" property="industryName" jdbcType="VARCHAR" />
+    <result column="parent_id" property="parentId" jdbcType="VARCHAR" />
+    <result column="industry_introduction" property="industryIntroduction" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <select id="getIndustry" resultType="String">
+    select industry_name from industry where id in
+    <foreach collection="industryIds" item="industryId"  open="(" separator="," close=")">
+    #{industryId}
+  </foreach>
+  </select>
+</mapper>
