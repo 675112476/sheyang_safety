@@ -4,7 +4,7 @@
 <script type="text/javascript" src="plug-in/login/js/getMsgs.js"></script>
 <div style="margin-top: 14px;">
 <h3>简介</h3>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JEECG（J2EE Code Generation）是一款基于代码生成器的微云快速开发平台，引领新开发模式(智能开发\在线开发\插件开发\移动开发\流程开发)， 可以帮助解决Java项目80%的重复工作，让开发更多关注业务逻辑。既能快速提高开发效率，帮助公司节省人力成本，同时又不失灵活性。 JEECG快速开发宗旨是：简单功能由代码生成器生成使用; 复杂业务采用表单自定义，业务流程使用工作流实现、扩展出业务接口，供开发编写业务逻辑。 实现了流程任务节点和任务接口的灵活配置，既保证了公司流程的保密性，又减少了开发人员的工作量</p>
+
 <h3>适用项目</h3>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JEECG快速开发平台，可以应用在任何J2EE项目的开发中，尤其适合企业信息管理系统（MIS）、内部办公系统（OA）、企业资源计划系统（ERP）、客户关系管理系统（CRM）等，其半智能手工Merge的开发方式，可以显著提高开发效率70%以上，极大降低开发成本；JEECG尤为显著的支持SAAS企业级应用开发，插件机制更好的支持了SAAS云应用<font color="red">new</font>需求。</p>
 <h3>架构说明</h3>

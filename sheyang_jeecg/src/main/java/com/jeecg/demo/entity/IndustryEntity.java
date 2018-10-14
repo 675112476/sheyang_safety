@@ -336,4 +336,5 @@ public class IndustryEntity implements java.io.Serializable {
 	public void setTSPDepart(IndustryEntity industryEntity) {
 		this.industryEntity = industryEntity;
 	}
+
 }

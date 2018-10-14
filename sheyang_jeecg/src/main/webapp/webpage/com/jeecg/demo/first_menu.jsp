@@ -204,7 +204,7 @@ function fatie() {
                     //alert(string);
                     string=string.substring(0,string.length-1);
                     if(i==0&&j==0)
-                    {member(width/2+j*width-50, 20, '', '射阳县安全生产网格图', 'male.png', '#ffffff', '#000000',"",i,40);}
+                    {member(width/2+j*width-50, 20, '', '射阳县安全生产监管一级网格图', 'male.png', '#ffffff', '#000000',"",i,40);}
                     point[t1[j]] = member(width/2+j*width-50, heigh, string, obj[t1[j]].name, 'male.png',color[i], '#f1f1f1',obj[t1[j]].dp,i,14);
                     string="";
                     var temp2=team2.split("/");

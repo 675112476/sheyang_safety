@@ -19,25 +19,31 @@
 <div id="paper" class="paper"></div>
 <script type="text/javascript">
 
-    function option() {
-        $("#paper").empty();
-        $.ajax({
-            url:"http://106.14.9.53:8090/getCountry" ,
-            type: "GET",
-            data:{},
-            dataType: "jsonp",
-            processData: true,
-            success: function(json) {
-                var obj=json.countries;
-                for(var i=0;i<obj.length;i++)
-                { $("#select").append("<option value='"+obj[i]+"'>"+obj[i]+"</option>");}
-            },
-            error: function(XMLHttpRequest, textStatus, errorThrown) {
-                alert(XMLHttpRequest.status);
-                alert(textStatus);
+function option() {
+    $("#paper").empty();
+    $.ajax({
+        url:"http://106.14.9.53:8090/getCountry" ,
+        type: "GET",
+        data:{},
+        dataType: "jsonp",
+        processData: true,
+        success: function(json) {
+            var obj=json.countries;
+            for(var i=0;i<obj.length;i++)
+            {
+                if(i==0)
+                {
+                    fatie(obj[i]);
+                }
+                $("#select").append("<option value='"+obj[i]+"'>"+obj[i]+"</option>");
             }
-        });
-    }
+        },
+        error: function(XMLHttpRequest, textStatus, errorThrown) {
+            alert(XMLHttpRequest.status);
+            alert(textStatus);
+        }
+    });
+}
 
     function select() {
         var sel_obj = document.getElementById("select");
@@ -53,6 +59,7 @@
             dataType: "jsonp",
             processData: true,
             success: function(json) {
+                //alert(json[0].target);
                 if(json[0].target==null)
                 {
                     alert("数据不存在！");
@@ -128,7 +135,18 @@
                     if(arr[temp]!=level)
                     {
                         level++;
-                        var index1 = map.indexOf(temp);
+                        //for(;;)
+                        var wz=0;
+                        for(;;)
+                        {
+                            var index1 = map.indexOf(temp,wz);
+                            if((map.substring(index1-1,index1)!="/"&&map.substring(index1-1,index1)!="|")||(map.substring(index1+temp.length,index1+temp.length+1)!="/"&&map.substring(index1+temp.length,index1+temp.length+1)!="|"))
+                            {
+                                wz=wz+index1+temp.length;
+                                continue;
+                            }
+                            break;
+                        }
                         var sub_string1 = map.substring(0,index1-1);
                         var sub_string2 = map.substring(index1);
                         map=sub_string1+"|"+sub_string2;
@@ -220,7 +238,6 @@
                     var t1=t[i].split("/");
                     var heigh=80+150*i;
                     var width=length/t1.length;
-
                     var string="";
                     for(var j=0;j<t1.length;j++)
                     {
@@ -231,6 +248,7 @@
                                 string=string+"\n";
                             }
                             string=string+obj[t1[j]].industry[o]+",";
+                            //alert(obj[t1[j]].industry[o]);
                         }
                         //alert(string);
                         string=string.substring(0,string.length-1);
