@@ -37,6 +37,7 @@ public class TSUser extends TSBaseUser implements java.io.Serializable {
 	private String address;//联系地址
 	private String post;//邮编
 	private String memo;//备注
+	private String rolecode;//rolecode
 	/**创建时间*/
 	private java.util.Date createDate;
 	/**创建人ID*/
@@ -279,6 +280,15 @@ public class TSUser extends TSBaseUser implements java.io.Serializable {
 		this.memo = memo;
 	}
 	
+	@Column(name = "rolecode")
+	public String getRolecode() {
+		return rolecode;
+	}
+
+	public void setRolecode(String rolecode) {
+		this.rolecode = rolecode;
+	}
+	
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
@@ -324,6 +334,9 @@ public class TSUser extends TSBaseUser implements java.io.Serializable {
 		builder.append(post);
 		builder.append(", memo=");
 		builder.append(memo);
+		builder.append("]");
+		builder.append(", rolecode=");
+		builder.append(rolecode);
 		builder.append("]");
 		return builder.toString();
 	}
