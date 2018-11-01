@@ -9,7 +9,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<link rel="fineui-icon" href="images/favicon.ico">
 	<meta http-equiv="Cache-Control" content="no-siteapp" />
-	<meta name="keywords" content="JEECG 企业级快速开发平台">
+	<meta name="keywords" content="射阳县安全监管平台">
     <meta name="description" content="JEECG 企业级快速开发平台，她采用强大代码生成，在线开发能力">
     <title><t:mutiLang langKey="jeect.platform"/></title>
     <link href="plug-in/hplus/css/font-awesome.min.css?v=4.4.0" rel="stylesheet">

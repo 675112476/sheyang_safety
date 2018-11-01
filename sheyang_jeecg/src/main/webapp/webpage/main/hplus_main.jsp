@@ -9,7 +9,7 @@
 
     <title><t:mutiLang langKey="jeect.platform"/></title>
 
-    <meta name="keywords" content="JEECG 企业级快速开发平台">
+    <meta name="keywords" content="射阳县安全监管平台">
     <meta name="description" content="JEECG 企业级快速开发平台，她采用强大代码生成，在线开发能力">
 
     <link rel="shortcut icon" href="images/favicon.ico">
