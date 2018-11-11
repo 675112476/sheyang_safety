@@ -131,6 +131,10 @@ public class JeecgListDemoController extends BaseController {
    	public ModelAndView second_menu(HttpServletRequest request) {
    		return new ModelAndView("com/jeecg/demo/second_menu");
    	}
+    @RequestMapping(params = "index")
+   	public ModelAndView index(HttpServletRequest request) {
+   		return new ModelAndView("com/jeecg/demo/index-01");
+   	}
 	/**
 	 * 采用minidao查询数据
 	 * @param request
