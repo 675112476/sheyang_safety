@@ -107,6 +107,7 @@ public class JeecgListDemoController extends BaseController {
     
 	@Autowired
 	private JeecgDemoServiceI jeecgDemoService;
+	
 	@Autowired
 	private SystemService systemService;
 	
@@ -134,6 +135,10 @@ public class JeecgListDemoController extends BaseController {
     @RequestMapping(params = "index")
    	public ModelAndView index(HttpServletRequest request) {
    		return new ModelAndView("com/jeecg/demo/index-01");
+   	}
+    @RequestMapping(params = "test")
+   	public ModelAndView test(HttpServletRequest request) {
+   		return new ModelAndView("com/jeecg/demo/test");
    	}
 	/**
 	 * 采用minidao查询数据
