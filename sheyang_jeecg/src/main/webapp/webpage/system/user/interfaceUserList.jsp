@@ -7,7 +7,7 @@
 	<t:dgCol title="common.username" sortable="false" field="userName" query="true" width="100"></t:dgCol>
 	<t:dgCol title="common.real.name" field="realName" query="true" width="100"></t:dgCol>
 	<t:dgCol title="common.user.type" field="userType" dictionary="user_type" width="80"></t:dgCol>
-	<t:dgCol title="common.role" field="userKey" width="100"></t:dgCol>
+	<t:dgCol title="common.role" field="userKey" queryMode="single"  dictionary="rolename,rolename,role"  popup="true"  width="120"></t:dgCol>
 	<t:dgCol title="手机号码" field="mobilePhone" query="false" width="100"></t:dgCol>
 	<t:dgCol title="common.operation" field="opt" width="100"></t:dgCol>
 	<t:dgDelOpt title="common.delete" url="userController.do?delInterfaceUser&userid={id}" urlclass="ace_button"  urlfont="fa-trash-o"/>

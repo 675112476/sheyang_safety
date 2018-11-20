@@ -137,7 +137,7 @@
 				</label>
 			</td>
 			<td class="value">
-					<input id="rolename" name="rolename" type="text" style="width: 150px" class="searchbox-inputtext"  datatype="*"  ignore="checked"   onclick="popupClick(this,'role','rolename','rolename')"  />
+					<input id="rolename" name="rolename" type="text" style="width: 150px" class="searchbox-inputtext"  datatype="*"  ignore="checked"   onclick="popupClick(this,'role','rolename','rolename')"   value="${roleName }"/>
 					<span class="Validform_checktip"></span>
 					<label class="Validform_label" style="display: none;">角色名称</label>
 			</td>
