@@ -1,0 +1,115 @@
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgdynamgraph.dao.core.CgDynamGraphDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormFieldDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormVersionDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgform.dao.upload.CgFormUploadDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgreport.dao.core.CgReportDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.system.dao.DepartAuthGroupDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.system.dao.JeecgDictDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.demo.dao.JeecgMinidaoDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.actInvite.dao.WxActInviteDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.auth.dao.JwSystemAuthDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderCustomDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderMainDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderProductDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.chat.dao.ChatMessageHistoryDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.chat.dao.ImDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailAttachDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailReceiverDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailTSBaseUserDao }
+[2018-11-04 19:23:40] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailTSUserDao }
+[2018-11-04 19:23:41] [INFO] [com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2018-11-04 19:23:42] [WARN] [org.hibernate.id.UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2018-11-04 19:23:43] [WARN] [net.sf.ehcache.config.CacheConfiguration:698] Cache 'foreverCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'foreverCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+[2018-11-04 19:23:45] [INFO] [org.quartz.impl.StdSchedulerFactory:1208] Using default implementation for ThreadExecutor
+[2018-11-04 19:23:45] [INFO] [org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2018-11-04 19:23:45] [INFO] [org.quartz.core.QuartzScheduler:229] Quartz Scheduler v.2.3.0 created.
+[2018-11-04 19:23:45] [INFO] [org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2018-11-04 19:23:45] [INFO] [org.quartz.core.QuartzScheduler:294] Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2018-11-04 19:23:45] [INFO] [org.quartz.impl.StdSchedulerFactory:1362] Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+[2018-11-04 19:23:45] [INFO] [org.quartz.impl.StdSchedulerFactory:1366] Quartz scheduler version: 2.3.0
+[2018-11-04 19:23:45] [INFO] [org.quartz.core.QuartzScheduler:2287] JobFactory set to: org.jeecgframework.web.system.sms.util.JQuartzJobFactory@7c3124b4
+[2018-11-04 19:23:46] [INFO] [org.jeecgframework.core.timer.DynamicTask:252]  register time task class num is [0] 
+[2018-11-04 19:23:47] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:648] Starting Quartz Scheduler now
+[2018-11-04 19:23:47] [INFO] [org.quartz.core.QuartzScheduler:547] Scheduler schedulerFactory_$_NON_CLUSTERED started.
+[2018-11-04 19:23:48] [INFO] [org.jeecgframework.web.system.service.impl.SystemServiceImpl:180]   ------ 初始化字典组 【系统缓存】-----------typeGroupsList-----size: [43]
+[2018-11-04 19:23:48] [INFO] [org.jeecgframework.web.system.service.impl.SystemServiceImpl:181]   ------ 初始化字典 【系统缓存】-----------typesList-----size: [43]
+[2018-11-04 19:23:48] [INFO] [org.jeecgframework.web.system.service.impl.MutiLangServiceImpl:43]   ------ 初始化国际化语言【系统缓存】  ------ size: [1211] 
+[2018-11-04 19:23:48] [INFO] [org.jeecgframework.web.system.service.impl.DynamicDataSourceServiceImpl:41]   ------ 初始化动态数据源配置【系统缓存】---------size: [2] 
+[2018-11-04 19:24:29] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:119] Username:admin ,验证码: eqmy 错误!
+[2018-11-04 19:24:41] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-04 19:24:41] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-04 19:24:43] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-04 19:24:44] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-04 19:25:07] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-04 19:25:07] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-04 19:25:07] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-04 19:25:07] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-04 19:25:09] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-04 19:25:09] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-04 19:26:11] [INFO] [org.jeecgframework.web.cgform.controller.build.CgFormBuildController:268] ============================填值规则开始时间:2018-11-04 19:26:11==============================
+[2018-11-04 19:26:11] [INFO] [org.jeecgframework.web.cgform.controller.build.CgFormBuildController:293] ================================填值规则结束时间:2018-11-04 19:26:11==============================
+[2018-11-04 19:26:11] [INFO] [org.jeecgframework.web.cgform.controller.build.CgFormBuildController:294] ================================填值规则耗时:0ms==============================
+[2018-11-04 19:27:29] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-04 19:27:29] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-04 19:27:29] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-04 19:27:29] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-04 19:27:31] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-04 19:27:31] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-04 19:27:44] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-04 19:27:54] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-04 19:27:54] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-04 19:27:55] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-04 19:27:55] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-04 19:29:40] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-04 19:29:40] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-04 19:29:40] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-04 19:29:40] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-04 19:29:41] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-04 19:29:41] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-04 19:29:47] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-04 19:29:56] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-04 19:29:56] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-04 19:29:57] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-04 19:29:57] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-04 19:30:29] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-04 19:30:30] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-04 19:30:30] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-04 19:30:30] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-04 19:30:31] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-04 19:30:31] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-04 19:30:36] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-04 19:30:36] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-04 19:30:46] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-04 19:30:46] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-04 19:30:47] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-04 19:30:47] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-04 19:33:00] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-04 19:33:00] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-04 19:33:00] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-04 19:33:01] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-04 19:33:01] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-04 19:33:06] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-04 19:33:06] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-04 19:33:15] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-04 19:33:15] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-04 19:33:16] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-04 19:33:17] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-04 22:02:24] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-04 22:02:24] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-04 22:02:34] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:119] Username:admin ,验证码: ta8N 错误!
+[2018-11-04 22:03:02] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-04 22:03:02] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-04 22:03:03] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-04 22:03:04] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)

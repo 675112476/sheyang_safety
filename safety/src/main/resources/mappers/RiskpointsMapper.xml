@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="edu.just.sheyang.safety.dao.RiskpointsMapper" >
+  <resultMap id="BaseResultMap" type="edu.just.sheyang.safety.model.Riskpoints" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="create_name" property="createName" jdbcType="VARCHAR" />
+    <result column="create_by" property="createBy" jdbcType="VARCHAR" />
+    <result column="create_date" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="update_name" property="updateName" jdbcType="VARCHAR" />
+    <result column="update_by" property="updateBy" jdbcType="VARCHAR" />
+    <result column="update_date" property="updateDate" jdbcType="TIMESTAMP" />
+    <result column="sys_org_code" property="sysOrgCode" jdbcType="VARCHAR" />
+    <result column="sys_company_code" property="sysCompanyCode" jdbcType="VARCHAR" />
+    <result column="bpm_status" property="bpmStatus" jdbcType="VARCHAR" />
+    <result column="factory" property="factory" jdbcType="VARCHAR" />
+    <result column="riskpoint" property="riskpoint" jdbcType="VARCHAR" />
+    <result column="iscontrol" property="iscontrol" jdbcType="VARCHAR" />
+    <result column="time" property="time" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

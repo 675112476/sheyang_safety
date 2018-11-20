@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="edu.just.sheyang.safety.dao.Patrol_recordMapper" >
+  <resultMap id="BaseResultMap" type="edu.just.sheyang.safety.model.Patrol_record" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="VARCHAR" />
+    <result column="create_name" property="createName" jdbcType="VARCHAR" />
+    <result column="create_by" property="createBy" jdbcType="VARCHAR" />
+    <result column="create_date" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="update_name" property="updateName" jdbcType="VARCHAR" />
+    <result column="update_by" property="updateBy" jdbcType="VARCHAR" />
+    <result column="update_date" property="updateDate" jdbcType="TIMESTAMP" />
+    <result column="sys_org_code" property="sysOrgCode" jdbcType="VARCHAR" />
+    <result column="sys_company_code" property="sysCompanyCode" jdbcType="VARCHAR" />
+    <result column="bpm_status" property="bpmStatus" jdbcType="VARCHAR" />
+    <result column="patrol_name" property="patrolName" jdbcType="VARCHAR" />
+    <result column="record" property="record" jdbcType="VARCHAR" />
+    <result column="time" property="time" jdbcType="TIMESTAMP" />
+    <result column="factory_name" property="factoryName" jdbcType="VARCHAR" />
+    <result column="iscontrol" property="iscontrol" jdbcType="VARCHAR" />
+    <result column="location" property="location" jdbcType="VARCHAR" />
+    <result column="telephone" property="telephone" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

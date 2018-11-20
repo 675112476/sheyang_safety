@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.just.sheyang.safety.dao.FactoryMapper">
+  <resultMap id="BaseResultMap" type="edu.just.sheyang.safety.model.Factory">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="create_name" jdbcType="VARCHAR" property="createName" />
+    <result column="create_by" jdbcType="VARCHAR" property="createBy" />
+    <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="update_name" jdbcType="VARCHAR" property="updateName" />
+    <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
+    <result column="update_date" jdbcType="TIMESTAMP" property="updateDate" />
+    <result column="sys_org_code" jdbcType="VARCHAR" property="sysOrgCode" />
+    <result column="sys_company_code" jdbcType="VARCHAR" property="sysCompanyCode" />
+    <result column="bpm_status" jdbcType="VARCHAR" property="bpmStatus" />
+    <result column="factory_name" jdbcType="VARCHAR" property="factoryName" />
+    <result column="factory_location" jdbcType="VARCHAR" property="factoryLocation" />
+    <result column="factory_manager" jdbcType="VARCHAR" property="factoryManager" />
+    <result column="factory_phone" jdbcType="VARCHAR" property="factoryPhone" />
+    <result column="factory_worker" jdbcType="INTEGER" property="factoryWorker" />
+    <result column="industry" jdbcType="VARCHAR" property="industry" />
+    <result column="factory_introduction" jdbcType="VARCHAR" property="factoryIntroduction" />
+    <result column="riskpoints" jdbcType="VARCHAR" property="riskpoints" />
+    <result column="risk_display" jdbcType="VARCHAR" property="riskDisplay" />
+  </resultMap>
+
+  <select id="getRiskByFactory" parameterType="String" resultType="String">
+    select risk_display from factory where factory_name=#{factroy}
+  </select>
+</mapper>

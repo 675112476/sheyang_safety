@@ -1,0 +1,408 @@
+[2018-11-15 14:33:12] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-15 14:33:12] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 14:33:24] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 14:33:24] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 14:33:25] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 14:33:25] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 14:34:50] [INFO] [org.jeecgframework.codegenerate.database.JeecgReadTable:420] 数据库驱动: com.mysql.jdbc.Driver
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:68] -------------------load template from templateRootDir = 'D:\Code_Workspace\idea_work\sheyang\sheyang_jeecg\target\classes\jeecg\ext-common-template' outJavaRootDir:D:\Code_Workspace\idea_work\sheyang\sheyang_jeecg\src\main\java' outWebappRootDir:D:\Code_Workspace\idea_work\sheyang\sheyang_jeecg\src\main\webapp
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:78] ----srcFiles----size-----------114
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:bootstrap\single\java\${bussiPackage}\${entityPackage}\controller\${entityName}Controller.javai ==> D:/\src/main/java\com\jeecg\demo\controller\PatrolRecordController.java
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:bootstrap\single\java\${bussiPackage}\${entityPackage}\entity\${entityName}Entity.javai ==> D:/\src/main/java\com\jeecg\demo\entity\PatrolRecordEntity.java
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:bootstrap\single\java\${bussiPackage}\${entityPackage}\service\${entityName}ServiceI.javai ==> D:/\src/main/java\com\jeecg\demo\service\PatrolRecordServiceI.java
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:bootstrap\single\java\${bussiPackage}\${entityPackage}\service\impl\${entityName}ServiceImpl.javai ==> D:/\src/main/java\com\jeecg\demo\service\impl\PatrolRecordServiceImpl.java
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:bootstrap\single\webapp\webpage\${bussiPackage}\${entityPackage}\${entityNameUncapFirst}-add.jspi ==> D:/\src/main/webapp\webpage\com\jeecg\demo\patrolRecord-add.jsp
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:bootstrap\single\webapp\webpage\${bussiPackage}\${entityPackage}\${entityNameUncapFirst}-update.jspi ==> D:/\src/main/webapp\webpage\com\jeecg\demo\patrolRecord-update.jsp
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:bootstrap\single\webapp\webpage\${bussiPackage}\${entityPackage}\${entityNameUncapFirst}List.jspi ==> D:/\src/main/webapp\webpage\com\jeecg\demo\patrolRecordList.jsp
+[2018-11-15 14:34:51] [INFO] [org.jeecgframework.codegenerate.extcommon.single.CgformCodeExtCommonGenerate:177] ----jeecg----Code----Generation-----[单表模型：patrol_record]------ 生成完成。。。
+[2018-11-15 14:37:31] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 14:37:31] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 14:37:31] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-15 14:37:31] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 14:37:32] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 14:37:32] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 14:37:37] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-15 14:37:37] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 14:37:43] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 14:37:43] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 14:37:43] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 14:37:44] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.database.JeecgReadTable:420] 数据库驱动: com.mysql.jdbc.Driver
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:68] -------------------load template from templateRootDir = 'D:\Code_Workspace\idea_work\sheyang\sheyang_jeecg\target\classes\jeecg\ext-common-template' outJavaRootDir:D:\Code_Workspace\idea_work\sheyang\sheyang_jeecg\src\main\java' outWebappRootDir:D:\Code_Workspace\idea_work\sheyang\sheyang_jeecg\src\main\webapp
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:78] ----srcFiles----size-----------114
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:bootstraptableUI\single\java\${bussiPackage}\${entityPackage}\controller\${entityName}Controller.javai ==> D:/\src/main/java\com\jeecg\demo\controller\PatrolRecordController.java
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:bootstraptableUI\single\java\${bussiPackage}\${entityPackage}\entity\${entityName}Entity.javai ==> D:/\src/main/java\com\jeecg\demo\entity\PatrolRecordEntity.java
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:bootstraptableUI\single\java\${bussiPackage}\${entityPackage}\service\${entityName}ServiceI.javai ==> D:/\src/main/java\com\jeecg\demo\service\PatrolRecordServiceI.java
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:bootstraptableUI\single\java\${bussiPackage}\${entityPackage}\service\impl\${entityName}ServiceImpl.javai ==> D:/\src/main/java\com\jeecg\demo\service\impl\PatrolRecordServiceImpl.java
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:bootstraptableUI\single\webapp\webpage\${bussiPackage}\${entityPackage}\${entityNameUncapFirst}-add.jspi ==> D:/\src/main/webapp\webpage\com\jeecg\demo\patrolRecord-add.jsp
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:bootstraptableUI\single\webapp\webpage\${bussiPackage}\${entityPackage}\${entityNameUncapFirst}-update.jspi ==> D:/\src/main/webapp\webpage\com\jeecg\demo\patrolRecord-update.jsp
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:bootstraptableUI\single\webapp\webpage\${bussiPackage}\${entityPackage}\${entityNameUncapFirst}List.jspi ==> D:/\src/main/webapp\webpage\com\jeecg\demo\patrolRecordList.jsp
+[2018-11-15 14:39:20] [INFO] [org.jeecgframework.codegenerate.extcommon.single.CgformCodeExtCommonGenerate:177] ----jeecg----Code----Generation-----[单表模型：patrol_record]------ 生成完成。。。
+[2018-11-15 14:39:56] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-15 14:39:56] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 14:40:04] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 14:40:04] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 14:40:04] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 14:40:04] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.database.JeecgReadTable:420] 数据库驱动: com.mysql.jdbc.Driver
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:68] -------------------load template from templateRootDir = 'D:\Code_Workspace\idea_work\sheyang\sheyang_jeecg\target\classes\jeecg\ext-common-template' outJavaRootDir:D:\Code_Workspace\idea_work\sheyang\sheyang_jeecg\src\main\java' outWebappRootDir:D:\Code_Workspace\idea_work\sheyang\sheyang_jeecg\src\main\webapp
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:78] ----srcFiles----size-----------114
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:element\single\java\${bussiPackage}\${entityPackage}\controller\${entityName}Controller.javai ==> D:/\src/main/java\com\jeecg\demo\controller\PatrolRecordController.java
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:element\single\java\${bussiPackage}\${entityPackage}\entity\${entityName}Entity.javai ==> D:/\src/main/java\com\jeecg\demo\entity\PatrolRecordEntity.java
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:element\single\java\${bussiPackage}\${entityPackage}\service\${entityName}ServiceI.javai ==> D:/\src/main/java\com\jeecg\demo\service\PatrolRecordServiceI.java
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:element\single\java\${bussiPackage}\${entityPackage}\service\impl\${entityName}ServiceImpl.javai ==> D:/\src/main/java\com\jeecg\demo\service\impl\PatrolRecordServiceImpl.java
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:56] -------classpath-------/D:/Code_Workspace/idea_work/sheyang/sheyang_jeecg/target/classes/jeecg/ext-common-template/
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.a:184] [generate]	 template:element\single\webapp\webpage\${bussiPackage}\${entityPackage}\${entityNameUncapFirst}List.jspi ==> D:/\src/main/webapp\webpage\com\jeecg\demo\patrolRecordList.jsp
+[2018-11-15 14:42:27] [INFO] [org.jeecgframework.codegenerate.extcommon.single.CgformCodeExtCommonGenerate:177] ----jeecg----Code----Generation-----[单表模型：patrol_record]------ 生成完成。。。
+[2018-11-15 14:42:54] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 14:43:02] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 14:43:02] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 14:43:02] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 14:43:03] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 14:44:06] [INFO] [org.jeecgframework.codegenerate.database.JeecgReadTable:420] 数据库驱动: com.mysql.jdbc.Driver
+[2018-11-15 14:44:06] [INFO] [org.jeecgframework.codegenerate.generate.CgformCodeGenerate:257] ----jeecg---Code----Generation----[单表模型:patrol_record]------- 生成中。。。
+[2018-11-15 14:44:06] [INFO] [org.jeecgframework.codegenerate.generate.CgformCodeGenerate:268] ----jeecg------path----[ace/single]-------
+[2018-11-15 14:44:06] [INFO] [org.jeecgframework.codegenerate.generate.CgformCodeGenerate:300] ----jeecg----Code----Generation-----[单表模型：patrol_record]------ 生成完成。。。
+[2018-11-15 14:44:59] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 14:45:06] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 14:45:06] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 14:45:06] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 14:45:07] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 14:49:50] [INFO] [org.jeecgframework.codegenerate.database.JeecgReadTable:420] 数据库驱动: com.mysql.jdbc.Driver
+[2018-11-15 14:49:50] [INFO] [org.jeecgframework.codegenerate.generate.CgformCodeGenerate:257] ----jeecg---Code----Generation----[单表模型:patrol_record]------- 生成中。。。
+[2018-11-15 14:49:50] [INFO] [org.jeecgframework.codegenerate.generate.CgformCodeGenerate:268] ----jeecg------path----[div/single]-------
+[2018-11-15 14:49:50] [INFO] [org.jeecgframework.codegenerate.generate.CgformCodeGenerate:300] ----jeecg----Code----Generation-----[单表模型：patrol_record]------ 生成完成。。。
+[2018-11-15 14:50:48] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 14:51:04] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 14:51:04] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 14:51:06] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 14:51:06] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 14:51:58] [INFO] [org.jeecgframework.core.util.LogUtil:228] [org.jeecgframework.core.timer.Job:oneOClockPerDay():25] - 1h
+[2018-11-15 14:52:43] [INFO] [org.jeecgframework.codegenerate.database.JeecgReadTable:420] 数据库驱动: com.mysql.jdbc.Driver
+[2018-11-15 14:52:43] [INFO] [org.jeecgframework.codegenerate.generate.CgformCodeGenerate:257] ----jeecg---Code----Generation----[单表模型:patrol_record]------- 生成中。。。
+[2018-11-15 14:52:43] [INFO] [org.jeecgframework.codegenerate.generate.CgformCodeGenerate:268] ----jeecg------path----[table/single]-------
+[2018-11-15 14:52:43] [INFO] [org.jeecgframework.codegenerate.generate.CgformCodeGenerate:300] ----jeecg----Code----Generation-----[单表模型：patrol_record]------ 生成完成。。。
+[2018-11-15 14:52:56] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 14:54:00] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 14:54:00] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 14:54:01] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 14:54:02] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 15:42:29] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-15 15:42:29] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 15:42:45] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 15:42:45] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 15:42:46] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 15:42:47] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgdynamgraph.dao.core.CgDynamGraphDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormFieldDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormVersionDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgform.dao.upload.CgFormUploadDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgreport.dao.core.CgReportDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.system.dao.DepartAuthGroupDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.system.dao.JeecgDictDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.demo.dao.JeecgMinidaoDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.actInvite.dao.WxActInviteDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.auth.dao.JwSystemAuthDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderCustomDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderMainDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderProductDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.chat.dao.ChatMessageHistoryDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.chat.dao.ImDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailAttachDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailReceiverDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailTSBaseUserDao }
+[2018-11-15 16:27:09] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailTSUserDao }
+[2018-11-15 16:27:10] [INFO] [com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2018-11-15 16:27:11] [WARN] [org.hibernate.id.UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2018-11-15 16:27:12] [WARN] [net.sf.ehcache.config.CacheConfiguration:698] Cache 'foreverCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'foreverCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+[2018-11-15 16:27:14] [INFO] [org.quartz.impl.StdSchedulerFactory:1208] Using default implementation for ThreadExecutor
+[2018-11-15 16:27:14] [INFO] [org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2018-11-15 16:27:14] [INFO] [org.quartz.core.QuartzScheduler:229] Quartz Scheduler v.2.3.0 created.
+[2018-11-15 16:27:14] [INFO] [org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2018-11-15 16:27:14] [INFO] [org.quartz.core.QuartzScheduler:294] Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2018-11-15 16:27:14] [INFO] [org.quartz.impl.StdSchedulerFactory:1362] Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+[2018-11-15 16:27:14] [INFO] [org.quartz.impl.StdSchedulerFactory:1366] Quartz scheduler version: 2.3.0
+[2018-11-15 16:27:14] [INFO] [org.quartz.core.QuartzScheduler:2287] JobFactory set to: org.jeecgframework.web.system.sms.util.JQuartzJobFactory@3349a889
+[2018-11-15 16:27:14] [INFO] [org.jeecgframework.core.timer.DynamicTask:252]  register time task class num is [0] 
+[2018-11-15 16:27:16] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:648] Starting Quartz Scheduler now
+[2018-11-15 16:27:16] [INFO] [org.quartz.core.QuartzScheduler:547] Scheduler schedulerFactory_$_NON_CLUSTERED started.
+[2018-11-15 16:27:16] [INFO] [org.jeecgframework.web.system.service.impl.SystemServiceImpl:180]   ------ 初始化字典组 【系统缓存】-----------typeGroupsList-----size: [43]
+[2018-11-15 16:27:16] [INFO] [org.jeecgframework.web.system.service.impl.SystemServiceImpl:181]   ------ 初始化字典 【系统缓存】-----------typesList-----size: [43]
+[2018-11-15 16:27:16] [INFO] [org.jeecgframework.web.system.service.impl.MutiLangServiceImpl:43]   ------ 初始化国际化语言【系统缓存】  ------ size: [1211] 
+[2018-11-15 16:27:16] [INFO] [org.jeecgframework.web.system.service.impl.DynamicDataSourceServiceImpl:41]   ------ 初始化动态数据源配置【系统缓存】---------size: [2] 
+[2018-11-15 16:27:36] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 16:27:36] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 16:27:38] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 16:27:38] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 16:40:37] [INFO] [org.jeecgframework.web.cgform.controller.build.CgFormBuildController:268] ============================填值规则开始时间:2018-11-15 16:40:37==============================
+[2018-11-15 16:40:37] [INFO] [org.jeecgframework.web.cgform.controller.build.CgFormBuildController:293] ================================填值规则结束时间:2018-11-15 16:40:37==============================
+[2018-11-15 16:40:37] [INFO] [org.jeecgframework.web.cgform.controller.build.CgFormBuildController:294] ================================填值规则耗时:0ms==============================
+[2018-11-15 16:41:43] [INFO] [org.jeecgframework.web.cgform.controller.build.CgFormBuildController:268] ============================填值规则开始时间:2018-11-15 16:41:43==============================
+[2018-11-15 16:41:43] [INFO] [org.jeecgframework.web.cgform.controller.build.CgFormBuildController:293] ================================填值规则结束时间:2018-11-15 16:41:43==============================
+[2018-11-15 16:41:43] [INFO] [org.jeecgframework.web.cgform.controller.build.CgFormBuildController:294] ================================填值规则耗时:1ms==============================
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgdynamgraph.dao.core.CgDynamGraphDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormFieldDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormVersionDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgform.dao.upload.CgFormUploadDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgreport.dao.core.CgReportDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.system.dao.DepartAuthGroupDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.system.dao.JeecgDictDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.demo.dao.JeecgMinidaoDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.actInvite.dao.WxActInviteDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.auth.dao.JwSystemAuthDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderCustomDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderMainDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderProductDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.chat.dao.ChatMessageHistoryDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.chat.dao.ImDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailAttachDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailReceiverDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailTSBaseUserDao }
+[2018-11-15 20:12:47] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailTSUserDao }
+[2018-11-15 20:12:47] [INFO] [com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2018-11-15 20:12:49] [WARN] [org.hibernate.id.UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2018-11-15 20:12:50] [WARN] [net.sf.ehcache.config.CacheConfiguration:698] Cache 'foreverCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'foreverCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+[2018-11-15 20:12:52] [INFO] [org.quartz.impl.StdSchedulerFactory:1208] Using default implementation for ThreadExecutor
+[2018-11-15 20:12:52] [INFO] [org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2018-11-15 20:12:52] [INFO] [org.quartz.core.QuartzScheduler:229] Quartz Scheduler v.2.3.0 created.
+[2018-11-15 20:12:52] [INFO] [org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2018-11-15 20:12:52] [INFO] [org.quartz.core.QuartzScheduler:294] Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2018-11-15 20:12:52] [INFO] [org.quartz.impl.StdSchedulerFactory:1362] Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+[2018-11-15 20:12:52] [INFO] [org.quartz.impl.StdSchedulerFactory:1366] Quartz scheduler version: 2.3.0
+[2018-11-15 20:12:52] [INFO] [org.quartz.core.QuartzScheduler:2287] JobFactory set to: org.jeecgframework.web.system.sms.util.JQuartzJobFactory@406dc7ab
+[2018-11-15 20:12:53] [INFO] [org.jeecgframework.core.timer.DynamicTask:252]  register time task class num is [0] 
+[2018-11-15 20:12:55] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:648] Starting Quartz Scheduler now
+[2018-11-15 20:12:55] [INFO] [org.quartz.core.QuartzScheduler:547] Scheduler schedulerFactory_$_NON_CLUSTERED started.
+[2018-11-15 20:12:55] [INFO] [org.jeecgframework.web.system.service.impl.SystemServiceImpl:180]   ------ 初始化字典组 【系统缓存】-----------typeGroupsList-----size: [43]
+[2018-11-15 20:12:55] [INFO] [org.jeecgframework.web.system.service.impl.SystemServiceImpl:181]   ------ 初始化字典 【系统缓存】-----------typesList-----size: [43]
+[2018-11-15 20:12:56] [INFO] [org.jeecgframework.web.system.service.impl.MutiLangServiceImpl:43]   ------ 初始化国际化语言【系统缓存】  ------ size: [1211] 
+[2018-11-15 20:12:56] [INFO] [org.jeecgframework.web.system.service.impl.DynamicDataSourceServiceImpl:41]   ------ 初始化动态数据源配置【系统缓存】---------size: [2] 
+[2018-11-15 20:13:25] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 20:13:25] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 20:13:27] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 20:13:27] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 21:00:54] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-15 21:00:54] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 21:01:04] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 21:01:04] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 21:01:06] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 21:01:06] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgdynamgraph.dao.core.CgDynamGraphDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormFieldDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormVersionDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgform.dao.upload.CgFormUploadDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgreport.dao.core.CgReportDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.system.dao.DepartAuthGroupDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.system.dao.JeecgDictDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.demo.dao.JeecgMinidaoDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.actInvite.dao.WxActInviteDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.auth.dao.JwSystemAuthDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderCustomDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderMainDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderProductDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.chat.dao.ChatMessageHistoryDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.chat.dao.ImDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailAttachDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailReceiverDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailTSBaseUserDao }
+[2018-11-15 21:01:53] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailTSUserDao }
+[2018-11-15 21:01:53] [INFO] [com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2018-11-15 21:01:55] [WARN] [org.hibernate.id.UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2018-11-15 21:01:56] [WARN] [net.sf.ehcache.config.CacheConfiguration:698] Cache 'foreverCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'foreverCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+[2018-11-15 21:01:57] [INFO] [org.quartz.impl.StdSchedulerFactory:1208] Using default implementation for ThreadExecutor
+[2018-11-15 21:01:57] [INFO] [org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2018-11-15 21:01:57] [INFO] [org.quartz.core.QuartzScheduler:229] Quartz Scheduler v.2.3.0 created.
+[2018-11-15 21:01:57] [INFO] [org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2018-11-15 21:01:57] [INFO] [org.quartz.core.QuartzScheduler:294] Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2018-11-15 21:01:57] [INFO] [org.quartz.impl.StdSchedulerFactory:1362] Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+[2018-11-15 21:01:57] [INFO] [org.quartz.impl.StdSchedulerFactory:1366] Quartz scheduler version: 2.3.0
+[2018-11-15 21:01:57] [INFO] [org.quartz.core.QuartzScheduler:2287] JobFactory set to: org.jeecgframework.web.system.sms.util.JQuartzJobFactory@52490972
+[2018-11-15 21:01:58] [INFO] [org.jeecgframework.core.timer.DynamicTask:252]  register time task class num is [0] 
+[2018-11-15 21:02:00] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:648] Starting Quartz Scheduler now
+[2018-11-15 21:02:00] [INFO] [org.quartz.core.QuartzScheduler:547] Scheduler schedulerFactory_$_NON_CLUSTERED started.
+[2018-11-15 21:02:00] [INFO] [org.jeecgframework.web.system.service.impl.SystemServiceImpl:180]   ------ 初始化字典组 【系统缓存】-----------typeGroupsList-----size: [43]
+[2018-11-15 21:02:00] [INFO] [org.jeecgframework.web.system.service.impl.SystemServiceImpl:181]   ------ 初始化字典 【系统缓存】-----------typesList-----size: [43]
+[2018-11-15 21:02:00] [INFO] [org.jeecgframework.web.system.service.impl.MutiLangServiceImpl:43]   ------ 初始化国际化语言【系统缓存】  ------ size: [1211] 
+[2018-11-15 21:02:00] [INFO] [org.jeecgframework.web.system.service.impl.DynamicDataSourceServiceImpl:41]   ------ 初始化动态数据源配置【系统缓存】---------size: [2] 
+[2018-11-15 21:02:22] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 21:02:22] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 21:02:25] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 21:02:25] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 21:02:57] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 21:02:57] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 21:02:57] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-15 21:02:57] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 21:02:58] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 21:02:58] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 21:03:04] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 21:03:04] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 21:03:04] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 21:03:05] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 21:03:06] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 21:03:16] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 21:03:16] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 21:03:16] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 21:03:17] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 21:03:17] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 21:03:43] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 21:03:43] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 21:03:43] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 21:03:45] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 21:03:45] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgdynamgraph.dao.core.CgDynamGraphDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormFieldDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormVersionDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgform.dao.upload.CgFormUploadDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.cgreport.dao.core.CgReportDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.system.dao.DepartAuthGroupDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { org.jeecgframework.web.system.dao.JeecgDictDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.demo.dao.JeecgMinidaoDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.actInvite.dao.WxActInviteDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.auth.dao.JwSystemAuthDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderCustomDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderMainDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderProductDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.chat.dao.ChatMessageHistoryDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.chat.dao.ImDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailAttachDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailReceiverDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailTSBaseUserDao }
+[2018-11-15 21:04:38] [INFO] [org.jeecgframework.minidao.factory.MiniDaoClassPathMapperScanner:48] register minidao name is { com.jeecg.mail.dao.P3MailTSUserDao }
+[2018-11-15 21:04:38] [INFO] [com.alibaba.druid.pool.DruidDataSource:928] {dataSource-1} inited
+[2018-11-15 21:04:40] [WARN] [org.hibernate.id.UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2018-11-15 21:04:41] [WARN] [net.sf.ehcache.config.CacheConfiguration:698] Cache 'foreverCache' is set to eternal but also has TTI/TTL set.  To avoid this warning, clean up the config removing conflicting values of eternal, TTI and TTL. Effective configuration for Cache 'foreverCache' will be eternal='true', timeToIdleSeconds='0', timeToLiveSeconds='0'.
+[2018-11-15 21:04:43] [INFO] [org.quartz.impl.StdSchedulerFactory:1208] Using default implementation for ThreadExecutor
+[2018-11-15 21:04:43] [INFO] [org.quartz.core.SchedulerSignalerImpl:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2018-11-15 21:04:43] [INFO] [org.quartz.core.QuartzScheduler:229] Quartz Scheduler v.2.3.0 created.
+[2018-11-15 21:04:43] [INFO] [org.quartz.simpl.RAMJobStore:155] RAMJobStore initialized.
+[2018-11-15 21:04:43] [INFO] [org.quartz.core.QuartzScheduler:294] Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[2018-11-15 21:04:43] [INFO] [org.quartz.impl.StdSchedulerFactory:1362] Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+[2018-11-15 21:04:43] [INFO] [org.quartz.impl.StdSchedulerFactory:1366] Quartz scheduler version: 2.3.0
+[2018-11-15 21:04:43] [INFO] [org.quartz.core.QuartzScheduler:2287] JobFactory set to: org.jeecgframework.web.system.sms.util.JQuartzJobFactory@18ed4c8a
+[2018-11-15 21:04:43] [INFO] [org.jeecgframework.core.timer.DynamicTask:252]  register time task class num is [0] 
+[2018-11-15 21:04:45] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:648] Starting Quartz Scheduler now
+[2018-11-15 21:04:45] [INFO] [org.quartz.core.QuartzScheduler:547] Scheduler schedulerFactory_$_NON_CLUSTERED started.
+[2018-11-15 21:04:45] [INFO] [org.jeecgframework.web.system.service.impl.SystemServiceImpl:180]   ------ 初始化字典组 【系统缓存】-----------typeGroupsList-----size: [43]
+[2018-11-15 21:04:45] [INFO] [org.jeecgframework.web.system.service.impl.SystemServiceImpl:181]   ------ 初始化字典 【系统缓存】-----------typesList-----size: [43]
+[2018-11-15 21:04:45] [INFO] [org.jeecgframework.web.system.service.impl.MutiLangServiceImpl:43]   ------ 初始化国际化语言【系统缓存】  ------ size: [1211] 
+[2018-11-15 21:04:45] [INFO] [org.jeecgframework.web.system.service.impl.DynamicDataSourceServiceImpl:41]   ------ 初始化动态数据源配置【系统缓存】---------size: [2] 
+[2018-11-15 21:04:59] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 21:04:59] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 21:05:02] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 21:05:02] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 21:05:43] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 21:05:43] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 21:05:43] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-15 21:05:43] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 21:05:45] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 21:05:45] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 21:06:06] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 21:06:06] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 21:06:06] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 21:06:08] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 21:06:08] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 22:18:31] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-15 22:18:31] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 22:23:44] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 22:23:44] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 22:23:45] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 22:23:45] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 22:56:26] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-11-15 22:56:26] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 22:56:34] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 22:56:34] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 22:56:35] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 22:56:35] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2018-11-15 22:57:15] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2018-11-15 22:57:15] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2018-11-15 22:57:15] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-11-15 22:57:16] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-11-15 22:57:16] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
