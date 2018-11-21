@@ -130,7 +130,7 @@ public class InstitutionSerivecImpl implements InstitutionService {
     public String insertrisks(String[] date, String[] factory, String[] risk_point, String[] is_control) {
         String result="";
         for(int i=0;i<date.length;i++){
-            Riskpoints riskpoint=new Riskpoints(factory[i],risk_point[i],is_control[i],date[i]);
+            Riskpoints riskpoint=new Riskpoints(factory[i],risk_point[i],is_control[i],date[i]+" 00:00:00");
             try {
                 riskpointsMapper.insert(riskpoint);
                 result="<script> alert('危险点信息提交成功，如存在危险点不可控，请继续填写整改措施，最终提交巡查记录.');history.go(-1);</script>";
@@ -143,11 +143,17 @@ public class InstitutionSerivecImpl implements InstitutionService {
 
     @Override
     public String insertrecords(String patrol_name, String patrol_phone, String time, String patrol_factory, String address, String measures,HttpServletRequest request) throws ParseException {
+        time=time+" 00:00:00";
         String result="";
         String callback = request.getParameter("callback");
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date datetime=sdf.parse(time);
-        Patrol_record patrol_record=new Patrol_record(patrol_name,patrol_phone,datetime,patrol_factory,address,measures);
+        List<String> is_control=riskpointsMapper.isControl(patrol_factory,time);
+        String flag="不可控";
+        if(is_control.toString().equals("[]")){
+            flag="可控";
+        }
+        Patrol_record patrol_record=new Patrol_record(patrol_name,measures,datetime,patrol_factory,flag,address,patrol_phone);
         try {
             patrol_recordMapper.insert(patrol_record);
             result="成功";

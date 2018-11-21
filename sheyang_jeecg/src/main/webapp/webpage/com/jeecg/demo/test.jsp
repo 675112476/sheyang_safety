@@ -235,10 +235,11 @@
 	function getRisks(){
 		var inputdiv=document.getElementById("inputs");
 		var inputhtml="";
-		if($("#patrol_factory").val()==""){
-			alert("请输入巡查公司名称");
+		if($("#patrol_factory").val()==""||$("#time").val()==""){
+			alert("请输入巡查公司名称和时间");
 		}else{
 			var factory=$("#patrol_factory").val();
+			var time=$("#time").val();
 			console.info(factory);
 			$.ajax({
 				url : "http://localhost:8090/getriskpoints",
@@ -257,8 +258,8 @@
 						var risks=data.risks;
 						console.info(risks);
 						for(var i=0;i<risks.length;i++){
-							inputhtml+="<input type='hidden' name='date' value='2018-11-14 00:00:00'/>"
-							+"<input type='hidden' name='factory' value='射阳港龙凤烟花爆竹门市'/>"
+							inputhtml+="<input type='hidden' name='date' value="+time+">"
+							+"<input type='hidden' name='factory' value="+factory+">"
 							+"<input type='hidden' name='risk_point' value="+risks[i]+">"
 							+"<div>风险点"+(i+1)+"："+risks[i]
 							+"&nbsp&nbsp&nbsp<select name='is_control'>"   
@@ -299,7 +300,7 @@
 	    		complete : function(data) {
 	    			console.info(data);
 	    			if(data.status==200){
-	    				alert("插入成功");
+	    				alert("提交成功");
 	    				location.reload();
 	    			}else{
 	    				alert("服务器错误，插入失败");

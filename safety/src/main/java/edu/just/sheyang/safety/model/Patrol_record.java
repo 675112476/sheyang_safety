@@ -407,11 +407,12 @@ public class Patrol_record {
         this.telephone = telephone == null ? null : telephone.trim();
     }
 
-    public Patrol_record(String patrolName, String record, Date time, String factoryName, String location, String telephone) {
+    public Patrol_record(String patrolName, String record, Date time, String factoryName, String iscontrol, String location, String telephone) {
         this.patrolName = patrolName;
         this.record = record;
         this.time = time;
         this.factoryName = factoryName;
+        this.iscontrol = iscontrol;
         this.location = location;
         this.telephone = telephone;
     }

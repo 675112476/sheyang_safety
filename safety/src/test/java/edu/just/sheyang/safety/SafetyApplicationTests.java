@@ -1,6 +1,7 @@
 package edu.just.sheyang.safety;
 
 import edu.just.sheyang.safety.dao.IndustryMapper;
+import edu.just.sheyang.safety.dao.RiskpointsMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,14 +16,17 @@ import java.util.List;
 public class SafetyApplicationTests {
     @Autowired
     IndustryMapper industryMapper;
-
+    @Autowired
+    RiskpointsMapper riskpointsMapper;
     @Test
     public void contextLoads() {
-        List ids=new ArrayList();
-        ids.add("4028e4f2661439a701661439a7a20000");
-        ids.add("4028e4f2661439a701661534f2a10024");
-        List<String> result=industryMapper.getIndustry(ids);
+        String flag="不可控";
+        List<String> result=riskpointsMapper.isControl("碧蓝宾馆","2018-11-20");
         System.out.println(result.toString());
+        if(result.toString().equals("[]")){
+            flag="可控";
+        }
+        System.out.println(flag);
     }
 
 }

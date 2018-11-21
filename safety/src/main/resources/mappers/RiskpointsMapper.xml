@@ -20,4 +20,7 @@
     <result column="iscontrol" property="iscontrol" jdbcType="VARCHAR" />
     <result column="time" property="time" jdbcType="VARCHAR" />
   </resultMap>
+  <select id="isControl" resultType="String">
+    select riskpoint from riskpoints where factory=#{param1} and time=#{param2} and iscontrol="不可控"
+  </select>
 </mapper>
