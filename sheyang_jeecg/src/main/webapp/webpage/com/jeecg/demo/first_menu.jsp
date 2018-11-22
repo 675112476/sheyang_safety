@@ -16,7 +16,7 @@
 <script type="text/javascript">
 function fatie() {
     $.ajax({
-        url: "http://106.14.9.53:8090/get",
+        url: "http://218.92.240.39:6390/get",
         type: "GET",
         data:{country:"县政府"},
         dataType: "jsonp",

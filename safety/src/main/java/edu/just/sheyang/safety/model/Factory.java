@@ -457,4 +457,5 @@ public class Factory {
     public void setRiskDisplay(String riskDisplay) {
         this.riskDisplay = riskDisplay == null ? null : riskDisplay.trim();
     }
+
 }

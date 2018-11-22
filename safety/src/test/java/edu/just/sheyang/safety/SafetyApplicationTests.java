@@ -1,14 +1,15 @@
 package edu.just.sheyang.safety;
 
+import edu.just.sheyang.safety.dao.FactoryMapper;
 import edu.just.sheyang.safety.dao.IndustryMapper;
 import edu.just.sheyang.safety.dao.RiskpointsMapper;
+import edu.just.sheyang.safety.model.Factory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
@@ -18,15 +19,21 @@ public class SafetyApplicationTests {
     IndustryMapper industryMapper;
     @Autowired
     RiskpointsMapper riskpointsMapper;
+    @Autowired
+    FactoryMapper factoryMapper;
+
     @Test
     public void contextLoads() {
-        String flag="不可控";
-        List<String> result=riskpointsMapper.isControl("碧蓝宾馆","2018-11-20");
-        System.out.println(result.toString());
-        if(result.toString().equals("[]")){
-            flag="可控";
+        List<Factory>factories =factoryMapper.selectAll();
+        System.out.println(factories.toString());
+        String risk_display="";
+        for(Factory factory:factories){
+            String factory_name=factory.getFactoryName();
+            if(factory_name.equals("碧蓝宾馆")){
+                risk_display=factory.getRiskDisplay();
+            }
         }
-        System.out.println(flag);
+        System.out.println(risk_display);
     }
 
 }

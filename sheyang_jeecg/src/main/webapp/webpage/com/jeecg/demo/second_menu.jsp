@@ -22,7 +22,7 @@
 function option() {
     $("#paper").empty();
     $.ajax({
-        url:"http://106.14.9.53:8090/getCountry" ,
+        url:"http://218.92.240.39:6390/getCountry" ,
         type: "GET",
         data:{},
         dataType: "jsonp",
@@ -53,7 +53,7 @@ function option() {
     //var s="http://106.14.9.53:8090/getAll";
     function fatie(s) {
         $.ajax({
-            url: "http://106.14.9.53:8090/get",
+            url: "http://218.92.240.39:6390/get",
             type: "GET",
             data:{country:s},
             dataType: "jsonp",

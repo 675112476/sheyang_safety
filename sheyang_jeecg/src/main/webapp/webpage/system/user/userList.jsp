@@ -9,7 +9,7 @@
 	<t:dgCol title="common.user.type" field="userType" dictionary="user_type" width="80"></t:dgCol>
 	<%--<t:dgCol title="common.department" field="TSDepart_id" query="true" replace="${departsReplace}"></t:dgCol>--%>
 	<t:dgCol title="common.department" sortable="false" field="userOrgList.tsDepart.departname" query="false" width="100"></t:dgCol>
-	<t:dgCol title="common.role" field="userKey" queryMode="single"  dictionary="rolename,rolename,role"  popup="true"  width="120"></t:dgCol>
+	<t:dgCol title="common.role" field="userKey" width="100"></t:dgCol>
 	<t:dgCol title="common.createby" field="createBy" hidden="true" width="100"></t:dgCol>
 	<t:dgCol title="common.createtime" field="createDate" formatter="yyyy-MM-dd"  width="50" hidden="false"></t:dgCol>
 	<t:dgCol title="common.updateby" field="updateBy" hidden="true"></t:dgCol>
@@ -52,7 +52,6 @@ function deleteDialog(id){
 	createwindow("删除模式", url, 200, 100);
 }
 function lockObj(title,url, id) {
-
 	gridname=id;
 	var rowsData = $('#'+id).datagrid('getSelections');
 	if (!rowsData || rowsData.length==0) {
@@ -60,7 +59,6 @@ function lockObj(title,url, id) {
 		return;
 	}
 		url += '&id='+rowsData[0].id;
-
 	$.dialog.confirm('<t:mutiLang langKey="common.lock.user.tips"/>', function(){
 		lockuploadify(url, '&id');
 	}, function(){
@@ -73,21 +71,16 @@ function unlockObj(title,url, id) {
 		tip('<t:mutiLang langKey="common.please.select.edit.item"/>');
 		return;
 	}
-
     if(rowsData[0].status == 1){
         tip('<t:mutiLang langKey="common.please.select.user.status.inactive"/>');
         return;
     }
-
 		url += '&id='+rowsData[0].id;
-
 	$.dialog.confirm('<t:mutiLang langKey="common.unlock.user.tips"/>', function(){
 		lockuploadify(url, '&id');
 	}, function(){
 	});
 }
-
-
 function lockuploadify(url, id) {
 	$.ajax({
 		async : false,
@@ -114,12 +107,10 @@ function lockuploadify(url, id) {
 	function ImportXls() {
 		openuploadwin('Excel导入', 'userController.do?upload', "userList");
 	}
-
 	//导出
 	function ExportXls() {
 		JeecgExcelExport("userController.do?exportXls", "userList");
 	}
-
 	//模板下载
 	function ExportXlsByT() {
 		JeecgExcelExport("userController.do?exportXlsByT", "userList");

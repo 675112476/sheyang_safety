@@ -143,7 +143,7 @@
 
     </style>
 
-	<script src='plug-in/jquery/jquery.min.js'></script>
+	<script src="plug-in/joints/jquery.js"></script>
 	<script src='plug-in/autosize/autosize.js'></script>
 	<script type="text/javascript" src="plug-in/date/laydate.dev.js"></script>
 
@@ -183,7 +183,7 @@
 
         <li>
 
-            <h3>巡查公司：</h3>
+            <h3>巡查单位：</h3>
 
             <p><input type="text" name="patrol_factory" id="patrol_factory" /></p>
 
@@ -199,9 +199,9 @@
         <li>
 
             <h3>风险点是否可控：</h3>
-            <button id="is_control" onclick="getRisks();">查询风险点</button>
+            <div style="text-align: left;"><button id="is_control" onclick="getRisks();">查询风险点</button><div>
 				<br/><br/>
-                <form action="http://localhost:8090/insertrisks" id="inputs"></div>
+                <form action="http://218.92.240.39:6390/insertrisks" id="inputs">
 
         </li>
         <li>
@@ -215,7 +215,8 @@
         </li>
         <li class="last">
             
-			<a id="signup" href="#" onclick="sendRecords()">提交</a>
+			<button type="button" id="signup" onclick="sendRecords()">提交</button>
+			<button type="button" id="reset" onclick="reset_func()">重置</button>
 
         </li>
 
@@ -240,9 +241,12 @@
 		}else{
 			var factory=$("#patrol_factory").val();
 			var time=$("#time").val();
+			//http://localhost:8090/getriskpoints
 			console.info(factory);
+			console.info(time);
+			
 			$.ajax({
-				url : "http://localhost:8090/getriskpoints",
+				url : "http://218.92.240.39:6390/getriskpoints",
 				data : {
 					"factory" : factory
 				},
@@ -285,7 +289,7 @@
 	    	var address=$("#address").val();
 	    	var measures=$("#measures").val();
 	    	$.ajax({
-	    		url : "http://localhost:8090/insertrecords",
+	    		url : "http://218.92.240.39:6390/insertrecords",
 	    		data : {
 	    			"patrol_name" : patrol_name,
 	    			"patrol_factory":patrol_factory,
@@ -308,8 +312,16 @@
 	    		}
 	    	});
 		}
-    	
     }
+	function reset_func(){
+		document.getElementById("patrol_name").value="";
+		document.getElementById("patrol_phone").value="";
+		document.getElementById("time").value="";
+		document.getElementById("patrol_factory").value="";
+		document.getElementById("address").value="";
+		document.getElementById("measures").value="";
+		
+	}
 	</script>
     
 </body>
