@@ -37,9 +37,9 @@ public class BluetoothController {
     }
     @RequestMapping("/insertrisks")
     public String insertrisks(@RequestParam("date") String[] date,@RequestParam("factory") String[] factory,
-                              @RequestParam("risk_point") String[] risk_point,@RequestParam("is_control") String[] is_control)
+                              @RequestParam("risk_point") String[] risk_point,@RequestParam("is_control") String[] is_control,HttpServletRequest request)
     {
-        String result=institutionService.insertrisks(date,factory,risk_point,is_control);
+        String result=institutionService.insertrisks(date,factory,risk_point,is_control,request);
         return  result;
     }
     @RequestMapping("test")

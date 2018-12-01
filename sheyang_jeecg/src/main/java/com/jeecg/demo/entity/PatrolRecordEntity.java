@@ -22,7 +22,7 @@ import org.jeecgframework.poi.excel.annotation.Excel;
  * @Title: Entity
  * @Description: 巡查记录
  * @author onlineGenerator
- * @date 2018-11-15 14:52:43
+ * @date 2018-11-29 21:40:30
  * @version V1.0   
  *
  */
@@ -66,7 +66,6 @@ public class PatrolRecordEntity implements java.io.Serializable {
 	@Excel(name="整改措施",width=15)
 	private java.lang.String record;
 	/**风险点是否可控*/
-	@Excel(name="风险点是否可控",width=15,dicCode="yes_or_no")
 	private java.lang.String iscontrol;
 	/**具体地址*/
 	@Excel(name="具体地址",width=15)
@@ -335,7 +334,7 @@ public class PatrolRecordEntity implements java.io.Serializable {
 	 *@return: java.lang.String  风险点是否可控
 	 */
 
-	@Column(name ="ISCONTROL",nullable=false,length=32)
+	@Column(name ="ISCONTROL",nullable=true,length=32)
 	public java.lang.String getIscontrol(){
 		return this.iscontrol;
 	}

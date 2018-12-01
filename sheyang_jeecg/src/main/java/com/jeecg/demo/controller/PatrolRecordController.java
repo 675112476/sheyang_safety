@@ -53,7 +53,7 @@ import org.jeecgframework.core.util.ExceptionUtil;
  * @Title: Controller  
  * @Description: 巡查记录
  * @author onlineGenerator
- * @date 2018-11-15 14:52:43
+ * @date 2018-11-29 21:40:30
  * @version V1.0   
  *
  */
@@ -78,7 +78,6 @@ public class PatrolRecordController extends BaseController {
 	public ModelAndView list(HttpServletRequest request) {
 		return new ModelAndView("com/jeecg/demo/patrolRecordList");
 	}
-	
 
 	/**
 	 * easyui AJAX请求数据

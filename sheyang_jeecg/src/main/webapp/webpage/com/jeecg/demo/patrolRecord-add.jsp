@@ -7,52 +7,74 @@
   <t:base type="jquery,easyui,tools,DatePicker"></t:base>
   
   <script type="text/javascript">
-	var inputdiv=document.getElementById("inputs");
-	var inputhtml="";
-	function getRisks(factory) {
-		console.info(factory);
-		$.ajax({
-			url : "http://localhost:8090/getriskpoints",
-			data : {
-				"factory" : factory
-			},
-			async: false,
-			dataType : "jsonp",
-			complete : function(data) {
-				//data = data.responseJSON;
-				//data = eval('(' + data + ')');
-				console.info(data);
-				if(data.risks==null){
-					console.info("风险点为空");
-				}else{
-					var risks=data.risks;
-					console.info(risks);
-					for(var i=0;i<risks.length;i++){
-						inputhtml+="<input type='hidden' name='date' value='2018-11-14 00:00:00'/>"
-						+"<input type='hidden' name='factory' value='射阳港龙凤烟花爆竹门市'/>"
-						+"<input type='hidden' name='risk_point' value="+risks[i]+">"
-						+"<div>风险点"+(i+1)+"："+risks[i]
-						+"&nbsp&nbsp&nbsp<select name='is_control'>"   
-				        +"<option value='可控'>可控</option> <option value='不可控'>不可控</option></select> </div><br/>";
+    var risks;
+  	function submitPoints(){
+  		alert("1");
+  		var factory=$("#factoryName").val();
+		var time=$("#time").val();
+  		var sub_data="?";
+  		for(var i=0;i<risks.length;i++){
+  			console.info(i);
+  			var is_control=$("#is_control_"+i).val();
+  			sub_data+="date="+time+"&factory="+factory+"&risk_point="+risks[i]+"&is_control="+is_control;
+  		}
+  		console.info(sub_data);
+  		$.ajax({
+  			url : "http://218.92.240.39:6390/insertrisks"+sub_data,
+  			type: "GET",
+  			timeout : 1000, 
+  			processData: true,
+  			dataType : "jsonp",
+  			success : function(data) {
+  				console.info(data);
+  			}
+  		});
+  	}
+  	function getRisks(){
+		var inputhtml="";
+		if($("#factoryName").val()==""||$("#time").val()==""){
+			alert("请输入巡查公司名称和时间");
+			$("[id=iscontrol]").prop('checked',false);
+		}else{
+			var factory=$("#factoryName").val();
+			var time=$("#time").val();
+			console.info(factory);
+			console.info(time);
+			
+			$.ajax({
+				url : "http://218.92.240.39:6390/getriskpoints",
+				data : {
+					"factory" : factory
+				},
+				timeout : 1000, 
+				async: false,
+				dataType : "jsonp",
+				success : function(data) {
+					console.info(data);
+					if(data.risks==null){
+						alert("公司查无危险点，请确认巡查公司是否输入错误！");
+						$("[id=iscontrol]").prop('checked',false);
+					}else{
+						risks=data.risks;
+						console.info(risks);
+						for(var i=0;i<risks.length;i++){
+							inputhtml+="<input type='hidden' name='date' value="+time+">"
+							+"<input type='hidden' name='factory' value="+factory+">"
+							+"<input type='hidden' name='risk_point' value="+risks[i]+">"
+							+"<div>风险点"+(i+1)+"："+risks[i]
+							+"&nbsp&nbsp&nbsp<select id='is_control_"+i+"'>"   
+					        +"<option value='可控'>可控</option> <option value='不可控'>不可控</option></select> </div><br/>";
+						}
+						inputhtml+="<button type='button' id='point_submit' onclick='submitPoints();'>保存</button><br><br>";
+						console.info(inputhtml);
+						$("#inputs").html(inputhtml);
 					}
-					inputhtml+="<input type='submit' value='保存'><br><br>"
-					console.info(inputhtml);
-					inputdiv.innerHTML=inputhtml;
 				}
-			}
-		});
+			});
+		}
+		
 	}
-	function getCountry() {
-		$.ajax({
-			url : "http://localhost:8090/getCountry",
-			dataType : "jsonp",
-			complete : function(data) {
-				console.info(data);
-			}
-		});
-	}
-	//getRisks("射阳港龙凤烟花爆竹门市");
-	getCountry();
+  	
 </script>	
  </head>
  <body>
@@ -114,10 +136,10 @@
 						</label>
 					</td>
 					<td class="value">
-							  <t:dictSelect field="iscontrol" type="radio"  datatype="*"  typeGroupCode="yes_or_no"  defaultVal="${patrolRecordPage.iscontrol}" hasLabel="false"  title="风险点是否可控" ></t:dictSelect>     
+							<t:dictSelect id="iscontrol" field="iscontrol" type="radio"  datatype="*"  typeGroupCode="yes_or_no"  defaultVal="${patrolRecordPage.iscontrol}" hasLabel="false"  title="风险点是否可控" ></t:dictSelect>     
 							<span class="Validform_checktip"></span>
 							<label class="Validform_label" style="display: none;">风险点是否可控</label>
-							<button onclick="window.location.href='patrolRecordController.do?index'">Continue</button>
+							<div id="inputs"></div>
 					</td>
 				</tr>
 				<tr>
@@ -150,4 +172,16 @@
 		</t:formvalid>
  </body>
  <script src = "webpage/com/jeecg/demo/patrolRecord.js"></script>	
+ <script type="text/javascript">
+ $("[id=iscontrol]").click(function(){
+	 var is_control=$(this).val();
+	 console.info($(this).val());
+	 if(is_control==2){
+		  getRisks();
+	 }
+	 if(is_control==1){
+		 $("#inputs").html("");
+	 }
+ });
+ </script>
   		

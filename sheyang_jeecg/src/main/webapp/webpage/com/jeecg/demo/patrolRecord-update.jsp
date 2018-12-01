@@ -64,18 +64,6 @@
 					<tr>
 						<td align="right">
 							<label class="Validform_label">
-								风险点是否可控:
-							</label>
-						</td>
-						<td class="value">
-									<t:dictSelect field="iscontrol" type="radio"  datatype="*"  typeGroupCode="yes_or_no"   defaultVal="${patrolRecordPage.iscontrol}" hasLabel="false"  title="风险点是否可控" ></t:dictSelect>     
-							<span class="Validform_checktip"></span>
-							<label class="Validform_label" style="display: none;">风险点是否可控</label>
-						</td>
-					</tr>
-					<tr>
-						<td align="right">
-							<label class="Validform_label">
 								具体地址:
 							</label>
 						</td>

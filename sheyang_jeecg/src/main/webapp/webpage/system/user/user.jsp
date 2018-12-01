@@ -118,7 +118,7 @@
                 <span class="Validform_checktip"><t:mutiLang langKey="please.muti.department"/></span>
             </td>
 		</tr>
-		
+		<!-- 
 		<tr>
 			<td align="right"><label class="Validform_label"> <t:mutiLang langKey="common.role"/>: </label></td>
 			<td class="value" nowrap>
@@ -128,8 +128,8 @@
                 <span class="Validform_checktip"><t:mutiLang langKey="role.muti.select"/></span>
             </td>
 		</tr>
-		
-		 <!-- 
+		-->
+		 
 		<tr>
 			<td align="right">
 				<label class="Validform_label">
@@ -137,12 +137,13 @@
 				</label>
 			</td>
 			<td class="value">
-					<input id="rolename" name="rolename" type="text" style="width: 150px" class="searchbox-inputtext"  datatype="*"  ignore="checked"   onclick="popupClick(this,'role','rolename','rolename')"   value="${roleName }"/>
+					<input id="roleName" name="roleName" type="text" readonly="readonly" style="width: 150px" class="searchbox-inputtext"  datatype="*"  ignore="checked"   onclick="popupClick(this,'role,rolecode','roleName,roleid','rolename')"   value="${roleName }"/>
+					<input id="roleid" name="roleid" type="hidden" value="${id }"/>
 					<span class="Validform_checktip"></span>
 					<label class="Validform_label" style="display: none;">角色名称</label>
 			</td>
 		</tr>
-		-->
+		
 		
 		<tr>
 			<td align="right" nowrap><label class="Validform_label">  <t:mutiLang langKey="common.phone"/>: </label></td>

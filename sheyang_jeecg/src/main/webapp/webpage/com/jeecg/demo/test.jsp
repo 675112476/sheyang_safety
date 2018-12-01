@@ -322,6 +322,16 @@
 		document.getElementById("measures").value="";
 		
 	}
+	$.ajax({
+        url: "http://218.92.240.39:6390/get",
+        type: "GET",
+        data:{country:"县政府"},
+        dataType: "jsonp",
+        processData: true,
+        success: function(json) {
+        	console.info(json);
+        }
+	});
 	</script>
     
 </body>

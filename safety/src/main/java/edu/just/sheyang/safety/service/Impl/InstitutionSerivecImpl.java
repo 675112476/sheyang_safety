@@ -127,15 +127,16 @@ public class InstitutionSerivecImpl implements InstitutionService {
     }
 
     @Override
-    public String insertrisks(String[] date, String[] factory, String[] risk_point, String[] is_control) {
+    public String insertrisks(String[] date, String[] factory, String[] risk_point, String[] is_control,HttpServletRequest request) {
+        String callback = request.getParameter("callback");
         String result="";
         for(int i=0;i<date.length;i++){
             Riskpoints riskpoint=new Riskpoints(factory[i],risk_point[i],is_control[i],date[i]+" 00:00:00");
             try {
                 riskpointsMapper.insert(riskpoint);
-                result="<script> alert('危险点信息提交成功，如存在危险点不可控，请继续填写整改措施，最终提交巡查记录.');history.go(-1);</script>";
+                result=callback+"("+"<script> alert('危险点信息提交成功，如存在危险点不可控，请继续填写整改措施，最终提交巡查记录.');history.go(-1);</script>"+")";
             }catch (Exception excption){
-                result=excption.toString();
+                result=callback+"("+excption.toString()+")";
             }
         }
         return result;
