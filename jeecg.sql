@@ -11,7 +11,7 @@
  Target Server Version : 50721
  File Encoding         : 65001
 
- Date: 22/11/2018 22:11:32
+ Date: 02/12/2018 20:22:49
 */
 
 SET NAMES utf8mb4;
@@ -348,7 +348,7 @@ INSERT INTO `cgform_field` VALUES ('4028811065d6a9390165d71fd46d003b', '姓名',
 INSERT INTO `cgform_field` VALUES ('4028811065d6a9390165d71fd46f003d', '电话', 'admin', '2018-09-14 16:08:32', '管理员', '', '', '', '', '', 120, 'telephone', 'm', 'N', 'N', 'Y', 'N', 'Y', 'Y', 32, '', '', 'telephone', 14, 0, 'single', 'text', 'string', 'admin', '2018-09-26 13:53:19', '管理员', '4028811065d6a9390165d71fd4640030', '', '');
 INSERT INTO `cgform_field` VALUES ('4028811065d6a9390165d71fd46f003e', '电子邮件', 'admin', '2018-09-14 16:08:32', '管理员', '', '', '', '', '', 120, 'mail', 'e', 'N', 'N', 'Y', 'N', 'Y', 'Y', 32, '', '', 'mail', 15, 0, 'single', 'text', 'string', 'admin', '2018-09-26 13:53:19', '管理员', '4028811065d6a9390165d71fd4640030', '', '');
 INSERT INTO `cgform_field` VALUES ('4028811065d6a9390165d72558550041', '所属机构', 'admin', '2018-09-14 16:14:34', '管理员', 'institution_name', 'institution', 'institution_name', '', '', 120, 'leader_institution', '', 'N', 'N', 'Y', 'N', 'Y', 'Y', 32, '', '', 'leader_institution', 14, 0, 'single', 'list', 'string', 'admin', '2018-09-17 16:10:11', '管理员', '402882fe65c318270165c65d68bc00a9', '', '');
-INSERT INTO `cgform_field` VALUES ('4028811065d6a9390165d72f9e660048', '巡查公司', 'admin', '2018-09-14 16:25:47', '管理员', 'factory_name', 'patrol_factory', 'factory', '', '', 120, 'factory_name', '*', 'N', 'N', 'N', 'N', 'Y', 'Y', 32, '', '', 'factory_name', 14, 0, 'single', 'popup', 'string', 'admin', '2018-11-12 16:47:59', '管理员', '4028e4f765cb78300165cbce0cc60004', '', '');
+INSERT INTO `cgform_field` VALUES ('4028811065d6a9390165d72f9e660048', '巡查公司', 'admin', '2018-09-14 16:25:47', '管理员', 'factory_name', 'patrol_factory', 'factory', '', '', 120, 'factory_name', '*', 'N', 'N', 'N', 'N', 'Y', 'Y', 32, '', '', 'factory_name', 14, 0, 'single', 'popup', 'string', 'admin', '2018-12-02 14:07:40', '管理员', '4028e4f765cb78300165cbce0cc60004', '', '');
 INSERT INTO `cgform_field` VALUES ('4028811065d6a9390165d731152a004b', '主键', 'admin', '2018-09-14 16:27:23', '管理员', '', '', '', '', '', 120, 'id', '', 'N', 'Y', 'N', 'N', 'N', 'N', 36, '', '', 'id', 1, 0, 'single', 'text', 'string', NULL, NULL, NULL, '4028811065d6a9390165d7311529004a', '', '');
 INSERT INTO `cgform_field` VALUES ('4028811065d6a9390165d731152b004c', '创建人名称', 'admin', '2018-09-14 16:27:23', '管理员', '', '', '', '', '', 120, 'create_name', '', 'N', 'N', 'Y', 'N', 'N', 'N', 50, '', '', 'create_name', 2, 0, 'single', 'text', 'string', NULL, NULL, NULL, '4028811065d6a9390165d7311529004a', '', '');
 INSERT INTO `cgform_field` VALUES ('4028811065d6a9390165d731152b004d', '创建人登录名称', 'admin', '2018-09-14 16:27:23', '管理员', '', '', '', '', '', 120, 'create_by', '', 'N', 'N', 'Y', 'N', 'N', 'N', 50, '', '', 'create_by', 3, 0, 'single', 'text', 'string', NULL, NULL, NULL, '4028811065d6a9390165d7311529004a', '', '');
@@ -813,11 +813,11 @@ INSERT INTO `cgform_field` VALUES ('4028e4f066f748960166f7893e24006b', '危险�
 INSERT INTO `cgform_field` VALUES ('4028e4f066f748960166f7893e25006c', '父节点', 'admin', '2018-11-09 16:14:19', '管理员', '', '', '', '', '', 120, 'parent_id', '', 'N', 'N', 'Y', 'N', 'Y', 'N', 32, '', '', 'parent_id', 13, 0, 'single', 'text', 'string', 'admin', '2018-11-09 16:20:51', '管理员', '4028e4f066f748960166f7893e1e005f', '', '');
 INSERT INTO `cgform_field` VALUES ('4028e4f26613807001661470593e0019', '登陆账户', 'admin', '2018-09-26 13:53:19', '管理员', '', '', '', '', '', 120, 'logid', '', 'N', 'N', 'Y', 'N', 'Y', 'Y', 32, '', '', 'logid', 11, 0, 'single', 'text', 'string', NULL, NULL, NULL, '4028811065d6a9390165d71fd4640030', '', '');
 INSERT INTO `cgform_field` VALUES ('4028e4f266138070016614c2dda0002a', '单位介绍', 'admin', '2018-09-26 15:23:27', '管理员', '', '', '', '', '', 350, 'factory_introduction', '', 'N', 'N', 'Y', 'N', 'Y', 'N', 2000, '', '', 'factory_introduction', 18, 0, 'single', 'textarea', 'string', 'admin', '2018-11-13 15:01:14', '管理员', '4028811065d6a9390165d736623c005a', '', '');
-INSERT INTO `cgform_field` VALUES ('4028e4f2661380700166150e2f780047', '风险点是否可控', 'admin', '2018-09-26 16:45:43', '管理员', 'yes_or_no', '', '', '', '', 120, 'iscontrol', '', 'N', 'N', 'Y', 'Y', 'N', 'N', 32, '', '', 'iscontrol', 16, 0, 'single', 'radio', 'string', 'admin', '2018-11-20 22:53:47', '管理员', '4028e4f765cb78300165cbce0cc60004', '', '');
+INSERT INTO `cgform_field` VALUES ('4028e4f2661380700166150e2f780047', '风险点是否可控', 'admin', '2018-09-26 16:45:43', '管理员', 'yes_or_no', '', '', '', '', 120, 'iscontrol', '', 'N', 'N', 'Y', 'Y', 'N', 'Y', 32, '', '', 'iscontrol', 16, 0, 'single', 'radio', 'string', 'admin', '2018-11-22 23:06:26', '管理员', '4028e4f765cb78300165cbce0cc60004', '', '');
 INSERT INTO `cgform_field` VALUES ('4028e4f26613807001661533ec97005c', '监管行业', 'admin', '2018-09-26 17:26:56', '管理员', 'A04', '', '', '', '', 120, 'industry', '', 'N', 'N', 'Y', 'N', 'Y', 'N', 300, '', '', 'industry', 14, 0, 'single', 'tree', 'string', 'admin', '2018-10-14 15:49:30', '管理员', '4028811065d6a9390165d73782f3006b', '', '');
 INSERT INTO `cgform_field` VALUES ('4028e4f46661c30b01666203b97f0018', '是否巡查员', 'admin', '2018-10-11 15:25:03', '管理员', 'yes_or_no', '', '', '', '', 120, 'is_patrol_person', '', 'N', 'N', 'N', 'N', 'Y', 'Y', 32, '', '', 'is_patrol_person', 17, 0, 'single', 'radio', 'string', 'admin', '2018-10-11 16:44:13', '管理员', '4028811065d6a9390165d73782f3006b', '', '');
 INSERT INTO `cgform_field` VALUES ('4028e4f46661c30b0166620c0266001e', '部门岗位', 'admin', '2018-10-11 15:34:06', '管理员', '', '', '', '', '', 120, 'depart_display', '', 'N', 'N', 'Y', 'N', 'N', 'Y', 128, '', '', 'depart_display', 18, 0, 'single', 'text', 'string', 'admin', '2018-10-11 17:08:21', '管理员', '4028811065d6a9390165d73782f3006b', '', '');
-INSERT INTO `cgform_field` VALUES ('4028e4f765cb78300165cbce0cc70005', '主键', 'admin', '2018-09-12 11:23:23', '管理员', '', '', '', '', '', 120, 'id', '', 'N', 'Y', 'N', 'N', 'N', 'N', 20, '', '', 'id', 1, 0, 'single', 'text', 'int', 'admin', '2018-11-20 18:49:21', '管理员', '4028e4f765cb78300165cbce0cc60004', '', '');
+INSERT INTO `cgform_field` VALUES ('4028e4f765cb78300165cbce0cc70005', '主键', 'admin', '2018-09-12 11:23:23', '管理员', '', '', '', '', '', 120, 'id', '', 'N', 'Y', 'N', 'N', 'N', 'N', 36, '', '', 'id', 1, 0, 'single', 'text', 'string', '戴元阳', '2018-12-02 19:06:05', '戴元阳', '4028e4f765cb78300165cbce0cc60004', '', '');
 INSERT INTO `cgform_field` VALUES ('4028e4f765cb78300165cbce0cca0006', '创建人名称', 'admin', '2018-09-12 11:23:23', '管理员', '', '', '', '', '', 120, 'create_name', '', 'N', 'N', 'Y', 'N', 'N', 'N', 50, '', '', 'create_name', 2, 0, 'single', 'text', 'string', NULL, NULL, NULL, '4028e4f765cb78300165cbce0cc60004', '', '');
 INSERT INTO `cgform_field` VALUES ('4028e4f765cb78300165cbce0ccb0007', '创建人登录名称', 'admin', '2018-09-12 11:23:23', '管理员', '', '', '', '', '', 120, 'create_by', '', 'N', 'N', 'Y', 'N', 'N', 'N', 50, '', '', 'create_by', 3, 0, 'single', 'text', 'string', NULL, NULL, NULL, '4028e4f765cb78300165cbce0cc60004', '', '');
 INSERT INTO `cgform_field` VALUES ('4028e4f765cb78300165cbce0ccc0008', '创建日期', 'admin', '2018-09-12 11:23:23', '管理员', '', '', '', '', '', 120, 'create_date', '', 'N', 'N', 'Y', 'N', 'N', 'N', 20, '', '', 'create_date', 4, 0, 'single', 'date', 'Date', NULL, NULL, NULL, '4028e4f765cb78300165cbce0cc60004', '', '');
@@ -1026,7 +1026,7 @@ INSERT INTO `cgform_head` VALUES ('4028e4ed65e68f1c0165e85176690069', '检查人
 INSERT INTO `cgform_head` VALUES ('4028e4ef65fa10170165fa287f300004', 't_s_category', 'admin', '2018-09-21 11:24:43', '管理员', 'Y', 'Y', 'Y', 'N', '', 'UUID', 1, '7', 'group', 0, NULL, NULL, 't_s_category', 'admin', '2018-09-23 13:55:31', '管理员', NULL, 'id', NULL, 'bdfl_include', '', '', '', NULL, NULL);
 INSERT INTO `cgform_head` VALUES ('4028e4f066f748960166f7813f280046', '公司危险点', 'admin', '2018-11-09 16:05:35', '管理员', 'N', 'Y', 'Y', 'N', '', 'NATIVE', 1, '7', 'single', 0, NULL, NULL, 'riskpoints', 'admin', '2018-11-13 16:56:30', '管理员', NULL, 'id', NULL, 'bdfl_include', '', '', '', NULL, NULL);
 INSERT INTO `cgform_head` VALUES ('4028e4f066f748960166f7893e1e005f', '危险点', 'admin', '2018-11-09 16:14:19', '管理员', 'N', 'Y', 'Y', 'Y', '', 'UUID', 1, '6', 'single', 0, NULL, NULL, 'risks', 'admin', '2018-11-09 16:20:53', '管理员', 'parent_id', 'id', 'risk_name', 'bdfl_include', '', '', '', NULL, NULL);
-INSERT INTO `cgform_head` VALUES ('4028e4f765cb78300165cbce0cc60004', '巡查记录', 'admin', '2018-09-12 11:23:23', '管理员', 'N', 'Y', 'Y', 'N', '', 'NATIVE', 1, '74', 'group', 0, NULL, NULL, 'patrol_record', 'admin', '2018-11-20 22:53:47', '管理员', NULL, 'id', NULL, 'bdfl_include', '', '', '', NULL, NULL);
+INSERT INTO `cgform_head` VALUES ('4028e4f765cb78300165cbce0cc60004', '巡查记录', 'admin', '2018-09-12 11:23:23', '管理员', 'N', 'Y', 'Y', 'N', '', 'UUID', 1, '78', 'group', 0, NULL, NULL, 'patrol_record', 'admin', '2018-12-02 19:06:22', '管理员', NULL, 'id', NULL, 'bdfl_include', '', '', '', NULL, NULL);
 INSERT INTO `cgform_head` VALUES ('4028ef815673c48f015673c557af0003', '地铁站点', 'admin', '2016-08-10 17:25:28', '管理员', 'N', 'N', 'Y', 'N', '', 'UUID', 1, '1', 'single', 0, NULL, NULL, 'test_ditie__0', 'admin', '2016-08-10 17:28:08', '管理员', NULL, 'id', NULL, 'bdfl_ptbd', 'RowsEdit', '', '1', 0, '4028ef8156176adb015617801ebd0001');
 INSERT INTO `cgform_head` VALUES ('4028ef815673c48f015673c775d70012', '地铁站点', 'admin', '2016-08-10 17:27:46', '管理员', 'N', 'N', 'Y', 'N', '', 'UUID', 1, '1', 'single', 0, NULL, NULL, 'test_ditie__1', NULL, NULL, NULL, NULL, 'id', NULL, 'bdfl_ptbd', 'RowsEdit', '', '1', 1, '4028ef8156176adb015617801ebd0001');
 INSERT INTO `cgform_head` VALUES ('4028ef815673ecb9015673f080160001', '工作信息表', 'admin', '2016-08-10 18:12:36', '管理员', 'Y', 'N', 'Y', 'N', '', 'UUID', 3, '1', 'group', 0, NULL, NULL, 'jform_resume_exp_info__0', 'admin', '2017-03-01 21:57:47', '管理员', NULL, 'id', NULL, 'bdfl_ptbd', '', '', '1', 0, '402881e4534c0aea01534c0cfca50012');
@@ -1801,9 +1801,9 @@ INSERT INTO `jform_cgreport_head` VALUES ('402882fe65dbc3ed0165de3108ae004a', 's
 INSERT INTO `jform_cgreport_head` VALUES ('402882fe65dbc3ed0165e65cf7dc0093', 'select person_name from person where status=\"分管县长\"', 'fenguan', '', '分管县长', '管理员', '2018-09-26 12:57:10', 'admin', NULL, NULL, NULL, '', '', '', '1');
 INSERT INTO `jform_cgreport_head` VALUES ('402882fe65dbc3ed0165e66068970096', 'select person_name from person where status like \"%局长\"', 'juzhang', '', '局长', '管理员', '2018-09-23 18:00:58', 'admin', NULL, NULL, NULL, '', '', '', '1');
 INSERT INTO `jform_cgreport_head` VALUES ('402882fe6623c1e6016623caef870003', 'select factory_name from factory', 'factory', '', '公司', '管理员', '2018-11-13 15:09:22', 'admin', NULL, NULL, NULL, '', '', '', '1');
-INSERT INTO `jform_cgreport_head` VALUES ('402882fe6623c1e6016623ce7a360007', 'select realname,telephone from t_s_base_user where username=\'${sys_user_code}\'', 'xunchayuan', '', '巡查员', '管理员', '2018-11-02 11:10:44', 'admin', NULL, NULL, NULL, '', '', '', '1');
+INSERT INTO `jform_cgreport_head` VALUES ('402882fe6623c1e6016623ce7a360007', 'select realname,telephone from t_s_base_user ', 'xunchayuan', '', '巡查员', '管理员', '2018-12-02 19:01:07', 'admin', NULL, NULL, NULL, '', '', '', '1');
 INSERT INTO `jform_cgreport_head` VALUES ('402882fe6701cf91016701d1e72a0001', 'select role from user_name where username = \'${sys_user_code}\'', 'rolename', '', '角色', '管理员', '2018-11-16 14:12:34', 'admin', NULL, NULL, NULL, '', '', '', '1');
-INSERT INTO `jform_cgreport_head` VALUES ('4028abc666769dd2016676edb32d003c', 'select factory from patrol_factory where person_name=\'${sys_user_code}\'', 'patrol_factory', '', '监察公司', '管理员', '2018-11-11 16:43:57', 'admin', NULL, NULL, NULL, '', '', '', '1');
+INSERT INTO `jform_cgreport_head` VALUES ('4028abc666769dd2016676edb32d003c', 'select factory from patrol_factory', 'patrol_factory', '', '监察公司', '戴元阳', '2018-12-02 19:04:31', '戴元阳', NULL, NULL, NULL, '', '', '', '1');
 INSERT INTO `jform_cgreport_head` VALUES ('4028e4ed65e68f1c0165e7828a710031', 'select place_name from place where place_rank=1 ', 'Zhen', '', '镇', '管理员', '2018-09-27 16:03:24', 'admin', NULL, NULL, NULL, '', '', '', '1');
 INSERT INTO `jform_cgreport_head` VALUES ('4028e4ed65e68f1c0165e78300ba0034', 'select place_name from place where place_rank=2 ', 'Cunwei', '', '村', '管理员', '2018-09-17 20:40:09', 'admin', NULL, NULL, NULL, '', '', '', '1');
 INSERT INTO `jform_cgreport_head` VALUES ('4028e4ed65e68f1c0165e78344760037', 'select place_name from place where place_rank=3', 'Jiedao', '', '街道', '管理员', '2018-09-17 20:45:51', 'admin', NULL, NULL, NULL, '', '', '', '1');
@@ -1888,15 +1888,15 @@ INSERT INTO `jform_cgreport_item` VALUES ('402881f36402f3de016403035d31000d', ''
 INSERT INTO `jform_cgreport_item` VALUES ('402881f36402f3de016403035d31000e', '', '', '402880e64eb9a22c014eb9a4d5890001', '', '', 'user_name_en', 'user_name_en', 'String', 'Y', 10, '');
 INSERT INTO `jform_cgreport_item` VALUES ('402881f36402f3de016403035d32000f', '', '', '402880e64eb9a22c014eb9a4d5890001', '', '', 'delete_flag', 'delete_flag', 'String', 'Y', 11, '');
 INSERT INTO `jform_cgreport_item` VALUES ('402882fe6616269a01661a0dcc63004b', '', '', '4028e4ed65e68f1c0165e7828a710031', '', '', 'place_name', '镇名称', 'String', 'Y', 0, '');
-INSERT INTO `jform_cgreport_item` VALUES ('402882fe6701cf91016701f119a40057', '', '', '4028abc666769dd2016676edb32d003c', '', '', 'factory', 'factory', 'String', 'Y', 0, '');
 INSERT INTO `jform_cgreport_item` VALUES ('402894815165f4d60151660145e40002', 'Y', 'single', '402880e74d76e784014d76f9e783001e', '', '', 'account', '用户账号', 'String', 'Y', 0, '');
 INSERT INTO `jform_cgreport_item` VALUES ('402894815165f4d60151660145ea0003', 'Y', 'single', '402880e74d76e784014d76f9e783001e', '', '', 'realname', '用户名字', 'String', 'Y', 1, '');
 INSERT INTO `jform_cgreport_item` VALUES ('4028e4ed65e68f1c0165e784eac7003c', 'Y', 'single', '4028e4ed65e68f1c0165e78344760037', '', '', 'place_name', '街道名称', 'String', 'Y', 0, '');
 INSERT INTO `jform_cgreport_item` VALUES ('4028e4ed65e68f1c0165e78771190040', 'Y', 'single', '4028e4ed65e68f1c0165e78300ba0034', '', '', 'place_name', '村委名称', 'String', 'Y', 0, '');
 INSERT INTO `jform_cgreport_item` VALUES ('4028e4f2661380700166143cf0d3000d', 'Y', 'single', '402882fe65dbc3ed0165e65cf7dc0093', '', '', 'person_name', '分管县长', 'String', 'Y', 0, '');
 INSERT INTO `jform_cgreport_item` VALUES ('4028e4f2661380700166143d3b39000f', '', '', '402882fe65dbc3ed0165de3108ae004a', '', '', 'person_name', '县长', 'String', 'Y', 0, '');
-INSERT INTO `jform_cgreport_item` VALUES ('8a818a0e66cfcfdb0166d266c9ae0018', '', '', '402882fe6623c1e6016623ce7a360007', '', '', 'realname', '姓名', 'String', 'Y', 0, '');
-INSERT INTO `jform_cgreport_item` VALUES ('8a818a0e66cfcfdb0166d266c9ae0019', '', '', '402882fe6623c1e6016623ce7a360007', '', '', 'telephone', '电话', 'String', 'Y', 1, '');
+INSERT INTO `jform_cgreport_item` VALUES ('8a818a0e676aae4e01676e943acc001e', '', '', '402882fe6623c1e6016623ce7a360007', '', '', 'realname', '姓名', 'String', 'Y', 0, '');
+INSERT INTO `jform_cgreport_item` VALUES ('8a818a0e676aae4e01676e943acd001f', '', '', '402882fe6623c1e6016623ce7a360007', '', '', 'telephone', '电话', 'String', 'Y', 1, '');
+INSERT INTO `jform_cgreport_item` VALUES ('8a818a0e676aae4e01676e97550d0024', '', '', '4028abc666769dd2016676edb32d003c', '', '', 'factory', '公司', 'String', 'Y', 0, '');
 INSERT INTO `jform_cgreport_item` VALUES ('ff808081671861e801671b264c170046', '', '', '402882fe6701cf91016701d1e72a0001', '', '', 'role', '角色', 'String', 'Y', 0, '');
 
 -- ----------------------------
@@ -1926,8 +1926,6 @@ CREATE TABLE `jform_cgreport_param`  (
 -- Records of jform_cgreport_param
 -- ----------------------------
 INSERT INTO `jform_cgreport_param` VALUES ('402881f36402f3de016403035d350010', '管理员', 'admin', '2018-06-15 18:35:09', NULL, NULL, NULL, 'A03', 'A03', 'usekey', 'usekey', '', 0, '402880e64eb9a22c014eb9a4d5890001');
-INSERT INTO `jform_cgreport_param` VALUES ('402882fe6701cf91016701f119a50058', '管理员', 'admin', '2018-11-11 16:43:57', NULL, NULL, NULL, 'A05', 'A05', 'sys_user_code', 'sys_user_code', '', 0, '4028abc666769dd2016676edb32d003c');
-INSERT INTO `jform_cgreport_param` VALUES ('8a818a0e66cfcfdb0166d266c9af001a', '管理员', 'admin', '2018-11-02 11:10:44', NULL, NULL, NULL, 'A05', 'A05', 'sys_user_code', 'sys_user_code', '', 0, '402882fe6623c1e6016623ce7a360007');
 INSERT INTO `jform_cgreport_param` VALUES ('ff808081671861e801671b264c190047', '管理员', 'admin', '2018-11-16 14:12:34', NULL, NULL, NULL, 'A05', 'A05', 'sys_user_code', 'sys_user_code', '', 0, '402882fe6701cf91016701d1e72a0001');
 
 -- ----------------------------
@@ -3165,7 +3163,7 @@ CREATE TABLE `patrol_person`  (
 -- ----------------------------
 DROP TABLE IF EXISTS `patrol_record`;
 CREATE TABLE `patrol_record`  (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `id` varchar(36) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '主键',
   `create_name` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '创建人名称',
   `create_by` varchar(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '创建人登录名称',
   `create_date` datetime(0) NULL DEFAULT NULL COMMENT '创建日期',
@@ -3179,18 +3177,17 @@ CREATE TABLE `patrol_record`  (
   `telephone` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '巡查员电话',
   `time` datetime(0) NOT NULL COMMENT '巡查时间',
   `factory_name` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '巡查公司',
-  `record` longtext CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '整改措施',
+  `record` varchar(3255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '整改措施',
   `iscontrol` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '风险点是否可控',
   `location` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '具体地址',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 16 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of patrol_record
 -- ----------------------------
-INSERT INTO `patrol_record` VALUES (13, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2314', '321341', '2018-11-22 00:00:00', '碧蓝宾馆', '111', '不可控', '111');
-INSERT INTO `patrol_record` VALUES (14, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2额人', '2额', '2018-11-26 00:00:00', '射阳港龙凤烟花爆竹门市', '', '不可控', '');
-INSERT INTO `patrol_record` VALUES (15, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '2的 ', '对外屈服', '2018-11-29 00:00:00', '射阳港龙凤烟花爆竹门市', '', '可控', '');
+INSERT INTO `patrol_record` VALUES ('402882fe676a251601676ebbe57e008f', '管理员', 'admin', '2018-12-02 19:44:27', NULL, NULL, NULL, 'A05', 'A05', '1', '王富贵', '', '2018-12-07 00:00:00', '射阳港龙凤烟花爆竹门市', '123', '2', '');
+INSERT INTO `patrol_record` VALUES ('8a818a0e676aae4e01676e99a1780029', '戴元阳', '戴元阳', '2018-12-02 19:07:01', NULL, NULL, NULL, 'A05A02A01A01', 'A05', '1', '戴元阳', '', '2018-12-06 00:00:00', '射阳港龙凤烟花爆竹门市', '123', '2', '');
 
 -- ----------------------------
 -- Table structure for person
@@ -3301,18 +3298,14 @@ CREATE TABLE `riskpoints`  (
   `iscontrol` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '是否可控',
   `time` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL COMMENT '时间',
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 62 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 102 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of riskpoints
 -- ----------------------------
-INSERT INTO `riskpoints` VALUES (55, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '碧蓝宾馆', '电力设备', '不可控', '2018-11-22 00:00:00');
-INSERT INTO `riskpoints` VALUES (56, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '射阳港龙凤烟花爆竹门市', '电力问题', '不可控', '2018-11-26 00:00:00');
-INSERT INTO `riskpoints` VALUES (57, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '射阳港龙凤烟花爆竹门市', '电力设备', '可控', '2018-11-26 00:00:00');
-INSERT INTO `riskpoints` VALUES (58, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '射阳港龙凤烟花爆竹门市', '漏电', '可控', '2018-11-26 00:00:00');
-INSERT INTO `riskpoints` VALUES (59, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '射阳港龙凤烟花爆竹门市', '电力问题', '可控', '2018-11-29 00:00:00');
-INSERT INTO `riskpoints` VALUES (60, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '射阳港龙凤烟花爆竹门市', '电力设备', '可控', '2018-11-29 00:00:00');
-INSERT INTO `riskpoints` VALUES (61, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '射阳港龙凤烟花爆竹门市', '漏电', '可控', '2018-11-29 00:00:00');
+INSERT INTO `riskpoints` VALUES (99, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '射阳港龙凤烟花爆竹门市', '电力问题', '可控', '2018-12-07 00:00:00');
+INSERT INTO `riskpoints` VALUES (100, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '射阳港龙凤烟花爆竹门市', '电力设备', '不可控', '2018-12-07 00:00:00');
+INSERT INTO `riskpoints` VALUES (101, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '射阳港龙凤烟花爆竹门市', '漏电', '可控', '2018-12-07 00:00:00');
 
 -- ----------------------------
 -- Table structure for risks
@@ -3673,7 +3666,7 @@ INSERT INTO `t_s_base_user` VALUES ('2c93867366782a5401667c1c26990023', NULL, NU
 INSERT INTO `t_s_base_user` VALUES ('2c93867366782a5401667c40c269003d', NULL, NULL, '3a78de38035e0eec', '王富贵', NULL, 1, NULL, '王富贵', '40288110665d2edf01665ea08b830032', NULL, 1, '', NULL);
 INSERT INTO `t_s_base_user` VALUES ('2c93867366782a5401667cfa8a600064', NULL, NULL, 'cc43d6714d3c1cd6', '王甫贵', NULL, 1, NULL, '王甫贵', '40288110665d2edf01665ea08b830032', NULL, 0, '', 'temp%');
 INSERT INTO `t_s_base_user` VALUES ('4028318163a6865d0163a68bef49000a', 0, NULL, 'f8660132d963d2f1', 'ggg7', NULL, 1, NULL, 'gggg', NULL, NULL, 0, '', NULL);
-INSERT INTO `t_s_base_user` VALUES ('402881016667249e0166675997060033', NULL, NULL, '530d4a7cc8b8f76da9032b0026ed4886', '徐旭东', NULL, 1, NULL, '徐旭东', '402881016667249e01666758348a002d', NULL, 0, '', '010101%');
+INSERT INTO `t_s_base_user` VALUES ('402881016667249e0166675997060033', NULL, NULL, 'd8962e1e1c92834d', '徐旭东', NULL, 1, NULL, '徐旭东', '402881016667249e01666758348a002d', NULL, 0, '', '010101%');
 INSERT INTO `t_s_base_user` VALUES ('402881106651506e016651727705004a', NULL, NULL, 'f638659e47ddb4ea', '安监管理员', NULL, 1, NULL, 'ajadmin', '40288110665d2edf01665ea08b830032', NULL, 0, '', '0101%');
 INSERT INTO `t_s_base_user` VALUES ('40288110665180bc016651adae81003a', NULL, NULL, '681beadbdfb166cd', '唐敬', NULL, 1, NULL, '唐敬', '40288110665d2edf01665eb0c412003f', NULL, 0, '', '010101%');
 INSERT INTO `t_s_base_user` VALUES ('40288110665180bc016651af738f0042', NULL, NULL, '5058ef5e9ec5ecd56a229be82a5c8ff7', '戴翠芳', NULL, 1, NULL, '戴翠芳', '4028e4f46660d0a10166611e9f430020', NULL, 0, '', '010101%');
@@ -3683,14 +3676,14 @@ INSERT INTO `t_s_base_user` VALUES ('4028811066528a1b016652bbfb13000e', NULL, NU
 INSERT INTO `t_s_base_user` VALUES ('4028811066621bc80166624fe96e0025', NULL, NULL, '4cb1750b12fad15a3aa45c37a86eb185', '尤春月', NULL, 1, NULL, '尤春月', '4028e4f46660d0a10166612062930026', '', 0, '', '010101%');
 INSERT INTO `t_s_base_user` VALUES ('4028811066621bc801666259a0a80029', NULL, NULL, 'b5ac5fc31cec8bae', '唐菱', NULL, 1, NULL, '唐菱', NULL, '', 0, '', '010101%');
 INSERT INTO `t_s_base_user` VALUES ('4028811066621bc801666272f7890030', NULL, NULL, '5c73c4fdc20e5402857bfaf1c30ef1ea', '邓海峰', NULL, 1, NULL, '邓海峰', '40288101666bf06c01666c1fb0ad003e', '', 0, '', '010101%');
-INSERT INTO `t_s_base_user` VALUES ('4028811066621bc801666273c5400033', NULL, NULL, '9edb8cfedfd77ff3c2a86647ff5ce63b', '戴元阳', NULL, 1, NULL, '戴元阳', '40288101666bf06c01666c20e8970047', '', 0, '', '01010102%');
+INSERT INTO `t_s_base_user` VALUES ('4028811066621bc801666273c5400033', NULL, NULL, '5d494c5e0f462d39', '戴元阳', NULL, 1, NULL, '戴元阳', '40288101666bf06c01666c20e8970047', '', 0, '', '01010102%');
 INSERT INTO `t_s_base_user` VALUES ('402881875988e889015988ec36770001', NULL, NULL, 'f68bb6f881b0ebe0', '7777', NULL, 1, 'demo', '777', NULL, NULL, 1, '', NULL);
 INSERT INTO `t_s_base_user` VALUES ('402881e75f159dc3015f15a76fa80004', NULL, NULL, '7e0d5072ccc45286820b07d055078382', 'junit demo', NULL, 1, NULL, 'zhangsan', NULL, NULL, 1, '', NULL);
 INSERT INTO `t_s_base_user` VALUES ('402881e75f15a91c015f15a9bd550000', NULL, NULL, '7e0d5072ccc45286820b07d055078382', 'junit demo', NULL, 1, NULL, 'zhangsan', NULL, NULL, 1, '', NULL);
 INSERT INTO `t_s_base_user` VALUES ('402881e75f15a91c015f15aa5bb50001', NULL, NULL, '7e0d5072ccc45286820b07d055078382', 'junit demo', NULL, 1, NULL, 'zhangsan', NULL, NULL, 1, '', NULL);
 INSERT INTO `t_s_base_user` VALUES ('402881f3639157630163915af2100006', 0, NULL, '555dd29cd2a418ef2fce1b1c2047cdcd', '测试接口用户6', NULL, 1, NULL, 'interfaceuser', NULL, NULL, 0, '', NULL);
 INSERT INTO `t_s_base_user` VALUES ('402881fc60a1cbe40160a1f080620011', 0, NULL, 'ac4a5a2da439ab01', '接口权限测试用户', NULL, 1, NULL, 'test', NULL, '', 0, '13552579746', NULL);
-INSERT INTO `t_s_base_user` VALUES ('4028abc666769dd2016676cdd09d0017', NULL, NULL, 'f11adf5498fd64df69cc140d0d32779d', '戴振华', NULL, 1, NULL, '戴振华', '40288101666bf06c01666c211e530049', NULL, 0, '18852861262', '01010102%');
+INSERT INTO `t_s_base_user` VALUES ('4028abc666769dd2016676cdd09d0017', NULL, NULL, 'f083a7dbe2dad83f', '戴振华', NULL, 1, NULL, '戴振华', '40288101666bf06c01666c211e530049', NULL, 0, '18852861262', '01010102%');
 INSERT INTO `t_s_base_user` VALUES ('4028abc666769dd2016676dcaacd0023', NULL, NULL, '2c0a8ee742f14a1c', '张旭', NULL, 1, NULL, 'zhangxu', '40288110665d2edf01665ea08b830032', NULL, 0, '18852861262', 'temp%');
 INSERT INTO `t_s_base_user` VALUES ('4028ef81563ae5be01563ae92d7f0002', NULL, NULL, 'bff95c03433b66af', '999', NULL, 1, 'demo', '999', NULL, NULL, 1, '', NULL);
 INSERT INTO `t_s_base_user` VALUES ('8a8ab0b246dc81120146dc8181950052', NULL, NULL, 'c44b01947c9e6e3f', '管理员', NULL, 1, '管理员', 'admin', '40288110665d2edf01665ea08b830032', NULL, 0, '', '01%');
@@ -4349,8 +4342,8 @@ INSERT INTO `t_s_function` VALUES ('4028811065d6a9390165d74fd2af008b', NULL, 1, 
 INSERT INTO `t_s_function` VALUES ('4028811065d6a9390165d751098e008f', NULL, 1, '行业管理', '1', 'cgAutoListController.do?list&id=industry', '4028e4f765cb78300165cbceca710014', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, '', 'admin', '管理员', 'admin', '2018-10-16 15:59:05', '2018-09-14 17:02:17', '管理员');
 INSERT INTO `t_s_function` VALUES ('4028811065d6a9390165d75156ac0091', NULL, 1, '监管网格管理', '1', 'cgAutoListController.do?list&id=institution', '402882fe65c318270165c78f355d00c0', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, '', 'admin', '管理员', 'admin', '2018-10-09 16:53:59', '2018-09-14 17:02:37', '管理员');
 INSERT INTO `t_s_function` VALUES ('4028811065d6a9390165d75302be0095', NULL, 1, '生产经营单位信息管理', '4', 'cgAutoListController.do?list&id=factory', '402882fe65c318270165c78f355d00c0', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, '', 'admin', '管理员', 'admin', '2018-10-16 18:15:40', '2018-09-14 17:04:26', '管理员');
-INSERT INTO `t_s_function` VALUES ('402881106651506e0166516d5f86002a', NULL, 1, '巡查统计图表', '2', 'cgDynamGraphController.do?design&id=patrol_date', '4028e4e565d19ef70165d1b657a20001', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, '', 'admin', '管理员', NULL, NULL, '2018-10-08 10:06:54', NULL);
-INSERT INTO `t_s_function` VALUES ('402881106651506e0166516dc412002c', NULL, 1, '危险点可控分布', '3', 'cgDynamGraphController.do?design&id=iscontrol', '4028e4e565d19ef70165d1b657a20001', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, '', 'admin', '管理员', 'admin', '2018-10-08 10:09:45', '2018-10-08 10:07:20', '管理员');
+INSERT INTO `t_s_function` VALUES ('402881106651506e0166516d5f86002a', NULL, 1, '巡查统计图表', '3', 'cgDynamGraphController.do?design&id=patrol_date', '4028e4e565d19ef70165d1b657a20001', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, '', 'admin', '管理员', 'admin', '2018-11-22 22:52:44', '2018-10-08 10:06:54', '管理员');
+INSERT INTO `t_s_function` VALUES ('402881106651506e0166516dc412002c', NULL, 1, '危险点可控分布', '4', 'cgDynamGraphController.do?design&id=iscontrol', '4028e4e565d19ef70165d1b657a20001', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, '', 'admin', '管理员', 'admin', '2018-11-22 22:52:55', '2018-10-08 10:07:20', '管理员');
 INSERT INTO `t_s_function` VALUES ('402881106651506e016651711a570039', NULL, 1, '行业分布图', '4', 'cgDynamGraphController.do?design&id=company_industry', '4028e4f765cb78300165cbceca710014', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, '', 'admin', '管理员', 'admin', '2018-10-16 18:15:55', '2018-10-08 10:10:59', '管理员');
 INSERT INTO `t_s_function` VALUES ('402881855ab8c48a015ab8d133050018', NULL, 1, '测试online表单权限', '4', '', '402889fb486e848101486e8de3d60005', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 1, '', NULL, NULL, 'admin', '2017-03-10 23:23:32', NULL, '管理员');
 INSERT INTO `t_s_function` VALUES ('402881855ab8c48a015ab8d1f96f001b', NULL, 1, 'ol请假单查看页面', '1', 'cgFormBuildController/ftlForm/jform_leave/goDetail.do', '402881855ab8c48a015ab8d133050018', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 1, '', NULL, NULL, 'admin', '2017-03-30 12:42:51', NULL, '管理员');
@@ -4384,8 +4377,8 @@ INSERT INTO `t_s_function` VALUES ('402881ff6265de9b016266eb26380035', NULL, 1, 
 INSERT INTO `t_s_function` VALUES ('402882b54df53718014df538fc100001', NULL, 1, 'menu.online.template', '2', 'cgformTemplateController.do?cgformTemplate', '8a8ab0b246dc81120146dc8180ce0019', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO `t_s_function` VALUES ('402882fe65c318270165c78f355d00c0', NULL, 0, '人员网格管理', '1', '', NULL, '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, '', 'admin', '管理员', 'admin', '2018-10-08 09:57:03', '2018-09-11 15:36:16', '管理员');
 INSERT INTO `t_s_function` VALUES ('402882fe670134d80167014c66860002', NULL, 1, '主页', '4', 'jeecgListDemoController.do?index', '402882fe65c318270165c78f355d00c0', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, '', 'admin', '管理员', NULL, NULL, '2018-11-11 13:44:03', NULL);
-INSERT INTO `t_s_function` VALUES ('402882fe6701cf91016703923a73005c', NULL, 1, '代码生成测试', '5', 'patrolRecordController.do?list', '4028e4e565d19ef70165d1b657a20001', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, '', 'admin', '管理员', 'admin', '2018-11-12 00:22:47', '2018-11-12 00:19:34', '管理员');
-INSERT INTO `t_s_function` VALUES ('402882fe670395c0016708ca0bf90014', NULL, 1, '巡查记录录入', '4', 'jeecgListDemoController.do?test', '4028e4e565d19ef70165d1b657a20001', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, '', 'admin', '管理员', 'admin', '2018-11-20 22:51:36', '2018-11-13 00:38:38', '管理员');
+INSERT INTO `t_s_function` VALUES ('402882fe6701cf91016703923a73005c', NULL, 1, '巡查记录录入', '5', 'patrolRecordController.do?list', '4028e4e565d19ef70165d1b657a20001', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, '', 'admin', '管理员', 'admin', '2018-12-02 14:05:40', '2018-11-12 00:19:34', '管理员');
+INSERT INTO `t_s_function` VALUES ('402882fe670395c0016708ca0bf90014', NULL, 1, '巡查记录录入', '2', 'jeecgListDemoController.do?test', '4028e4e565d19ef70165d1b657a20001', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, '', 'admin', '管理员', 'admin', '2018-11-22 22:52:32', '2018-11-13 00:38:38', '管理员');
 INSERT INTO `t_s_function` VALUES ('402885814e3d2d09014e3d2e77800001', NULL, 1, '数据日志', '4', 'systemController.do?dataLogList', '8a8ab0b246dc81120146dc8180d9001d', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc81810d002f', 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO `t_s_function` VALUES ('402889fb486e848101486e8de3d60005', NULL, 0, '数据权限', '100', '', NULL, '8a8ab0b246dc81120146dc8180820003', '8a8ab0b246dc81120146dc8180dd001e', 1, 'fa-gears', NULL, NULL, 'admin', '2017-03-04 13:37:59', NULL, '管理员');
 INSERT INTO `t_s_function` VALUES ('40289181647d9d4a01647daaa4ce0001', NULL, 1, '表单原生组件二', '4', 'jeecgFormDemoController.do?natures', '4028f6815af3ce54015af3d1ad610001', '8a8ab0b246dc81120146dc8180460000', '8a8ab0b246dc81120146dc8180dd001e', 0, 'fa-code', 'admin', '管理员', 'admin', '2018-07-09 18:29:31', '2018-07-09 14:11:33', '管理员');
@@ -8181,6 +8174,82 @@ INSERT INTO `t_s_log` VALUES ('ff808081673b380501673b5f10750001', 'Chrome', '用
 INSERT INTO `t_s_log` VALUES ('ff808081673b380501673b7c42ef0002', 'Firefox', '用户: admin[射阳县]common.login.success', 1, '192.168.1.184', '2018-11-22 20:54:18', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
 INSERT INTO `t_s_log` VALUES ('ff808081673b380501673ba92ef20003', 'Firefox', '用户: admin[射阳县]common.login.success', 1, '192.168.1.184', '2018-11-22 21:43:22', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
 INSERT INTO `t_s_log` VALUES ('ff808081673b380501673bacd1a70004', 'Chrome', '用户: admin[射阳县]common.login.success', 1, '192.168.1.184', '2018-11-22 21:47:20', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bca8501673bcaaa3d0000', 'Chrome', '用户: admin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-22 22:19:56', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bdbc9290000', 'Chrome', '用户: admin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-22 22:38:38', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bddfe090001', 'Chrome', '用户: ajadmin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-22 22:41:03', 1, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bde55c70002', 'Chrome', 'ajadmin', 1, '59.83.212.202', '2018-11-22 22:41:26', 2, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bde88780003', 'Chrome', '用户: admin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-22 22:41:38', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673be19e510006', 'Chrome', 'admin', 1, '122.226.184.36', '2018-11-22 22:45:01', 2, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673be1bd7f0007', 'Chrome', '用户: ajadmin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-22 22:45:09', 1, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673be207b80008', 'Chrome', '错误异常: MySQLIntegrityConstraintViolationException,错误描述：Column \'rolecode\' in where clause is ambiguous', 6, '202.109.166.234', '2018-11-22 22:45:28', 3, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673be20fee0009', 'Chrome', '错误异常: MySQLIntegrityConstraintViolationException,错误描述：Column \'rolecode\' in where clause is ambiguous', 6, '202.109.166.234', '2018-11-22 22:45:30', 3, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673be2152f000a', 'Chrome', '错误异常: MySQLIntegrityConstraintViolationException,错误描述：Column \'rolecode\' in where clause is ambiguous', 6, '202.109.166.234', '2018-11-22 22:45:32', 3, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673be761b9000b', 'Chrome', 'ajadmin', 1, '122.226.184.36', '2018-11-22 22:51:19', 2, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673be77f2c000c', 'Chrome', '用户: admin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-22 22:51:26', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673be88160000d', 'Chrome', '菜单 更新成功', 1, '59.63.206.196', '2018-11-22 22:52:32', 5, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673be8adb7000e', 'Chrome', '菜单 更新成功', 1, '59.63.206.196', '2018-11-22 22:52:44', 5, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673be8d774000f', 'Chrome', '菜单 更新成功', 1, '59.63.206.196', '2018-11-22 22:52:55', 5, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673be9d6180010', 'Chrome', 'admin', 1, '122.226.184.36', '2018-11-22 22:54:00', 2, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673be9f0b90011', 'Chrome', '用户: ajadmin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-22 22:54:06', 1, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bf253dc0012', 'Chrome', 'admin', 1, '106.56.88.12', '2018-11-22 23:03:16', 2, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bf348050013', 'Chrome', '用户: admin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-22 23:04:18', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bf539c80014', 'Chrome', '修改成功', 1, '106.56.88.12', '2018-11-22 23:06:26', 5, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bf97f490016', 'Firefox', '用户: zhangxu[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-22 23:11:06', 1, '4028abc666769dd2016676dcaacd0023', 'zhangxu', '张旭');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bf9fab30017', 'Firefox', 'zhangxu', 1, '106.56.88.12', '2018-11-22 23:11:38', 2, '4028abc666769dd2016676dcaacd0023', 'zhangxu', '张旭');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bfa1bfe0018', 'Firefox', '用户: ajadmin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-22 23:11:46', 1, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bfa28440019', 'Firefox', '错误异常: MySQLIntegrityConstraintViolationException,错误描述：Column \'rolecode\' in where clause is ambiguous', 6, '106.56.88.12', '2018-11-22 23:11:49', 3, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bfab702001c', 'Chrome', '用户: zhangxu更新成功', 1, '106.56.88.12', '2018-11-22 23:12:26', 5, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bfac7f9001d', 'Firefox', 'ajadmin', 1, '106.56.88.12', '2018-11-22 23:12:30', 2, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bfb01ca001e', 'Firefox', '用户: zhangxu[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-22 23:12:45', 1, '4028abc666769dd2016676dcaacd0023', 'zhangxu', '张旭');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bfb2074001f', 'Firefox', '错误异常: MySQLIntegrityConstraintViolationException,错误描述：Column \'rolecode\' in where clause is ambiguous', 6, '106.56.88.12', '2018-11-22 23:12:53', 3, '4028abc666769dd2016676dcaacd0023', 'zhangxu', '张旭');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bfbd59d0022', 'Chrome', '用户: ajadmin更新成功', 1, '106.56.88.12', '2018-11-22 23:13:39', 5, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673bfbfebb0025', 'Chrome', '用户: zhangxu更新成功', 1, '106.56.88.12', '2018-11-22 23:13:50', 5, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673c0164900027', 'Chrome', '角色: 安监局管理员被添加成功', 1, '106.56.88.12', '2018-11-22 23:19:44', 3, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673c01c431002a', 'Chrome', '用户: ajadmin更新成功', 1, '106.56.88.12', '2018-11-22 23:20:08', 5, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673c020481002b', 'Firefox', 'zhangxu', 1, '106.56.88.12', '2018-11-22 23:20:24', 2, '4028abc666769dd2016676dcaacd0023', 'zhangxu', '张旭');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673c0229bb002c', 'Firefox', '用户: ajadmin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-22 23:20:33', 1, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673c03f0fb003f', 'Chrome', 'ajadmin', 1, '115.231.148.83', '2018-11-22 23:22:31', 2, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673c04d4500040', 'Chrome', '用户: admin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-22 23:23:28', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673c05442c0041', 'Chrome', 'admin', 1, '59.83.212.222', '2018-11-22 23:23:57', 2, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673c05a1ee0042', 'Chrome', '用户: admin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-22 23:24:21', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673c061c870043', 'Chrome', '用户: 徐旭东密码重置成功', 1, '59.83.212.222', '2018-11-22 23:24:53', 5, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673c063e7b0044', 'Chrome', 'admin', 1, '59.83.212.222', '2018-11-22 23:25:01', 2, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673c067ff00045', 'Chrome', '用户: 徐旭东[分管县长4]common.login.success', 1, '10.1.10.142', '2018-11-22 23:25:18', 1, '402881016667249e0166675997060033', '徐旭东', '徐旭东');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673c068d630046', 'Chrome', '错误异常: MySQLIntegrityConstraintViolationException,错误描述：Column \'rolecode\' in where clause is ambiguous', 6, '59.83.212.222', '2018-11-22 23:25:22', 3, '402881016667249e0166675997060033', '徐旭东', '徐旭东');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01673eea78a80047', 'Chrome', '用户: admin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-23 12:53:32', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd0167596ddcd90048', 'Chrome', '用户: ajadmin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-28 16:27:11', 1, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd0167596f5e380049', 'Chrome', 'ajadmin', 1, '58.217.103.39', '2018-11-28 16:28:50', 2, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd0167596f7f9c004a', 'Chrome', '用户: admin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-28 16:28:58', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e673bdadd01675e83d785004b', 'Chrome', '用户: admin[射阳县]common.login.success', 1, '10.1.10.142', '2018-11-29 16:09:17', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676aaeaab40000', 'Chrome', '用户: admin[射阳县]common.login.success', 1, '10.1.10.142', '2018-12-02 00:51:31', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676ab2807c0001', 'Firefox', '用户: admin[射阳县]common.login.success', 1, '10.1.10.142', '2018-12-02 00:55:42', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676d8371d30002', 'Chrome', '用户: admin[射阳县]common.login.success', 1, '10.1.10.142', '2018-12-02 14:03:10', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676d85b9d10007', 'Chrome', '菜单 更新成功', 1, '115.231.148.84', '2018-12-02 14:05:40', 5, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676d86182d0008', 'Chrome', '用户: ajadmin[射阳县]common.login.success', 1, '10.1.10.142', '2018-12-02 14:06:03', 1, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676d8724660009', 'Chrome', '修改成功', 1, '59.63.206.196', '2018-12-02 14:07:12', 5, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676d8791bd000a', 'Chrome', '修改成功', 1, '117.21.190.238', '2018-12-02 14:07:40', 5, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676d87c97d000b', 'Chrome', 'ajadmin', 1, '218.98.42.160', '2018-12-02 14:07:55', 2, '402881106651506e016651727705004a', 'ajadmin', '安监管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676d8ab292000c', 'Chrome', '用户: admin[射阳县]common.login.success', 1, '10.1.10.142', '2018-12-02 14:11:05', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676d8b2d45000d', 'Chrome', 'admin', 1, '183.134.50.64', '2018-12-02 14:11:37', 2, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676d8bd397000e', 'Chrome', '用户: 戴元阳密码重置成功', 1, '117.21.190.235', '2018-12-02 14:12:19', 5, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676d8c02e2000f', 'Chrome', '用户: 戴元阳[安监站]common.login.success', 1, '10.1.10.142', '2018-12-02 14:12:31', 1, '4028811066621bc801666273c5400033', '戴元阳', '戴元阳');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676d8dc6ee0018', 'Chrome', '戴元阳', 1, '117.21.190.238', '2018-12-02 14:14:27', 2, '4028811066621bc801666273c5400033', '戴元阳', '戴元阳');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676d8deed00019', 'Chrome', '用户: 戴元阳[安监站]common.login.success', 1, '10.1.10.142', '2018-12-02 14:14:37', 1, '4028811066621bc801666273c5400033', '戴元阳', '戴元阳');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676d916fdd001a', 'Chrome', '戴元阳', 1, '117.21.190.236', '2018-12-02 14:18:27', 2, '4028811066621bc801666273c5400033', '戴元阳', '戴元阳');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676d9220a7001b', 'Chrome', '用户: 戴振华密码重置成功', 1, '218.98.42.160', '2018-12-02 14:19:12', 5, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676da96db6001c', 'Chrome', '用户: 戴振华[安监站监管人员]common.login.success', 1, '10.1.10.142', '2018-12-02 14:44:39', 1, '4028abc666769dd2016676cdd09d0017', '戴振华', '戴振华');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676e93a8d0001d', 'Chrome', '用户: admin[射阳县]common.login.success', 1, '10.1.10.142', '2018-12-02 19:00:30', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676e943ad40020', 'Chrome', '更新成功', 1, '218.98.42.160', '2018-12-02 19:01:07', 5, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676e94b9280021', 'Firefox', '用户: 戴元阳[安监站]common.login.success', 1, '10.1.10.142', '2018-12-02 19:01:39', 1, '4028811066621bc801666273c5400033', '戴元阳', '戴元阳');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676e9724ff0023', 'Firefox', '更新成功', 1, '116.136.20.200', '2018-12-02 19:04:18', 5, '4028811066621bc801666273c5400033', '戴元阳', '戴元阳');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676e9755100025', 'Firefox', '更新成功', 1, '117.21.190.232', '2018-12-02 19:04:31', 5, '4028811066621bc801666273c5400033', '戴元阳', '戴元阳');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676e98230f0027', 'Firefox', '错误异常: BusinessException,错误描述：JDBC exception on Hibernate data access: SQLException for SQL [n/a]; SQL state [01000]; error code [1265]; Data truncated for column \'id\' at row 1; nested exception is org.hibernate.exception.GenericJDBCException: Data truncated for column \'id\' at row 1', 6, '59.63.206.124', '2018-12-02 19:05:23', 3, '4028811066621bc801666273c5400033', '戴元阳', '戴元阳');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676e98c44f0028', 'Firefox', '修改成功', 1, '115.231.148.84', '2018-12-02 19:06:05', 5, '4028811066621bc801666273c5400033', '戴元阳', '戴元阳');
+INSERT INTO `t_s_log` VALUES ('8a818a0e676aae4e01676e99a17a002a', 'Firefox', '巡查记录添加成功', 1, '117.21.190.236', '2018-12-02 19:07:01', 3, '4028811066621bc801666273c5400033', '戴元阳', '戴元阳');
+INSERT INTO `t_s_log` VALUES ('402882fe676a251601676e9f9938008d', 'Firefox', 'admin', 1, '本地', '2018-12-02 19:13:32', 2, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('402882fe676a251601676e9fbc59008e', 'Firefox', '用户: admin[射阳县]common.login.success', 1, '192.168.2.126', '2018-12-02 19:13:41', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('402882fe676a251601676ebbe5880090', 'Firefox', '巡查记录添加成功', 1, '本地', '2018-12-02 19:44:27', 3, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
+INSERT INTO `t_s_log` VALUES ('402882fe676ec81401676ec88e0c0000', 'Firefox', '用户: admin[射阳县]common.login.success', 1, '192.168.2.126', '2018-12-02 19:58:16', 1, '8a8ab0b246dc81120146dc8181950052', 'admin', '管理员');
 
 -- ----------------------------
 -- Table structure for t_s_muti_lang
@@ -13147,9 +13216,9 @@ CREATE TABLE `t_s_role`  (
 -- Records of t_s_role
 -- ----------------------------
 INSERT INTO `t_s_role` VALUES ('2c93867366782a5401667c3f2f85003b', 'temp', 'temp', NULL, '0', '管理员', '2018-10-18 15:57:02', 'admin', NULL, NULL, NULL);
-INSERT INTO `t_s_role` VALUES ('402881106651506e016651639dfd000f', '0101', '安监局管理员', NULL, '0', '管理员', '2018-10-18 15:52:39', 'admin', NULL, NULL, NULL);
 INSERT INTO `t_s_role` VALUES ('402882fe668b4f1401668c2fb552006b', '01010101', '普通用户', NULL, '0', NULL, NULL, NULL, '管理员', '2018-10-19 19:57:09', 'admin');
 INSERT INTO `t_s_role` VALUES ('4028abc666769dd2016676cb189d0006', '01010102', '巡查员', NULL, '0', '管理员', '2018-10-19 19:56:56', 'admin', NULL, NULL, NULL);
+INSERT INTO `t_s_role` VALUES ('8a818a0e673bdadd01673c01648d0026', '0101', '安监局管理员', NULL, '0', NULL, NULL, NULL, '管理员', '2018-11-22 23:19:44', 'admin');
 INSERT INTO `t_s_role` VALUES ('8a8ab0b246dc81120146dc8181870050', '01', '管理员', NULL, '0', '管理员', '2018-10-18 15:52:24', 'admin', NULL, NULL, NULL);
 INSERT INTO `t_s_role` VALUES ('8a8ab0b246dc81120146dc81818b0051', '010101', '乡镇管理员', NULL, '0', '管理员', '2018-10-19 19:06:54', 'admin', NULL, NULL, NULL);
 
@@ -13187,7 +13256,6 @@ INSERT INTO `t_s_role_function` VALUES ('2c93867366782a5401667c412c1f004b', NULL
 INSERT INTO `t_s_role_function` VALUES ('2c93867366782a5401667c412c1f004c', NULL, '4028811065d6a9390165d75156ac0091', '2c93867366782a5401667c3f2f85003b', NULL);
 INSERT INTO `t_s_role_function` VALUES ('2c93867366782a5401667c412c1f004d', NULL, '402881106651506e016651711a570039', '2c93867366782a5401667c3f2f85003b', NULL);
 INSERT INTO `t_s_role_function` VALUES ('2c93867366782a5401667c412c1f004f', NULL, '8a8ab0b246dc81120146dc8180f60028', '2c93867366782a5401667c3f2f85003b', NULL);
-INSERT INTO `t_s_role_function` VALUES ('2c93867366782a5401667c412c1f0050', NULL, '4028811065d6a9390165d74d34b00085', '2c93867366782a5401667c3f2f85003b', NULL);
 INSERT INTO `t_s_role_function` VALUES ('4028318163a49af90163a4c5310c0003', NULL, '4028948150f5ba6a0150f5d0b0200004', '8a8ab0b246dc81120146dc8181870050', NULL);
 INSERT INTO `t_s_role_function` VALUES ('4028318163a49af90163a4c531200004', NULL, '4028ef815373fb53015373ff521d0005', '8a8ab0b246dc81120146dc8181870050', NULL);
 INSERT INTO `t_s_role_function` VALUES ('4028318163a49af90163a4c531200005', NULL, '4028ef81535fff5101536001bb8d0005', '8a8ab0b246dc81120146dc8181870050', NULL);
@@ -13230,18 +13298,6 @@ INSERT INTO `t_s_role_function` VALUES ('4028810260a209160160a209d57d0003', NULL
 INSERT INTO `t_s_role_function` VALUES ('4028810260c422c30160c423823d0001', NULL, '297e7ae160baa7ec0160baa977980001', '8a8ab0b246dc81120146dc8181870050', NULL);
 INSERT INTO `t_s_role_function` VALUES ('4028810260c620400160c62536540001', NULL, '402881fc60c0d2d50160c0d860b00001', '8a8ab0b246dc81120146dc8181870050', NULL);
 INSERT INTO `t_s_role_function` VALUES ('402881106651506e016651593d5d0006', NULL, '402881eb6633614f016635408feb0003', '8a8ab0b246dc81120146dc81818b0051', NULL);
-INSERT INTO `t_s_role_function` VALUES ('402881106651506e016651717d3c003b', NULL, '4028e4f765cb78300165cbceca710014', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('402881106651506e016651717d45003d', NULL, '4028811065d6a9390165d75302be0095', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('402881106651506e016651717d45003e', NULL, '4028811065d6a9390165d74fd2af008b', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('402881106651506e016651717d45003f', NULL, '4028e4e565d19ef70165d1b657a20001', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('402881106651506e016651717d450040', NULL, '402881106651506e0166516d5f86002a', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('402881106651506e016651717d450041', NULL, '4028e4f765cca7960165ccce73480005', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('402881106651506e016651717d450042', NULL, '402882fe65c318270165c78f355d00c0', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('402881106651506e016651717d460043', NULL, '402881106651506e0166516dc412002c', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('402881106651506e016651717d460044', '4028e4e5667b8cc701667be346390029,', '4028811065d6a9390165d751098e008f', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('402881106651506e016651717d460045', NULL, '4028811065d6a9390165d75156ac0091', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('402881106651506e016651717d460046', NULL, '402881106651506e016651711a570039', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('402881106651506e016651717d460049', '8a818a0e66cfcfdb0166d285f9e90021,8a818a0e66cfcfdb0166d286c3770023,', '4028811065d6a9390165d74d34b00085', '402881106651506e016651639dfd000f', NULL);
 INSERT INTO `t_s_role_function` VALUES ('402881106651506e01665174d67c0055', NULL, '402881106651506e0166516dc412002c', '8a8ab0b246dc81120146dc8181870050', NULL);
 INSERT INTO `t_s_role_function` VALUES ('402881106651506e01665174d67f0056', NULL, '402881106651506e0166516d5f86002a', '8a8ab0b246dc81120146dc8181870050', NULL);
 INSERT INTO `t_s_role_function` VALUES ('40288110665180bc016651bb7f43006e', NULL, '4028e4f765cb78300165cbceca710014', '8a8ab0b246dc81120146dc81818b0051', NULL);
@@ -13253,16 +13309,8 @@ INSERT INTO `t_s_role_function` VALUES ('40288110665180bc016651bb7f450073', NULL
 INSERT INTO `t_s_role_function` VALUES ('40288110665180bc016651bb7f450076', NULL, '4028811065d6a9390165d75302be0095', '8a8ab0b246dc81120146dc81818b0051', NULL);
 INSERT INTO `t_s_role_function` VALUES ('40288110665180bc016651bb7f450077', NULL, '402881106651506e0166516dc412002c', '8a8ab0b246dc81120146dc81818b0051', NULL);
 INSERT INTO `t_s_role_function` VALUES ('40288110665180bc016651bb7f450078', NULL, '402881106651506e016651711a570039', '8a8ab0b246dc81120146dc81818b0051', NULL);
-INSERT INTO `t_s_role_function` VALUES ('40288110665180bc016651bb7f450079', NULL, '4028811065d6a9390165d74d34b00085', '8a8ab0b246dc81120146dc81818b0051', NULL);
 INSERT INTO `t_s_role_function` VALUES ('40288110665180bc0166525d215800be', NULL, '402881106651506e016651711a570039', '8a8ab0b246dc81120146dc8181870050', NULL);
-INSERT INTO `t_s_role_function` VALUES ('4028811066580505016658359ee2004a', NULL, '8a8ab0b246dc81120146dc8180d2001a', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('4028811066580505016658359ee6004b', NULL, '4028810166578bdc016657a434ce0001', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('4028811066580505016658359ee6004d', NULL, '8a8ab0b246dc81120146dc8180df001f', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('4028811066580505016658359ee6004e', NULL, '8a8ab0b246dc81120146dc8180f60028', '402881106651506e016651639dfd000f', NULL);
 INSERT INTO `t_s_role_function` VALUES ('402881106658050501665837b4b0004f', NULL, '4028810166578bdc016657a434ce0001', '8a8ab0b246dc81120146dc81818b0051', NULL);
-INSERT INTO `t_s_role_function` VALUES ('40288138673180e70167319b3d290002', NULL, '402882fe670395c0016708ca0bf90014', '4028abc666769dd2016676cb189d0006', NULL);
-INSERT INTO `t_s_role_function` VALUES ('40288138673180e70167319b925d0003', NULL, '402882fe670395c0016708ca0bf90014', '2c93867366782a5401667c3f2f85003b', NULL);
-INSERT INTO `t_s_role_function` VALUES ('40288138673180e7016731a558250013', NULL, '402882fe670395c0016708ca0bf90014', '8a8ab0b246dc81120146dc81818b0051', NULL);
 INSERT INTO `t_s_role_function` VALUES ('402881855afb59f7015afc6123c7000e', NULL, '8a8ab0b246dc81120146dc8180d2001a', '8a8ab0b246dc81120146dc8181870050', NULL);
 INSERT INTO `t_s_role_function` VALUES ('402881855afbcdf7015afc6123c7000e', NULL, '8a8ab0b246dc81120146dc8180e30021', '8a8ab0b246dc81120146dc8181870050', NULL);
 INSERT INTO `t_s_role_function` VALUES ('402881e56266f4310162671ee842004c', '402881e56266f4310162671e558e0046,', '402881e56266f4310162671d62050044', '8a8ab0b246dc81120146dc81818b0051', NULL);
@@ -13292,8 +13340,6 @@ INSERT INTO `t_s_role_function` VALUES ('4028abc666769dd2016676cbb1f6000f', NULL
 INSERT INTO `t_s_role_function` VALUES ('4028abc666769dd2016676cbb1f60010', NULL, '402881106651506e0166516dc412002c', '4028abc666769dd2016676cb189d0006', NULL);
 INSERT INTO `t_s_role_function` VALUES ('4028abc666769dd2016676cbe0bb0011', NULL, '4028abc666769dd2016676c16bab0001', '4028abc666769dd2016676cb189d0006', '4028abc666769dd2016676ca1c0f0004,');
 INSERT INTO `t_s_role_function` VALUES ('4028abc666769dd2016676cbe0bd0012', NULL, '402881eb6633614f016635408feb0003', '4028abc666769dd2016676cb189d0006', NULL);
-INSERT INTO `t_s_role_function` VALUES ('4028abc666769dd20166774072fd0061', NULL, '402881eb6633614f016635408feb0003', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('4028abc666769dd20166774072ff0062', NULL, '402881016666fcf301666717ffdd0028', '402881106651506e016651639dfd000f', '4028810166867dbc01668689b2090005,');
 INSERT INTO `t_s_role_function` VALUES ('4028e4e565d19ef70165d1b8f4100006', NULL, '4028e4e565d19ef70165d1b657a20001', '8a8ab0b246dc81120146dc8181870050', NULL);
 INSERT INTO `t_s_role_function` VALUES ('4028e4e565d222440165d22900150004', NULL, '4028e4f765cca7960165ccce73480005', '8a8ab0b246dc81120146dc81818b0051', NULL);
 INSERT INTO `t_s_role_function` VALUES ('4028e4e565d222440165d22900300005', NULL, '402882fe65c318270165c78f355d00c0', '8a8ab0b246dc81120146dc81818b0051', NULL);
@@ -13301,14 +13347,35 @@ INSERT INTO `t_s_role_function` VALUES ('4028e4f066f748960166f78702d3005b', NULL
 INSERT INTO `t_s_role_function` VALUES ('4028e4f765c7cf430165c898bdc90004', NULL, '402882fe65c318270165c78f355d00c0', '8a8ab0b246dc81120146dc8181870050', NULL);
 INSERT INTO `t_s_role_function` VALUES ('4028e4f765cca7960165ccabf1230002', NULL, '4028e4f765cb78300165cbceca710014', '8a8ab0b246dc81120146dc8181870050', NULL);
 INSERT INTO `t_s_role_function` VALUES ('4028e4f765cca7960165cccef4710009', NULL, '4028e4f765cca7960165ccce73480005', '8a8ab0b246dc81120146dc8181870050', NULL);
-INSERT INTO `t_s_role_function` VALUES ('ff808081671861e801671b27c500004d', NULL, '8a8ab0b246dc81120146dc818109002e', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('ff808081671861e801671b27c508004e', NULL, '297edb626033bbcb016033fd0a190001', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('ff808081671861e801671b27c508004f', NULL, '402881fc60c0d2d50160c0d860b00001', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('ff808081671861e801671b27c5080050', NULL, '8a8ab0b246dc81120146dc8180ce0019', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('ff808081671861e801671b27c5080051', NULL, '40287d81522a428401522a44aafb0002', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('ff808081671861e801671b27c5080052', NULL, '8a8ab0b246dc81120146dc818106002d', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('ff808081671861e801671b27c5080053', NULL, '402882b54df53718014df538fc100001', '402881106651506e016651639dfd000f', NULL);
-INSERT INTO `t_s_role_function` VALUES ('ff808081671861e801671b27c5080054', NULL, '2c90ac564c9d1734014c9d6f4e370024', '402881106651506e016651639dfd000f', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673bf6e6750015', NULL, '8a8ab0b246dc81120146dc8180df001f', '2c93867366782a5401667c3f2f85003b', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c027162002d', NULL, '4028811065d6a9390165d75302be0095', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c027163002e', NULL, '4028811065d6a9390165d74fd2af008b', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c027163002f', NULL, '4028810166578bdc016657a434ce0001', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c0271630030', NULL, '4028e4f765cca7960165ccce73480005', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c0271630031', NULL, '402882fe65c318270165c78f355d00c0', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c0271630032', '4028e4e5667b8cc701667db26391004f,', '4028811065d6a9390165d75156ac0091', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c0290550034', NULL, '4028e4e565d19ef70165d1b657a20001', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c0290560036', NULL, '402881106651506e0166516d5f86002a', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c0290560037', NULL, '402881106651506e0166516dc412002c', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c02aa6e0038', NULL, '4028e4f765cb78300165cbceca710014', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c02aa6f0039', '4028e4e5667b8cc701667be346390029,', '4028811065d6a9390165d751098e008f', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c02aa6f003a', NULL, '402881106651506e016651711a570039', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c02aa6f003b', NULL, '4028e4f066f748960166f7866b190057', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c02cea8003c', NULL, '8a8ab0b246dc81120146dc8180d2001a', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c02cea9003d', NULL, '8a8ab0b246dc81120146dc8180df001f', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e673bdadd01673c02dc7d003e', NULL, '8a8ab0b246dc81120146dc8180f60028', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e676aae4e01676d8408db0003', NULL, '402882fe6701cf91016703923a73005c', '8a8ab0b246dc81120146dc81818b0051', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e676aae4e01676d84523c0004', NULL, '402882fe6701cf91016703923a73005c', '8a818a0e673bdadd01673c01648d0026', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e676aae4e01676d851ba20005', NULL, '402882fe6701cf91016703923a73005c', '4028abc666769dd2016676cb189d0006', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e676aae4e01676d8548ee0006', NULL, '402882fe6701cf91016703923a73005c', '2c93867366782a5401667c3f2f85003b', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e676aae4e01676d8dafe90010', NULL, '402881fc60c0d2d50160c0d860b00001', '4028abc666769dd2016676cb189d0006', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e676aae4e01676d8dafea0011', NULL, '8a8ab0b246dc81120146dc8180ce0019', '4028abc666769dd2016676cb189d0006', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e676aae4e01676d8dafea0012', NULL, '40287d81522a428401522a44aafb0002', '4028abc666769dd2016676cb189d0006', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e676aae4e01676d8dafea0013', NULL, '8a8ab0b246dc81120146dc818106002d', '4028abc666769dd2016676cb189d0006', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e676aae4e01676d8dafea0014', NULL, '8a8ab0b246dc81120146dc818109002e', '4028abc666769dd2016676cb189d0006', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e676aae4e01676d8dafea0015', NULL, '297edb626033bbcb016033fd0a190001', '4028abc666769dd2016676cb189d0006', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e676aae4e01676d8dafea0016', NULL, '402882b54df53718014df538fc100001', '4028abc666769dd2016676cb189d0006', NULL);
+INSERT INTO `t_s_role_function` VALUES ('8a818a0e676aae4e01676d8dafea0017', NULL, '2c90ac564c9d1734014c9d6f4e370024', '4028abc666769dd2016676cb189d0006', NULL);
 
 -- ----------------------------
 -- Table structure for t_s_role_org
@@ -13339,12 +13406,11 @@ CREATE TABLE `t_s_role_user`  (
 -- ----------------------------
 -- Records of t_s_role_user
 -- ----------------------------
-INSERT INTO `t_s_role_user` VALUES ('2c93867366782a5401667c1ce870002c', '402881106651506e016651639dfd000f', '2c93867366782a5401667c1c26990023');
 INSERT INTO `t_s_role_user` VALUES ('2c93867366782a5401667c40c269003f', '2c93867366782a5401667c3f2f85003b', '2c93867366782a5401667c40c269003d');
 INSERT INTO `t_s_role_user` VALUES ('40288138673180e7016731a0391e0008', '2c93867366782a5401667c3f2f85003b', '2c93867366782a5401667cfa8a600064');
-INSERT INTO `t_s_role_user` VALUES ('40288138673180e7016731a05a18000b', '2c93867366782a5401667c3f2f85003b', '4028abc666769dd2016676dcaacd0023');
+INSERT INTO `t_s_role_user` VALUES ('8a818a0e673bdadd01673bfbfeb90024', '2c93867366782a5401667c3f2f85003b', '4028abc666769dd2016676dcaacd0023');
+INSERT INTO `t_s_role_user` VALUES ('8a818a0e673bdadd01673c01c42f0029', '8a818a0e673bdadd01673c01648d0026', '402881106651506e016651727705004a');
 INSERT INTO `t_s_role_user` VALUES ('ff808081671861e801671b0e94960004', '8a8ab0b246dc81120146dc8181870050', '8a8ab0b246dc81120146dc8181950052');
-INSERT INTO `t_s_role_user` VALUES ('ff808081671861e801671b0ecaf70007', '402881106651506e016651639dfd000f', '402881106651506e016651727705004a');
 INSERT INTO `t_s_role_user` VALUES ('ff808081671861e801671b0eea19000a', '8a8ab0b246dc81120146dc81818b0051', '40288110665180bc016651adae81003a');
 INSERT INTO `t_s_role_user` VALUES ('ff808081671861e801671b0ef50f000d', '8a8ab0b246dc81120146dc81818b0051', '40288110665180bc016651af738f0042');
 INSERT INTO `t_s_role_user` VALUES ('ff808081671861e801671b0f01420010', '8a8ab0b246dc81120146dc81818b0051', '40288110665180bc016651b25db5004e');
@@ -13771,7 +13837,7 @@ INSERT INTO `t_s_user` VALUES ('2c93867366782a5401667c1c26990023', 'test2@163.co
 INSERT INTO `t_s_user` VALUES ('2c93867366782a5401667c40c269003d', 'wangfugui@163.com', '', '', NULL, '管理员', '2018-10-16 21:03:46', 'admin', '管理员', '2018-10-16 17:41:50', 'admin', NULL, NULL, '0', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO `t_s_user` VALUES ('2c93867366782a5401667cfa8a600064', 'fugui@163.com', '', '', NULL, '王甫贵', '2018-10-16 21:05:04', '王甫贵', '管理员', '2018-10-16 21:04:46', 'admin', NULL, NULL, '0', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'temp%');
 INSERT INTO `t_s_user` VALUES ('4028318163a6865d0163a68bef49000a', NULL, '', NULL, NULL, '管理员', '2018-06-27 19:18:42', 'admin', '管理员', '2018-05-28 19:39:38', 'admin', NULL, NULL, '0', '2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL);
-INSERT INTO `t_s_user` VALUES ('402881016667249e0166675997060033', 'xuxudong@qq.com', '', '', NULL, '徐旭东', '2018-10-16 16:01:13', '徐旭东', '管理员', '2018-10-12 16:16:57', 'admin', NULL, NULL, '0', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '010101%');
+INSERT INTO `t_s_user` VALUES ('402881016667249e0166675997060033', 'xuxudong@qq.com', '', '', NULL, '管理员', '2018-11-22 23:24:53', 'admin', '管理员', '2018-10-12 16:16:57', 'admin', NULL, NULL, '0', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '010101%');
 INSERT INTO `t_s_user` VALUES ('402881106651506e016651727705004a', 'dswang_semtech@163.com', '', '', NULL, '安监管理员', '2018-10-11 16:27:16', 'ajadmin', '管理员', '2018-10-08 10:12:28', 'admin', NULL, NULL, '0', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '0101%');
 INSERT INTO `t_s_user` VALUES ('40288110665180bc016651adae81003a', 'tangjing@qq.com', '', '', NULL, '管理员', '2018-10-19 18:40:01', 'admin', '管理员', '2018-10-08 11:17:09', 'admin', NULL, NULL, '0', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '010101%');
 INSERT INTO `t_s_user` VALUES ('40288110665180bc016651af738f0042', 'daicuifang@qq.com', '', '', NULL, '戴翠芳', '2018-10-12 15:31:50', '戴翠芳', '管理员', '2018-10-08 11:19:05', 'admin', NULL, NULL, '0', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '010101%');
@@ -13781,14 +13847,14 @@ INSERT INTO `t_s_user` VALUES ('4028811066528a1b016652bbfb13000e', 'yanhuo@qq.co
 INSERT INTO `t_s_user` VALUES ('4028811066621bc80166624fe96e0025', 'youchunyue@qq.com', '', '', NULL, '尤春月', '2018-11-01 22:28:50', '尤春月', '管理员', '2018-10-11 16:48:16', 'admin', NULL, NULL, '0', '1', NULL, NULL, '', '', '', '', '', '', '010101%');
 INSERT INTO `t_s_user` VALUES ('4028811066621bc801666259a0a80029', 'tangling@qq.com', '', '', NULL, '管理员', '2018-10-18 14:31:14', 'admin', '管理员', '2018-10-11 16:58:53', 'admin', NULL, NULL, '0', '1', NULL, NULL, '', '', '', '', '', '', '010101%');
 INSERT INTO `t_s_user` VALUES ('4028811066621bc801666272f7890030', 'denghaifeng@qq.com', '', '', NULL, '邓海峰', '2018-10-13 14:37:28', '邓海峰', '管理员', '2018-10-11 17:26:34', 'admin', NULL, NULL, '0', '1', NULL, NULL, '', '', '', '', '', '', '010101%');
-INSERT INTO `t_s_user` VALUES ('4028811066621bc801666273c5400033', 'daiyuanyang@qq.com', '', '', NULL, '管理员', '2018-11-09 15:16:43', 'admin', '管理员', '2018-10-11 17:27:26', 'admin', NULL, NULL, '0', '1', NULL, NULL, '', '', '', '', '', '', '01010102%');
+INSERT INTO `t_s_user` VALUES ('4028811066621bc801666273c5400033', 'daiyuanyang@qq.com', '', '', NULL, '管理员', '2018-12-02 14:12:19', 'admin', '管理员', '2018-10-11 17:27:26', 'admin', NULL, NULL, '0', '1', NULL, NULL, '', '', '', '', '', '', '01010102%');
 INSERT INTO `t_s_user` VALUES ('402881875988e889015988ec36770001', '', '', '', NULL, '管理员', '2017-01-10 23:08:33', 'admin', '管理员', '2017-01-10 23:08:18', 'admin', NULL, NULL, '0', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO `t_s_user` VALUES ('402881e75f159dc3015f15a76fa80004', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '1', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO `t_s_user` VALUES ('402881e75f15a91c015f15a9bd550000', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '1', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO `t_s_user` VALUES ('402881e75f15a91c015f15aa5bb50001', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '1', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO `t_s_user` VALUES ('402881f3639157630163915af2100006', NULL, '', NULL, NULL, '管理员', '2018-05-28 19:39:27', 'admin', '管理员', '2018-05-24 16:54:06', 'admin', NULL, NULL, '0', '2', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', NULL);
 INSERT INTO `t_s_user` VALUES ('402881fc60a1cbe40160a1f080620011', '13552579746@163.com', '13552579746', '', NULL, NULL, NULL, NULL, '管理员', '2017-12-29 19:03:01', 'admin', NULL, NULL, '0', '2', '1', '0', '', '', '', '', '', '', NULL);
-INSERT INTO `t_s_user` VALUES ('4028abc666769dd2016676cdd09d0017', 'daizhenghua@qq.com', '18852861262', '', NULL, '管理员', '2018-11-12 22:09:58', 'admin', '管理员', '2018-10-15 16:18:12', 'admin', NULL, NULL, '0', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '01010102%');
+INSERT INTO `t_s_user` VALUES ('4028abc666769dd2016676cdd09d0017', 'daizhenghua@qq.com', '18852861262', '', NULL, '管理员', '2018-12-02 14:19:12', 'admin', '管理员', '2018-10-15 16:18:12', 'admin', NULL, NULL, '0', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '01010102%');
 INSERT INTO `t_s_user` VALUES ('4028abc666769dd2016676dcaacd0023', '675112476@qq.com', '18852861262', '', NULL, '管理员', '2018-11-02 11:08:52', 'admin', '管理员', '2018-10-15 16:34:25', 'admin', NULL, NULL, '1', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'temp%');
 INSERT INTO `t_s_user` VALUES ('4028ef81563ae5be01563ae92d7f0002', '', '', '', NULL, '管理员', '2016-07-30 16:26:20', 'admin', '管理员', '2016-07-30 16:26:15', 'admin', NULL, NULL, '0', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 INSERT INTO `t_s_user` VALUES ('8a8ab0b246dc81120146dc8181950052', '445654970@qq.com', '', '', 'images/renfang/qm/licf.gif', '管理员', '2018-10-11 15:51:39', 'admin', NULL, '2016-07-20 16:26:15', NULL, 'upload\\files\\20180715\\qq_1531625977907.jpg', '这家伙很你好66', '1', '1', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '01%');
@@ -13812,7 +13878,6 @@ CREATE TABLE `t_s_user_org`  (
 INSERT INTO `t_s_user_org` VALUES ('2c93867366782a5401667c1ce870002b', '2c93867366782a5401667c1c26990023', '40288101666bf06c01666c1fdb8e0040');
 INSERT INTO `t_s_user_org` VALUES ('2c93867366782a5401667c40c269003e', '2c93867366782a5401667c40c269003d', '40288110665d2edf01665ea08b830032');
 INSERT INTO `t_s_user_org` VALUES ('40288138673180e7016731a039180007', '2c93867366782a5401667cfa8a600064', '40288110665d2edf01665ea08b830032');
-INSERT INTO `t_s_user_org` VALUES ('40288138673180e7016731a05a12000a', '4028abc666769dd2016676dcaacd0023', '40288110665d2edf01665ea08b830032');
 INSERT INTO `t_s_user_org` VALUES ('402881875988e889015988ec36880002', '402881875988e889015988ec36770001', '8a8ab0b246dc81120146dc8180ba0017');
 INSERT INTO `t_s_user_org` VALUES ('4028838d5f352254015f35267b920009', '8a8c82a35de421ab015de4228d400003', '8a8ab0b246dc81120146dc8180ba0017');
 INSERT INTO `t_s_user_org` VALUES ('4028e4f46661c30b016661cc734c0007', '40288110665180bc016651b072510046', '4028e4f46660d0a10166611eeec20022');
@@ -13822,8 +13887,9 @@ INSERT INTO `t_s_user_org` VALUES ('4028e4f46661c30b016661d41fc9000d', '40288110
 INSERT INTO `t_s_user_org` VALUES ('4028e4f765cb78300165cca0dd000030', '4028e4f765cb78300165cca0dd00002f', '4028e4f765cb78300165cc9cda620028');
 INSERT INTO `t_s_user_org` VALUES ('4028ef815500fa15015500fbc3290001', '8a8ab0b246dc81120146dc8181a10054', '8a8ab0b246dc81120146dc8180a20016');
 INSERT INTO `t_s_user_org` VALUES ('4028ef81563ae5be01563ae92dc20003', '4028ef81563ae5be01563ae92d7f0002', '8a8ab0b246dc81120146dc8180a20016');
+INSERT INTO `t_s_user_org` VALUES ('8a818a0e673bdadd01673bfbfeb80023', '4028abc666769dd2016676dcaacd0023', '40288110665d2edf01665ea08b830032');
+INSERT INTO `t_s_user_org` VALUES ('8a818a0e673bdadd01673c01c42d0028', '402881106651506e016651727705004a', '40288110665d2edf01665ea08b830032');
 INSERT INTO `t_s_user_org` VALUES ('ff808081671861e801671b0e948e0003', '8a8ab0b246dc81120146dc8181950052', '40288110665d2edf01665ea08b830032');
-INSERT INTO `t_s_user_org` VALUES ('ff808081671861e801671b0ecaf10006', '402881106651506e016651727705004a', '40288110665d2edf01665ea08b830032');
 INSERT INTO `t_s_user_org` VALUES ('ff808081671861e801671b0eea120009', '40288110665180bc016651adae81003a', '40288110665d2edf01665eb0c412003f');
 INSERT INTO `t_s_user_org` VALUES ('ff808081671861e801671b0ef50b000c', '40288110665180bc016651af738f0042', '4028e4f46660d0a10166611e9f430020');
 INSERT INTO `t_s_user_org` VALUES ('ff808081671861e801671b0f013d000f', '40288110665180bc016651b25db5004e', '40288101666bf06c01666c203d8f0042');
@@ -14101,7 +14167,7 @@ CREATE TABLE `user_name`  (
   `username` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `role` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 86 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 102 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of user_name
@@ -14111,10 +14177,6 @@ INSERT INTO `user_name` VALUES (2, 'admin', '普通用户');
 INSERT INTO `user_name` VALUES (3, 'admin', '巡查员');
 INSERT INTO `user_name` VALUES (4, 'admin', '管理员');
 INSERT INTO `user_name` VALUES (5, 'admin', '乡镇管理员');
-INSERT INTO `user_name` VALUES (8, 'ajadmin', '安监局管理员');
-INSERT INTO `user_name` VALUES (9, 'ajadmin', '普通用户');
-INSERT INTO `user_name` VALUES (10, 'ajadmin', '巡查员');
-INSERT INTO `user_name` VALUES (11, 'ajadmin', '乡镇管理员');
 INSERT INTO `user_name` VALUES (15, '唐敬', '普通用户');
 INSERT INTO `user_name` VALUES (16, '唐敬', '巡查员');
 INSERT INTO `user_name` VALUES (17, '唐敬', '乡镇管理员');
@@ -14145,7 +14207,11 @@ INSERT INTO `user_name` VALUES (41, '徐旭东', '巡查员');
 INSERT INTO `user_name` VALUES (42, '徐旭东', '乡镇管理员');
 INSERT INTO `user_name` VALUES (61, '戴振华', '巡查员');
 INSERT INTO `user_name` VALUES (84, '王甫贵', 'temp');
-INSERT INTO `user_name` VALUES (85, 'zhangxu', 'temp');
+INSERT INTO `user_name` VALUES (94, 'zhangxu', 'temp');
+INSERT INTO `user_name` VALUES (95, 'ajadmin', '普通用户');
+INSERT INTO `user_name` VALUES (96, 'ajadmin', '巡查员');
+INSERT INTO `user_name` VALUES (97, 'ajadmin', '安监局管理员');
+INSERT INTO `user_name` VALUES (98, 'ajadmin', '乡镇管理员');
 
 -- ----------------------------
 -- Procedure structure for delete_jeecgDemo_createDate

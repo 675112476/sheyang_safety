@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface RiskpointsMapper extends MyMapper<Riskpoints> {
     public List<String> isControl(String factory, String time);
+    public void delete_data(String factory, String time);
 }

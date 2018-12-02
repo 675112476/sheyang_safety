@@ -23,4 +23,7 @@
   <select id="isControl" resultType="String">
     select riskpoint from riskpoints where factory=#{param1} and time=#{param2} and iscontrol="不可控"
   </select>
+  <delete id="delete_data" >
+    delete from riskpoints  where factory=#{param1} and time=#{param2}
+  </delete>
 </mapper>

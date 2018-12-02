@@ -130,11 +130,13 @@ public class InstitutionSerivecImpl implements InstitutionService {
     public String insertrisks(String[] date, String[] factory, String[] risk_point, String[] is_control,HttpServletRequest request) {
         String callback = request.getParameter("callback");
         String result="";
+        riskpointsMapper.delete_data(factory[0],date[0]+" 00:00:00");
         for(int i=0;i<date.length;i++){
             Riskpoints riskpoint=new Riskpoints(factory[i],risk_point[i],is_control[i],date[i]+" 00:00:00");
             try {
                 riskpointsMapper.insert(riskpoint);
-                result=callback+"("+"<script> alert('危险点信息提交成功，如存在危险点不可控，请继续填写整改措施，最终提交巡查记录.');history.go(-1);</script>"+")";
+                JSONObject jsonObject=new JSONObject();
+                result=callback+"("+"1"+")";
             }catch (Exception excption){
                 result=callback+"("+excption.toString()+")";
             }

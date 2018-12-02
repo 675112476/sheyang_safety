@@ -24,16 +24,7 @@ public class SafetyApplicationTests {
 
     @Test
     public void contextLoads() {
-        List<Factory>factories =factoryMapper.selectAll();
-        System.out.println(factories.toString());
-        String risk_display="";
-        for(Factory factory:factories){
-            String factory_name=factory.getFactoryName();
-            if(factory_name.equals("碧蓝宾馆")){
-                risk_display=factory.getRiskDisplay();
-            }
-        }
-        System.out.println(risk_display);
+        riskpointsMapper.delete_data("射阳港龙凤烟花爆竹门市","2018-11-26 00:00:00");
     }
 
 }

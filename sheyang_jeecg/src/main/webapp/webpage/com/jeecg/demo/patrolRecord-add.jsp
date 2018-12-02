@@ -9,14 +9,13 @@
   <script type="text/javascript">
     var risks;
   	function submitPoints(){
-  		alert("1");
   		var factory=$("#factoryName").val();
 		var time=$("#time").val();
   		var sub_data="?";
   		for(var i=0;i<risks.length;i++){
   			console.info(i);
   			var is_control=$("#is_control_"+i).val();
-  			sub_data+="date="+time+"&factory="+factory+"&risk_point="+risks[i]+"&is_control="+is_control;
+  			sub_data+="date="+time+"&factory="+factory+"&risk_point="+risks[i]+"&is_control="+is_control+"&";
   		}
   		console.info(sub_data);
   		$.ajax({
@@ -26,7 +25,12 @@
   			processData: true,
   			dataType : "jsonp",
   			success : function(data) {
-  				console.info(data);
+  				if(data=="1"){
+  					alert("风险点情况保存成功");
+  				}else{
+  					console.info(data);
+  					alert("风险点保存失败");
+  				}
   			}
   		});
   	}
