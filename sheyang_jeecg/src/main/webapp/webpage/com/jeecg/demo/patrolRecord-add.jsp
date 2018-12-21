@@ -11,15 +11,17 @@
   	function submitPoints(){
   		var factory=$("#factoryName").val();
 		var time=$("#time").val();
+		var person_name=$("#patrolName").val();
   		var sub_data="?";
   		for(var i=0;i<risks.length;i++){
   			console.info(i);
   			var is_control=$("#is_control_"+i).val();
-  			sub_data+="date="+time+"&factory="+factory+"&risk_point="+risks[i]+"&is_control="+is_control+"&";
+  			sub_data+="date="+time+"&patrol_person="+person_name+"&factory="+factory+"&risk_point="+risks[i]+"&is_control="+is_control+"&";
   		}
   		console.info(sub_data);
   		$.ajax({
   			url : "http://218.92.240.39:6390/insertrisks"+sub_data,
+  			//url : "http://localhost:8090/insertrisks"+sub_data,
   			type: "GET",
   			timeout : 1000, 
   			processData: true,
@@ -36,8 +38,8 @@
   	}
   	function getRisks(){
 		var inputhtml="";
-		if($("#factoryName").val()==""||$("#time").val()==""){
-			alert("请输入巡查公司名称和时间");
+		if($("#patrolName").val()==""||$("#factoryName").val()==""||$("#time").val()==""){
+			alert("请输入巡查员名称、公司名称、时间");
 			$("[id=iscontrol]").prop('checked',false);
 		}else{
 			var factory=$("#factoryName").val();
@@ -47,6 +49,7 @@
 			
 			$.ajax({
 				url : "http://218.92.240.39:6390/getriskpoints",
+				//url : "http://localhost:8090/getriskpoints",
 				data : {
 					"factory" : factory
 				},
@@ -67,7 +70,7 @@
 							+"<input type='hidden' name='risk_point' value="+risks[i]+">"
 							+"<div>风险点"+(i+1)+"："+risks[i]
 							+"&nbsp&nbsp&nbsp<select id='is_control_"+i+"'>"   
-					        +"<option value='可控'>可控</option> <option value='不可控'>不可控</option></select> </div><br/>";
+					        +"<option value='不可控'>不可控</option><option value='可控'>可控</option> </select> </div><br/>";
 						}
 						inputhtml+="<button type='button' id='point_submit' onclick='submitPoints();'>保存</button><br><br>";
 						console.info(inputhtml);

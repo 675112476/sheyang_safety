@@ -6,7 +6,47 @@
   <title>巡查记录</title>
   <t:base type="jquery,easyui,tools,DatePicker"></t:base>
   <script type="text/javascript">
-  //编写自定义JS代码
+  //取jsonArray的长度
+   function getJsonLength(jsonData){
+	    var jsonLength = 0;
+	    for(var item in jsonData){
+	       jsonLength++;
+	    }
+	    return jsonLength;
+	}
+//http://localhost:8090/getrisks?date=2018-11-02&factory=碧蓝宾馆&patrol_person=21
+	var inputhtml="";
+	$(document).ready(function(){
+		$.ajax({
+			url : "http://218.92.240.39:6390/getrisks",
+			//url : "http://localhost:8090/getrisks",
+			type: "GET",
+			data:{
+				"date":$("#time").val(),
+				"factory":$("#factoryName").val(),
+				"patrol_person":$("#patrolName").val()
+			},
+			timeout : 1000, 
+			processData: true,
+			dataType : "jsonp",
+			success : function(data) {
+				console.info(data);
+				console.info(data[0]);
+				console.info(data[0].result);
+				if(data[0].result==0){
+					for(var i=1;i<getJsonLength(data);i++){
+						console.info(data[i].iscontrol);
+						inputhtml+=data[i].riskpoint+":"+data[i].iscontrol+"<br/>";
+					}
+				}else{
+					
+				}
+				console.info(inputhtml);
+				$("#inputs").html(inputhtml);
+			}
+		});
+		
+	});
   </script>
  </head>
  <body>
@@ -59,6 +99,19 @@
 							<input id="factoryName" name="factoryName" type="text" style="width: 150px" class="searchbox-inputtext"  datatype="*" ignore="checked"  onclick="popupClick(this,'factory','factoryName','patrol_factory')" value='${patrolRecordPage.factoryName}'/>
 							<span class="Validform_checktip"></span>
 							<label class="Validform_label" style="display: none;">巡查公司</label>
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<label class="Validform_label">
+								风险点是否可控:
+							</label>
+						</td>
+						<td class="value">
+								<t:dictSelect id="iscontrol" field="iscontrol" type="radio"  datatype="*"  typeGroupCode="yes_or_no"  defaultVal="${patrolRecordPage.iscontrol}" hasLabel="false"  title="风险点是否可控" ></t:dictSelect>     
+								<span class="Validform_checktip"></span>
+								<label class="Validform_label" style="display: none;">风险点是否可控</label>
+								<div id="inputs"></div>
 						</td>
 					</tr>
 					<tr>

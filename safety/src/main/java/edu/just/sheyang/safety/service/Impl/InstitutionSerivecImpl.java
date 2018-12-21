@@ -14,10 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 @Service
 public class InstitutionSerivecImpl implements InstitutionService {
@@ -127,12 +124,12 @@ public class InstitutionSerivecImpl implements InstitutionService {
     }
 
     @Override
-    public String insertrisks(String[] date, String[] factory, String[] risk_point, String[] is_control,HttpServletRequest request) {
+    public String insertrisks(String[] date, String[] patrol_person,String[] factory, String[] risk_point, String[] is_control,HttpServletRequest request) {
         String callback = request.getParameter("callback");
         String result="";
-        riskpointsMapper.delete_data(factory[0],date[0]+" 00:00:00");
+        riskpointsMapper.delete_data(patrol_person[0],factory[0],date[0]+" 00:00:00");
         for(int i=0;i<date.length;i++){
-            Riskpoints riskpoint=new Riskpoints(factory[i],risk_point[i],is_control[i],date[i]+" 00:00:00");
+            Riskpoints riskpoint=new Riskpoints (factory[i],risk_point[i],is_control[i],date[i]+" 00:00:00",patrol_person[i]);
             try {
                 riskpointsMapper.insert(riskpoint);
                 JSONObject jsonObject=new JSONObject();
@@ -143,6 +140,7 @@ public class InstitutionSerivecImpl implements InstitutionService {
         }
         return result;
     }
+
 
     @Override
     public String insertrecords(String patrol_name, String patrol_phone, String time, String patrol_factory, String address, String measures,HttpServletRequest request) throws ParseException {
@@ -164,5 +162,33 @@ public class InstitutionSerivecImpl implements InstitutionService {
             result=excption.toString();
         }
         return  result=callback;
+    }
+
+    @Override
+    public String getrisks(String date, String patrol_person, String factory, HttpServletRequest request) {
+        String callback = request.getParameter("callback");
+        String result;
+        System.out.println(date+patrol_person+factory);
+        Riskpoints riskpoint=new Riskpoints (factory,null,null,date+" 00:00:00",patrol_person);
+        List<Riskpoints> riskpoints=riskpointsMapper.select(riskpoint);
+        JSONArray jsonArray=new JSONArray();
+        JSONObject resultjson=new JSONObject();
+        System.out.println(riskpoints.toString());
+        if(riskpoints.size()!=0){
+            resultjson.put("result","0");
+            jsonArray.add(resultjson);
+            for(Riskpoints risk:riskpoints){
+                JSONObject jsonObject=new JSONObject();
+                Map<String,String> map=new HashMap<String,String>();
+                jsonObject.put("riskpoint",risk.getRiskpoint());
+                jsonObject.put("iscontrol",risk.getIscontrol());
+                jsonArray.add(jsonObject);
+            }
+        }else{
+            resultjson.put("result","1");
+            jsonArray.add(resultjson);
+        }
+        result=callback+"("+jsonArray.toString()+")";
+        return result;
     }
 }

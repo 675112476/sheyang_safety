@@ -1,29 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="edu.just.sheyang.safety.dao.RiskpointsMapper" >
-  <resultMap id="BaseResultMap" type="edu.just.sheyang.safety.model.Riskpoints" >
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="edu.just.sheyang.safety.dao.RiskpointsMapper">
+  <resultMap id="BaseResultMap" type="edu.just.sheyang.safety.model.Riskpoints">
     <!--
       WARNING - @mbg.generated
     -->
-    <id column="id" property="id" jdbcType="VARCHAR" />
-    <result column="create_name" property="createName" jdbcType="VARCHAR" />
-    <result column="create_by" property="createBy" jdbcType="VARCHAR" />
-    <result column="create_date" property="createDate" jdbcType="TIMESTAMP" />
-    <result column="update_name" property="updateName" jdbcType="VARCHAR" />
-    <result column="update_by" property="updateBy" jdbcType="VARCHAR" />
-    <result column="update_date" property="updateDate" jdbcType="TIMESTAMP" />
-    <result column="sys_org_code" property="sysOrgCode" jdbcType="VARCHAR" />
-    <result column="sys_company_code" property="sysCompanyCode" jdbcType="VARCHAR" />
-    <result column="bpm_status" property="bpmStatus" jdbcType="VARCHAR" />
-    <result column="factory" property="factory" jdbcType="VARCHAR" />
-    <result column="riskpoint" property="riskpoint" jdbcType="VARCHAR" />
-    <result column="iscontrol" property="iscontrol" jdbcType="VARCHAR" />
-    <result column="time" property="time" jdbcType="VARCHAR" />
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="create_name" jdbcType="VARCHAR" property="createName" />
+    <result column="create_by" jdbcType="VARCHAR" property="createBy" />
+    <result column="create_date" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="update_name" jdbcType="VARCHAR" property="updateName" />
+    <result column="update_by" jdbcType="VARCHAR" property="updateBy" />
+    <result column="update_date" jdbcType="TIMESTAMP" property="updateDate" />
+    <result column="sys_org_code" jdbcType="VARCHAR" property="sysOrgCode" />
+    <result column="sys_company_code" jdbcType="VARCHAR" property="sysCompanyCode" />
+    <result column="bpm_status" jdbcType="VARCHAR" property="bpmStatus" />
+    <result column="factory" jdbcType="VARCHAR" property="factory" />
+    <result column="riskpoint" jdbcType="VARCHAR" property="riskpoint" />
+    <result column="iscontrol" jdbcType="VARCHAR" property="iscontrol" />
+    <result column="time" jdbcType="VARCHAR" property="time" />
+    <result column="patrol_person" jdbcType="VARCHAR" property="patrolPerson" />
   </resultMap>
   <select id="isControl" resultType="String">
     select riskpoint from riskpoints where factory=#{param1} and time=#{param2} and iscontrol="不可控"
   </select>
-  <delete id="delete_data" >
-    delete from riskpoints  where factory=#{param1} and time=#{param2}
+  <delete id="delete_data">
+    delete from riskpoints  where patrol_person=#{param1} and factory=#{param2} and time=#{param3}
   </delete>
 </mapper>

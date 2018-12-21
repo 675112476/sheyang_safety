@@ -753,7 +753,7 @@ public class UserController extends BaseController {
 		AjaxJson j = new AjaxJson();
 
 		Short logType=Globals.Log_Type_UPDATE;
-		//System.out.println("---"+req.getParameter("roleid"));
+		System.out.println("---"+req.getParameter("roleid"));
 		// 得到用户的角色
 		String roleid = oConvertUtils.getString(req.getParameter("roleid"));
 		String orgid=oConvertUtils.getString(req.getParameter("orgIds"));

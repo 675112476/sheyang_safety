@@ -3,7 +3,7 @@ package edu.just.sheyang.safety;
 import edu.just.sheyang.safety.dao.FactoryMapper;
 import edu.just.sheyang.safety.dao.IndustryMapper;
 import edu.just.sheyang.safety.dao.RiskpointsMapper;
-import edu.just.sheyang.safety.model.Factory;
+import edu.just.sheyang.safety.model.Riskpoints;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +24,8 @@ public class SafetyApplicationTests {
 
     @Test
     public void contextLoads() {
-        riskpointsMapper.delete_data("射阳港龙凤烟花爆竹门市","2018-11-26 00:00:00");
+        List<Riskpoints> riskpoints=riskpointsMapper.select(new Riskpoints("碧蓝宾馆",null,null,"2018-11-02"+" 00:00:00","21"));
+        System.out.println(riskpoints);
     }
 
 }

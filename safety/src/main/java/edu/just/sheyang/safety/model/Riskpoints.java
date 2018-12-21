@@ -8,7 +8,7 @@ public class Riskpoints {
      * 主键
      */
     @Id
-    private String id;
+    private Integer id;
 
     /**
      * 创建人名称
@@ -85,11 +85,17 @@ public class Riskpoints {
     private String time;
 
     /**
+     * 巡查员
+     */
+    @Column(name = "patrol_person")
+    private String patrolPerson;
+
+    /**
      * 获取主键
      *
      * @return id - 主键
      */
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -98,8 +104,8 @@ public class Riskpoints {
      *
      * @param id 主键
      */
-    public void setId(String id) {
-        this.id = id == null ? null : id.trim();
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     /**
@@ -336,10 +342,32 @@ public class Riskpoints {
         this.time = time == null ? null : time.trim();
     }
 
-    public Riskpoints(String factory, String riskpoint, String iscontrol, String time) {
+    /**
+     * 获取巡查员
+     *
+     * @return patrol_person - 巡查员
+     */
+    public String getPatrolPerson() {
+        return patrolPerson;
+    }
+
+    /**
+     * 设置巡查员
+     *
+     * @param patrolPerson 巡查员
+     */
+    public void setPatrolPerson(String patrolPerson) {
+        this.patrolPerson = patrolPerson == null ? null : patrolPerson.trim();
+    }
+
+    public Riskpoints(String factory, String riskpoint, String iscontrol, String time, String patrolPerson) {
         this.factory = factory;
         this.riskpoint = riskpoint;
         this.iscontrol = iscontrol;
         this.time = time;
+        this.patrolPerson = patrolPerson;
+    }
+
+    public Riskpoints() {
     }
 }
