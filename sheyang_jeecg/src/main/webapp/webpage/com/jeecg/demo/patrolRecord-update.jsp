@@ -30,12 +30,8 @@
 			processData: true,
 			dataType : "jsonp",
 			success : function(data) {
-				console.info(data);
-				console.info(data[0]);
-				console.info(data[0].result);
 				if(data[0].result==0){
 					for(var i=1;i<getJsonLength(data);i++){
-						console.info(data[i].iscontrol);
 						inputhtml+=data[i].riskpoint+":"+data[i].iscontrol+"<br/>";
 					}
 				}else{

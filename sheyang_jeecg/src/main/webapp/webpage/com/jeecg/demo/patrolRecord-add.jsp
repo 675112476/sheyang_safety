@@ -1,5 +1,5 @@
 <%@ page language="java" import="java.util.*" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@include file="/context/mytags.jsp"%>
+<%@ include file="/context/mytags.jsp"%>
 <!DOCTYPE html>
 <html>
  <head>
@@ -14,11 +14,9 @@
 		var person_name=$("#patrolName").val();
   		var sub_data="?";
   		for(var i=0;i<risks.length;i++){
-  			console.info(i);
   			var is_control=$("#is_control_"+i).val();
   			sub_data+="date="+time+"&patrol_person="+person_name+"&factory="+factory+"&risk_point="+risks[i]+"&is_control="+is_control+"&";
   		}
-  		console.info(sub_data);
   		$.ajax({
   			url : "http://218.92.240.39:6390/insertrisks"+sub_data,
   			//url : "http://localhost:8090/insertrisks"+sub_data,
@@ -44,8 +42,6 @@
 		}else{
 			var factory=$("#factoryName").val();
 			var time=$("#time").val();
-			console.info(factory);
-			console.info(time);
 			
 			$.ajax({
 				url : "http://218.92.240.39:6390/getriskpoints",
@@ -131,7 +127,7 @@
 						</label>
 					</td>
 					<td class="value">
-							<input id="factoryName" name="factoryName" type="text" style="width: 150px" class="searchbox-inputtext"  datatype="*" ignore="checked"   onclick="popupClick(this,'factory','factoryName','patrol_factory')"  />
+							<input id="factoryName" name="factoryName" type="text" style="width: 150px" class="searchbox-inputtext"  datatype="*" ignore="checked"   onclick="popupClick(this,'factory_name','factoryName','factory')"  />
 							<span class="Validform_checktip"></span>
 							<label class="Validform_label" style="display: none;">巡查公司</label>
 						</td>

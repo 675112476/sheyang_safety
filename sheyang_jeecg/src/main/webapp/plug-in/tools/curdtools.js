@@ -71,6 +71,8 @@ function add(title,addurl,gname,width,height) {
 	gridname=gname;
 	createwindow(title, addurl,width,height);
 }
+
+
 /**
  * 树列表添加事件打开窗口
  * @param title 编辑框标题
@@ -221,6 +223,7 @@ function detail(title,url, id,width,height) {
     url += '&load=detail&id='+rowsData[0].id;
 	createdetailwindow(title,url,width,height);
 }
+
 
 /**
  * 多记录刪除請求

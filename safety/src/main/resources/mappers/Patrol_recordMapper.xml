@@ -17,10 +17,13 @@
     <result column="bpm_status" property="bpmStatus" jdbcType="VARCHAR" />
     <result column="patrol_name" property="patrolName" jdbcType="VARCHAR" />
     <result column="record" property="record" jdbcType="VARCHAR" />
-    <result column="time" property="time" jdbcType="TIMESTAMP" />
+    <result column="time" property="time" jdbcType="VARCHAR" />
     <result column="factory_name" property="factoryName" jdbcType="VARCHAR" />
     <result column="iscontrol" property="iscontrol" jdbcType="VARCHAR" />
     <result column="location" property="location" jdbcType="VARCHAR" />
     <result column="telephone" property="telephone" jdbcType="VARCHAR" />
   </resultMap>
+  <select id="getriskfactory" parameterType="String" resultMap="BaseResultMap">
+    SELECT * from patrol_record where (factory_name,time,patrol_name) in (select factory,time,patrol_person from riskpoints where riskpoint=#{riskponints} and iscontrol='不可控')
+  </select>
 </mapper>

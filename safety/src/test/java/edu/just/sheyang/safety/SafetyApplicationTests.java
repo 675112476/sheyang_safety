@@ -1,8 +1,7 @@
 package edu.just.sheyang.safety;
 
-import edu.just.sheyang.safety.dao.FactoryMapper;
-import edu.just.sheyang.safety.dao.IndustryMapper;
-import edu.just.sheyang.safety.dao.RiskpointsMapper;
+import edu.just.sheyang.safety.dao.*;
+import edu.just.sheyang.safety.model.Patrol_record;
 import edu.just.sheyang.safety.model.Riskpoints;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.Date;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
@@ -21,11 +21,17 @@ public class SafetyApplicationTests {
     RiskpointsMapper riskpointsMapper;
     @Autowired
     FactoryMapper factoryMapper;
+    @Autowired
+    Patrol_recordMapper patrol_recordMapper;
+    @Autowired
+    RisksMapper risksMapper;
+
 
     @Test
     public void contextLoads() {
-        List<Riskpoints> riskpoints=riskpointsMapper.select(new Riskpoints("碧蓝宾馆",null,null,"2018-11-02"+" 00:00:00","21"));
-        System.out.println(riskpoints);
+        List<Patrol_record> patrol_records=patrol_recordMapper.getriskfactory("电力设备");
+        String date=patrol_records.get(0).getTime();
+        System.out.println(date);
     }
 
 }

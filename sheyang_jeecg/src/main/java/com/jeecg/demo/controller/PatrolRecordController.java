@@ -220,6 +220,14 @@ public class PatrolRecordController extends BaseController {
 		}
 		return new ModelAndView("com/jeecg/demo/patrolRecord-add");
 	}
+	@RequestMapping(params = "patrolSearch")
+	public ModelAndView patrolSearch(PatrolRecordEntity patrolRecord, HttpServletRequest req) {
+		if (StringUtil.isNotEmpty(patrolRecord.getId())) {
+			patrolRecord = patrolRecordService.getEntity(PatrolRecordEntity.class, patrolRecord.getId());
+			req.setAttribute("patrolRecordPage", patrolRecord);
+		}
+		return new ModelAndView("com/jeecg/demo/patrol_search");
+	}
 	/**
 	 * 巡查记录编辑页面跳转
 	 * 

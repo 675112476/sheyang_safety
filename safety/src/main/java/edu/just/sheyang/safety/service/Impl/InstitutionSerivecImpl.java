@@ -30,6 +30,8 @@ public class InstitutionSerivecImpl implements InstitutionService {
     private RiskpointsMapper riskpointsMapper;
     @Autowired
     private Patrol_recordMapper patrol_recordMapper;
+    @Autowired
+    private RisksMapper risksMapper;
 
     @Override
     public String getCountry(HttpServletRequest request) {
@@ -147,14 +149,12 @@ public class InstitutionSerivecImpl implements InstitutionService {
         time=time+" 00:00:00";
         String result="";
         String callback = request.getParameter("callback");
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        Date datetime=sdf.parse(time);
         List<String> is_control=riskpointsMapper.isControl(patrol_factory,time);
         String flag="不可控";
         if(is_control.toString().equals("[]")){
             flag="可控";
         }
-        Patrol_record patrol_record=new Patrol_record(patrol_name,measures,datetime,patrol_factory,flag,address,patrol_phone);
+        Patrol_record patrol_record=new Patrol_record(patrol_name,measures,time,patrol_factory,flag,address,patrol_phone);
         try {
             patrol_recordMapper.insert(patrol_record);
             result="成功";
@@ -191,4 +191,63 @@ public class InstitutionSerivecImpl implements InstitutionService {
         result=callback+"("+jsonArray.toString()+")";
         return result;
     }
+
+    @Override
+    public String getriskfactory(String riskpoint, HttpServletRequest request) {
+        String callback = request.getParameter("callback");
+        String result;
+        System.out.println(riskpoint);
+        if(riskpoint.equals("A02")){
+            JSONArray jsonArray=new JSONArray();
+            JSONObject resultjson=new JSONObject();
+            resultjson.put("result","4");
+            jsonArray.add(resultjson);
+            result=callback+"("+jsonArray.toString()+")";
+            return result;
+        }
+        if(riskpoint.length()>33){
+            JSONArray jsonArray=new JSONArray();
+            JSONObject resultjson=new JSONObject();
+            resultjson.put("result","3");
+            jsonArray.add(resultjson);
+            result=callback+"("+jsonArray.toString()+")";
+            return result;
+        }
+        riskpoint=risksMapper.getNameById(riskpoint);
+        if(riskpoint==null){
+            JSONArray jsonArray=new JSONArray();
+            JSONObject resultjson=new JSONObject();
+            resultjson.put("result","2");
+            jsonArray.add(resultjson);
+            result=callback+"("+jsonArray.toString()+")";
+            return result;
+        }else{
+            List<Patrol_record> patrol_records=patrol_recordMapper.getriskfactory(riskpoint);
+            JSONArray jsonArray=new JSONArray();
+            JSONObject resultjson=new JSONObject();
+            System.out.println(patrol_records.toString());
+            if(patrol_records.size()!=0){
+                resultjson.put("result","0");
+                jsonArray.add(resultjson);
+                for(Patrol_record patrol_record:patrol_records){
+                    JSONObject jsonObject=new JSONObject(new LinkedHashMap());
+                    Map<String,String> map=new HashMap<String,String>();
+                    jsonObject.put("patrol_name",patrol_record.getPatrolName());
+                    jsonObject.put("telephone",patrol_record.getTelephone());
+                    jsonObject.put("time",patrol_record.getTime().substring(0,19));
+                    jsonObject.put("factory_name",patrol_record.getFactoryName());
+                    jsonObject.put("record",patrol_record.getRecord());
+                    jsonArray.add(jsonObject);
+                }
+            }else{
+                resultjson.put("result","1");
+                jsonArray.add(resultjson);
+            }
+            result=callback+"("+jsonArray.toString()+")";
+            System.out.println(result);
+            return result;
+        }
+
+    }
+
 }

@@ -78,7 +78,7 @@ public class Patrol_record {
     /**
      * 巡查时间
      */
-    private Date time;
+    private String time;
 
     /**
      * 巡查公司
@@ -322,7 +322,7 @@ public class Patrol_record {
      *
      * @return time - 巡查时间
      */
-    public Date getTime() {
+    public String getTime() {
         return time;
     }
 
@@ -331,7 +331,7 @@ public class Patrol_record {
      *
      * @param time 巡查时间
      */
-    public void setTime(Date time) {
+    public void setTime(String time) {
         this.time = time;
     }
 
@@ -407,7 +407,7 @@ public class Patrol_record {
         this.telephone = telephone == null ? null : telephone.trim();
     }
 
-    public Patrol_record(String patrolName, String record, Date time, String factoryName, String iscontrol, String location, String telephone) {
+    public Patrol_record(String patrolName, String record, String time, String factoryName, String iscontrol, String location, String telephone) {
         this.patrolName = patrolName;
         this.record = record;
         this.time = time;
@@ -415,5 +415,8 @@ public class Patrol_record {
         this.iscontrol = iscontrol;
         this.location = location;
         this.telephone = telephone;
+    }
+
+    public Patrol_record() {
     }
 }

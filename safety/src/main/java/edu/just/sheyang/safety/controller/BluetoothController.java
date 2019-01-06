@@ -65,4 +65,11 @@ public class BluetoothController {
         System.out.println("----getrisks");
         return result;
     }
+    @RequestMapping("getriskfactory")
+    public String getriskfactory(String riskpoint,HttpServletRequest request){
+        String result=institutionService.getriskfactory(riskpoint,request);
+        System.out.println("----getriskfactory");
+        return result;
+    }
+
 }
