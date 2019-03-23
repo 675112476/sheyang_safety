@@ -36,7 +36,7 @@
 				width="120"></t:dgCol>
 			<t:dgCol title="巡查时间" field="time" formatter="yyyy-MM-dd"
 				query="true" queryMode="group" width="120"></t:dgCol>
-			<t:dgCol title="巡查公司" field="factoryName" queryMode="single"
+			<t:dgCol title="巡查单位" field="factoryName" queryMode="single"
 				dictionary="patrol_factory,factoryName,factory" popup="true"
 				width="120"></t:dgCol>
 			<t:dgCol title="整改措施" field="record" query="true" queryMode="single"

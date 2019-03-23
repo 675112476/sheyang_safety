@@ -108,6 +108,9 @@
                 </td>
 			</tr>
 		</c:if>
+		
+        <input id="orgIds" name="orgIds" type="hidden" value="40288110665d2edf01665ea08b830032"/>
+		<!--  
 		<tr>
 			<td align="right"><label class="Validform_label"> <t:mutiLang langKey="common.department"/>: </label></td>
 			<td class="value">
@@ -118,6 +121,7 @@
                 <span class="Validform_checktip"><t:mutiLang langKey="please.muti.department"/></span>
             </td>
 		</tr>
+		-->
 		<!-- 
 		<tr>
 			<td align="right"><label class="Validform_label"> <t:mutiLang langKey="common.role"/>: </label></td>
@@ -167,6 +171,7 @@
                 <span class="Validform_checktip"></span>
             </td>
 		</tr>
+		<!--  
         <tr>
             <td align="right"><label class="Validform_label"> <t:mutiLang langKey="common.common.dev"/>: </label></td>
             <td class="value">
@@ -175,6 +180,8 @@
                 <span class="Validform_checktip"></span>
             </td>
         </tr>
+        -->
+        <input id="devFlag" name="devFlag" type="hidden" value="0"/>
 	</table>
 </t:formvalid>
 </body>

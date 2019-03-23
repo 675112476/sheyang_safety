@@ -1,0 +1,4 @@
+[2019-03-21 21:34:04] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2019-03-21 21:34:04] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：1
+[2019-03-21 23:29:11] [INFO] [org.jeecgframework.core.util.LogUtil:228] [org.jeecgframework.core.timer.Job:oneOClockPerDay():25] - 1h
+[2019-03-21 23:46:47] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0

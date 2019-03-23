@@ -1,0 +1,5 @@
+[2019-03-14 00:50:00] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2019-03-14 10:34:18] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:220]  >>>>>>>>>>>>>>>>>>>>>>>>>>  Login 用户登录成功，初始化Main首页用户信息  （Main 首页加载逻辑）  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[2019-03-14 10:34:18] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:261] login 资源路径returnURL：null
+[2019-03-14 10:34:21] [INFO] [com.jeecg.chat.web.ImController:318] --通过流的方式获取文件异常--D:\upFiles\upload\files\20180715\qq_1531625977907.jpg (系统找不到指定的路径。)
+[2019-03-14 10:34:28] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1

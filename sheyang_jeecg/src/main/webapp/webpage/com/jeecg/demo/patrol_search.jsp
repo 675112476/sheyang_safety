@@ -23,8 +23,8 @@
 			alert("请选择危险点");
 		}else{
 			$.ajax({
-				//url : "http://218.92.240.39:6390/getriskfactory?riskpoint="+riskpoint,
-				url :"http://localhost:8090/getriskfactory?riskpoint="+riskpoint,
+				url : "http://218.92.240.39:6390/getriskfactory?riskpoint="+riskpoint,
+				//url :"http://localhost:8090/getriskfactory?riskpoint="+riskpoint,
 				type : "GET",
 				timeout : 1000,
 				processData : true,

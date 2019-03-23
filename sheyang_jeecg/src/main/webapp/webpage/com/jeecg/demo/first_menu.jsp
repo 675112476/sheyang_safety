@@ -112,17 +112,29 @@ function fatie() {
             color[3]='#ff05ff';
             color[4]='#ffee0f';
             var point = new Array(obj.length);
-            var dtl=t[t.length-1].split("/");
-            var dtl2=t.length;
-            //if(dtl2<5)
-            //height=800;}
-            //else
-            //{height=300*height;}
-            height=dtl2*200;
-            if(dtl.length<8)
+            var color = new Array(5);
+            color[0]='#30d0c6';
+            color[1]='#7c68fd';
+            color[2]='#feb563';
+            color[3]='#ff05ff';
+            color[4]='#ffee0f';
+            var maxlength=0;
+            for(var i=0;i<t.length;i++){
+            	var dtl=t[i].split("/");
+            	if(maxlength<dtl.length){
+            		maxlength=dtl.length;
+            	}
+            }
+            if(maxlength<8)
             {length=1000;}
             else
-            {length=dtl.length*100+100;}
+            {
+            	length=maxlength*140+120;
+            }
+            var point = new Array(obj.length);
+            var dtl2=t.length;
+            height=dtl2*200;
+            
 
 
             var graph = new joint.dia.Graph();

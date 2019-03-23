@@ -121,7 +121,6 @@ public class InstitutionSerivecImpl implements InstitutionService {
         JSONObject jsonObject=new JSONObject();
         jsonObject.put("risks",risks);
         String result=callback+"("+jsonObject.toString()+")";
-        System.out.println(result);
         return result;
     }
 

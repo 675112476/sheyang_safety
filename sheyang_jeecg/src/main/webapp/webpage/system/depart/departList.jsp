@@ -13,7 +13,7 @@
             <t:dgCol title="common.mobile" field="mobile" treefield="fieldMap.mobile" width="60"></t:dgCol>
             <t:dgCol title="common.fax" field="fax" treefield="fieldMap.fax" width="60"></t:dgCol>
             <t:dgCol title="common.address" field="address" treefield="fieldMap.address" width="100"></t:dgCol>
-            <t:dgCol title="common.operation" field="opt" width="200"></t:dgCol>
+            <t:dgCol title="common.operation" field="opt" width="200"></t:dgCol> 
             <%-- <t:dgDelOpt url="departController.do?del&id={id}" title="common.delete" urlclass="ace_button"  urlfont="fa-trash-o" urlStyle="background-color:#ec4758;"></t:dgDelOpt> --%>
             <t:dgFunOpt funname="delDepart(id)" title="common.delete" urlclass="ace_button" urlStyle="background-color:#ec4758;" urlfont="fa-trash-o"></t:dgFunOpt>
         	<t:dgFunOpt funname="queryUsersByDepart(id)" title="view.member" urlclass="ace_button"  urlfont="fa-user"></t:dgFunOpt>

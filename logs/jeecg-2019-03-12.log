@@ -1,0 +1,3 @@
+[2019-03-12 14:01:48] [INFO] [org.jeecgframework.core.util.LogUtil:228] [org.jeecgframework.core.timer.Job:oneOClockPerDay():25] - 1h
+[2019-03-12 14:20:47] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2019-03-12 14:20:47] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0

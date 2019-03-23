@@ -37,7 +37,7 @@
   	function getRisks(){
 		var inputhtml="";
 		if($("#patrolName").val()==""||$("#factoryName").val()==""||$("#time").val()==""){
-			alert("请输入巡查员名称、公司名称、时间");
+			alert("请输入巡查员名称、单位名称、时间");
 			$("[id=iscontrol]").prop('checked',false);
 		}else{
 			var factory=$("#factoryName").val();
@@ -55,7 +55,7 @@
 				success : function(data) {
 					console.info(data);
 					if(data.risks==null){
-						alert("公司查无危险点，请确认巡查公司是否输入错误！");
+						alert("单位查无危险点，请确认巡查单位是否输入错误！");
 						$("[id=iscontrol]").prop('checked',false);
 					}else{
 						risks=data.risks;
@@ -123,7 +123,7 @@
 				<tr>
 					<td align="right">
 						<label class="Validform_label">
-							巡查公司:
+							巡查单位:
 						</label>
 					</td>
 					<td class="value">
