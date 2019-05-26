@@ -88,13 +88,25 @@
 					<tr>
 						<td align="right">
 							<label class="Validform_label">
-								巡查公司:
+								巡查单位:
 							</label>
 						</td>
 						<td class="value">
-							<input id="factoryName" name="factoryName" type="text" style="width: 150px" class="searchbox-inputtext"  datatype="*" ignore="checked"  onclick="popupClick(this,'factory','factoryName','patrol_factory')" value='${patrolRecordPage.factoryName}'/>
+							<input id="factoryName" name="factoryName" type="text" style="width: 150px" class="searchbox-inputtext"  datatype="*" ignore="checked"  onclick="popupClick(this,'factory_name','factoryName','factory')" value='${patrolRecordPage.factoryName}'/>
 							<span class="Validform_checktip"></span>
-							<label class="Validform_label" style="display: none;">巡查公司</label>
+							<label class="Validform_label" style="display: none;">巡查单位</label>
+						</td>
+					</tr>
+					<tr>
+						<td align="right">
+							<label class="Validform_label">
+								具体地址:
+							</label>
+						</td>
+						<td class="value">
+						    <input id="location" name="location" type="text" maxlength="32" style="width: 150px" class="inputxt"  ignore="ignore"  value='${patrolRecordPage.location}'/>
+							<span class="Validform_checktip"></span>
+							<label class="Validform_label" style="display: none;">具体地址</label>
 						</td>
 					</tr>
 					<tr>
@@ -113,16 +125,15 @@
 					<tr>
 						<td align="right">
 							<label class="Validform_label">
-								具体地址:
+								不可控原因:
 							</label>
 						</td>
-						<td class="value">
-						    <input id="location" name="location" type="text" maxlength="32" style="width: 150px" class="inputxt"  ignore="ignore"  value='${patrolRecordPage.location}'/>
+						<td class="value" >
+						  	 	<textarea id="riskReason" style="height:auto;width:95%;" class="inputxt" rows="6" name="riskReason"  ignore="ignore" >${patrolRecordPage.riskReason}</textarea>
 							<span class="Validform_checktip"></span>
-							<label class="Validform_label" style="display: none;">具体地址</label>
+							<label class="Validform_label" style="display: none;">不可控原因</label>
 						</td>
 					</tr>
-				
 					<tr>
 						<td align="right">
 							<label class="Validform_label">
@@ -130,11 +141,12 @@
 							</label>
 						</td>
 						<td class="value" >
-						  	 	<textarea id="record" style="height:auto;width:95%;" class="inputxt" rows="6" name="record"  datatype="*"  ignore="checked" >${patrolRecordPage.record}</textarea>
+						  	 	<textarea id="record" style="height:auto;width:95%;" class="inputxt" rows="6" name="record"  ignore="ignore" >${patrolRecordPage.record}</textarea>
 							<span class="Validform_checktip"></span>
 							<label class="Validform_label" style="display: none;">整改措施</label>
 						</td>
 					</tr>
+					
 			</table>
 		</t:formvalid>
  </body>

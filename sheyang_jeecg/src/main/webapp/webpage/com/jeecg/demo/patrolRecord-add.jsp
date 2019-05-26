@@ -1,13 +1,12 @@
 <%@ page language="java" import="java.util.*" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ include file="/context/mytags.jsp"%>
+<%@include file="/context/mytags.jsp"%>
 <!DOCTYPE html>
 <html>
  <head>
   <title>巡查记录</title>
   <t:base type="jquery,easyui,tools,DatePicker"></t:base>
-  
   <script type="text/javascript">
-    var risks;
+  var risks;
   	function submitPoints(){
   		var factory=$("#factoryName").val();
 		var time=$("#time").val();
@@ -77,8 +76,7 @@
 		}
 		
 	}
-  	
-</script>	
+  </script>
  </head>
  <body>
   <t:formvalid formid="formobj" dialog="true" usePlugin="password" layout="table" action="patrolRecordController.do?doAdd" >
@@ -129,7 +127,20 @@
 					<td class="value">
 							<input id="factoryName" name="factoryName" type="text" style="width: 150px" class="searchbox-inputtext"  datatype="*" ignore="checked"   onclick="popupClick(this,'factory_name','factoryName','factory')"  />
 							<span class="Validform_checktip"></span>
-							<label class="Validform_label" style="display: none;">巡查公司</label>
+							<label class="Validform_label" style="display: none;">巡查单位</label>
+						</td>
+				</tr>
+				
+				<tr>
+					<td align="right">
+						<label class="Validform_label">
+							具体地址:
+						</label>
+					</td>
+					<td class="value">
+					     	 <input id="location" name="location" type="text" maxlength="32" style="width: 150px" class="inputxt"  ignore="ignore" />
+							<span class="Validform_checktip"></span>
+							<label class="Validform_label" style="display: none;">具体地址</label>
 						</td>
 				</tr>
 				<tr>
@@ -145,19 +156,19 @@
 							<div id="inputs"></div>
 					</td>
 				</tr>
+				
 				<tr>
 					<td align="right">
 						<label class="Validform_label">
-							具体地址:
+							不可控原因:
 						</label>
 					</td>
-					<td class="value">
-					     	 <input id="location" name="location" type="text" maxlength="32" style="width: 150px" class="inputxt"  ignore="ignore" />
+					<td class="value" >
+						  	<textarea style="height:auto;width:95%" class="inputxt" rows="6" id="riskReason" name="riskReason"  ignore="ignore" ></textarea>
 							<span class="Validform_checktip"></span>
-							<label class="Validform_label" style="display: none;">具体地址</label>
+							<label class="Validform_label" style="display: none;">不可控原因</label>
 						</td>
 				</tr>
-				
 				
 				<tr>
 					<td align="right">
@@ -166,16 +177,17 @@
 						</label>
 					</td>
 					<td class="value" >
-						  	 <textarea style="height:auto;width:95%" class="inputxt" rows="6" id="record" name="record"  datatype="*"  ignore="checked" ></textarea>
-							<span class="Validform_checktip"></span>
-							<label class="Validform_label" style="display: none;">整改措施</label>
-						</td>
-					</tr>
+					  	<textarea style="height:auto;width:95%" class="inputxt" rows="6" id="record" name="record"  ignore="ignore" ></textarea>
+						<span class="Validform_checktip"></span>
+						<label class="Validform_label" style="display: none;">整改措施</label>
+					</td>
+				</tr>
+				
 			</table>
 		</t:formvalid>
  </body>
- <script src = "webpage/com/jeecg/demo/patrolRecord.js"></script>	
- <script type="text/javascript">
+  <script src = "webpage/com/jeecg/demo/patrolRecord.js"></script>		
+<script type="text/javascript">
  $("[id=iscontrol]").click(function(){
 	 var is_control=$(this).val();
 	 console.info($(this).val());
@@ -187,4 +199,3 @@
 	 }
  });
  </script>
-  		

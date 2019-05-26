@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="edu.just.sheyang.safety.dao.FactoryMapper" >
-  <resultMap id="BaseResultMap" type="edu.just.sheyang.safety.model.Factory" >
-    <!--
-      WARNING - @mbg.generated
-    -->
-    <id column="id" property="id" jdbcType="VARCHAR" />
-    <result column="create_name" property="createName" jdbcType="VARCHAR" />
-    <result column="create_by" property="createBy" jdbcType="VARCHAR" />
-    <result column="create_date" property="createDate" jdbcType="TIMESTAMP" />
-    <result column="update_name" property="updateName" jdbcType="VARCHAR" />
-    <result column="update_by" property="updateBy" jdbcType="VARCHAR" />
-    <result column="update_date" property="updateDate" jdbcType="TIMESTAMP" />
-    <result column="sys_org_code" property="sysOrgCode" jdbcType="VARCHAR" />
-    <result column="sys_company_code" property="sysCompanyCode" jdbcType="VARCHAR" />
-    <result column="bpm_status" property="bpmStatus" jdbcType="VARCHAR" />
-    <result column="factory_name" property="factoryName" jdbcType="VARCHAR" />
-    <result column="factory_location" property="factoryLocation" jdbcType="VARCHAR" />
-    <result column="factory_manager" property="factoryManager" jdbcType="VARCHAR" />
-    <result column="factory_phone" property="factoryPhone" jdbcType="VARCHAR" />
-    <result column="factory_worker" property="factoryWorker" jdbcType="INTEGER" />
-    <result column="industry" property="industry" jdbcType="VARCHAR" />
-    <result column="factory_introduction" property="factoryIntroduction" jdbcType="VARCHAR" />
-    <result column="riskpoints" property="riskpoints" jdbcType="VARCHAR" />
-    <result column="risk_display" property="riskDisplay" jdbcType="VARCHAR" />
-  </resultMap>
-  <select id="getRiskByFactory" parameterType="String" resultType="String">
+    <resultMap id="BaseResultMap" type="edu.just.sheyang.safety.model.Factory" >
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="id" property="id" jdbcType="VARCHAR" />
+        <result column="create_name" property="createName" jdbcType="VARCHAR" />
+        <result column="create_by" property="createBy" jdbcType="VARCHAR" />
+        <result column="create_date" property="createDate" jdbcType="TIMESTAMP" />
+        <result column="update_name" property="updateName" jdbcType="VARCHAR" />
+        <result column="update_by" property="updateBy" jdbcType="VARCHAR" />
+        <result column="update_date" property="updateDate" jdbcType="TIMESTAMP" />
+        <result column="sys_org_code" property="sysOrgCode" jdbcType="VARCHAR" />
+        <result column="sys_company_code" property="sysCompanyCode" jdbcType="VARCHAR" />
+        <result column="bpm_status" property="bpmStatus" jdbcType="VARCHAR" />
+        <result column="factory_name" property="factoryName" jdbcType="VARCHAR" />
+        <result column="factory_location" property="factoryLocation" jdbcType="VARCHAR" />
+        <result column="factory_manager" property="factoryManager" jdbcType="VARCHAR" />
+        <result column="factory_phone" property="factoryPhone" jdbcType="VARCHAR" />
+        <result column="factory_worker" property="factoryWorker" jdbcType="INTEGER" />
+        <result column="industry" property="industry" jdbcType="VARCHAR" />
+        <result column="factory_introduction" property="factoryIntroduction" jdbcType="VARCHAR" />
+        <result column="riskpoints" property="riskpoints" jdbcType="VARCHAR" />
+        <result column="risk_display" property="riskDisplay" jdbcType="VARCHAR" />
+    </resultMap>
+    <select id="getRiskByFactory" parameterType="String" resultType="String">
     select risk_display from factory where factory_name=#{factory}
   </select>
 </mapper>

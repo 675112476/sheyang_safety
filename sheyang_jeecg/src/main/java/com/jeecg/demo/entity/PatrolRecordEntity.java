@@ -22,7 +22,7 @@ import org.jeecgframework.poi.excel.annotation.Excel;
  * @Title: Entity
  * @Description: 巡查记录
  * @author onlineGenerator
- * @date 2018-11-29 21:40:30
+ * @date 2019-03-23 16:05:14
  * @version V1.0   
  *
  */
@@ -59,8 +59,8 @@ public class PatrolRecordEntity implements java.io.Serializable {
 	/**巡查时间*/
 	@Excel(name="巡查时间",width=15,format = "yyyy-MM-dd")
 	private java.util.Date time;
-	/**巡查公司*/
-	@Excel(name="巡查公司",width=15)
+	/**巡查单位*/
+	@Excel(name="巡查单位",width=15)
 	private java.lang.String factoryName;
 	/**整改措施*/
 	@Excel(name="整改措施",width=15)
@@ -70,6 +70,9 @@ public class PatrolRecordEntity implements java.io.Serializable {
 	/**具体地址*/
 	@Excel(name="具体地址",width=15)
 	private java.lang.String location;
+	/**不可控原因*/
+	@Excel(name="不可控原因",width=15)
+	private java.lang.String riskReason;
 	
 	/**
 	 *方法: 取得java.lang.String
@@ -297,7 +300,7 @@ public class PatrolRecordEntity implements java.io.Serializable {
 	}
 	/**
 	 *方法: 取得java.lang.String
-	 *@return: java.lang.String  巡查公司
+	 *@return: java.lang.String  巡查单位
 	 */
 
 	@Column(name ="FACTORY_NAME",nullable=false,length=32)
@@ -307,7 +310,7 @@ public class PatrolRecordEntity implements java.io.Serializable {
 
 	/**
 	 *方法: 设置java.lang.String
-	 *@param: java.lang.String  巡查公司
+	 *@param: java.lang.String  巡查单位
 	 */
 	public void setFactoryName(java.lang.String factoryName){
 		this.factoryName = factoryName;
@@ -317,7 +320,7 @@ public class PatrolRecordEntity implements java.io.Serializable {
 	 *@return: java.lang.String  整改措施
 	 */
 
-	@Column(name ="RECORD",nullable=false,length=3255)
+	@Column(name ="RECORD",nullable=true,length=3255)
 	public java.lang.String getRecord(){
 		return this.record;
 	}
@@ -362,5 +365,22 @@ public class PatrolRecordEntity implements java.io.Serializable {
 	 */
 	public void setLocation(java.lang.String location){
 		this.location = location;
+	}
+	/**
+	 *方法: 取得java.lang.String
+	 *@return: java.lang.String  不可控原因
+	 */
+
+	@Column(name ="RISK_REASON",nullable=true,length=3255)
+	public java.lang.String getRiskReason(){
+		return this.riskReason;
+	}
+
+	/**
+	 *方法: 设置java.lang.String
+	 *@param: java.lang.String  不可控原因
+	 */
+	public void setRiskReason(java.lang.String riskReason){
+		this.riskReason = riskReason;
 	}
 }
